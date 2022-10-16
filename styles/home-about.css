@@ -1,0 +1,139 @@
+.section-about
+{
+  padding-top: 10rem;
+  padding-bottom: 13rem;
+  border-top: solid 1px #FF99C1;
+  background-color: white;
+}
+
+
+
+.container-about-category
+{
+  display: flex;
+
+  border-top: solid #FFC26B 1px;
+  margin-top: 6rem;
+
+  margin-inline: auto;
+  width: min(90%,90rem);
+}
+
+
+
+.column-title
+{
+  flex: 25;
+}
+
+.column-info
+{
+  flex: 30;
+  padding-left: 2rem;
+}
+
+.info-box,
+.info-box-appear
+{
+  margin-top: 3rem;
+}
+
+
+ 
+.list-skills
+{
+  font-weight: 700;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.list-margin-top
+{
+  margin-top: 2.7rem;
+}
+
+.accent-skill
+{
+  color: #FF99C1;
+  margin-top: 2.7rem;
+}
+
+
+
+.list-main-title
+{
+  font-weight: 700;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.list-subtitle
+{
+  font-weight: 700;
+  color: #FF99C1;
+  font-size: 1.4rem;
+
+  margin-top: .7rem;
+  margin-bottom: .4rem;
+}
+
+.info-box-hidden
+{
+  display: none;
+}
+
+.dates{
+  font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 825px) {
+
+  .container-about-category
+  {
+    display: flex;
+    flex-direction: column;
+
+    border-top: solid #FFC26B 1px;
+    margin-top: 4rem;
+
+    margin-inline: auto;
+    width: min(90%,70rem);
+  }
+
+  .list-skills,
+  .list-main-title{
+    font-size: 1.8rem;
+  }
+
+  .list-subtitle{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size: 2.9rem;
+    margin-top: 4rem;
+  }
+
+  .dates{
+    font-size: 1.3rem;
+  }
+
+  .info-box-appear
+  {
+    display: none;
+  }
+
+  .info-box-hidden
+  {
+    display: block;
+    margin-top: 3rem;
+  }
+
+  .column-info
+  {
+    padding-left: 0;
+  }
+}
+

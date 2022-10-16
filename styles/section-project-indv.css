@@ -1,0 +1,186 @@
+/* SECTION PROJECT COVER */
+
+.more-projects
+{
+  margin-bottom: 12rem;
+}
+
+.container-project-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-inline: auto;
+  width: min(90%,90rem);
+
+  height: auto;
+}
+
+.img-project-cover
+{
+  max-width: 100%;
+  margin-bottom: 2.5rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
+}
+
+h2{
+  margin-bottom: 7rem;
+  font-family: inter, arial;
+  font-size: 3.5rem;
+  line-height: 3.7rem;
+}
+
+/* SECTION INTRO */
+
+
+.container-text{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+ 
+  margin-inline: auto;
+  width: min(90%,50rem);
+}
+
+.p-hello{
+ 
+  font-size: 2rem;
+  line-height: 2.7rem;
+}
+
+.p-intro{
+
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.ruba-list li
+{
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+
+
+/* SECTION GRID */
+
+
+.grid-project
+{
+  border-bottom: solid #FF99C1 1px;
+  border-top: solid #FF99C1 1px;
+  background-color: #FFF0DB;
+
+  padding-top: 12rem;
+  margin-bottom: 10rem;
+}
+
+.grid-project-imgs
+{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+
+  margin-bottom: 12rem;
+
+  margin-inline: auto;
+  width: min(90%,90rem);
+}
+
+.grid-span-2
+{
+  grid-column: span 2;
+}
+
+.grid-img{
+  max-width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.section-browse
+{
+  display: none;
+}
+
+@media (max-width: 1279px)
+{
+
+  h2{
+    margin-bottom: 3.5rem;
+    font-family: inter, arial;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .section-browse
+  {
+    display: block;
+  }
+
+  .more-projects
+  {
+    margin-bottom: 0rem;
+  }
+
+}
+
+@media (max-width: 800px)
+{
+  h2{
+    margin-bottom: 4rem;
+    font-family: inter, arial;
+    font-size: 3.8rem;
+  }
+
+  .grid-img
+  {
+    border-radius: 10px;
+  }
+
+  .grid-project-imgs
+  {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .grid-span-2
+  {
+  grid-column: span 1;
+  }
+
+  .img-project-cover
+  {
+    display: none;
+  }
+
+  .img-projects-cover-mobile
+  {
+    max-width: 100%;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (min-width: 801px)
+{
+  .img-projects-cover-mobile
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 580px)
+{
+  h2{
+    margin-bottom: 4rem;
+    font-family: inter, arial;
+  }
+}

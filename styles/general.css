@@ -1,0 +1,99 @@
+p
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* add padding to body to create space from edges */
+
+body {
+  margin: 0;
+  background-color: #FFF0DB;
+  font-family: inter, arial;
+}
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+  font-weight: 700;
+}
+
+h1
+{
+  color: #FF99C1;
+  font-size: 4rem;
+  font-family: alice;
+}
+
+h2
+{
+  color: #543772;
+  font-size: 3.5rem;
+  font-family: alice;
+}
+
+h3
+{
+  color: #FF99C1;
+  font-size: 2rem;
+}
+
+h4
+{
+  font-weight: 400;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+h5
+{
+  color: #FFC97D;
+  font-size: 2.5rem;
+  margin-top: 2.3rem;
+  font-family: alice;
+}
+
+h6
+{
+  font-size: 1.5rem;
+  color: #FF80B1;
+  margin-top: .5rem;
+}
+
+a
+{
+  all: unset;
+  cursor: pointer;
+}
+
+button
+{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+

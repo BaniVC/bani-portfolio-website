@@ -1,0 +1,43 @@
+.header{
+  background-color:#FFCCE0;
+  background-image: url(../img/bg-projects.svg);
+  background-position: center top 14.9rem;
+  background-size: 32rem;
+  background-repeat: no-repeat;
+}
+
+.projects
+{
+  margin-bottom: 12rem;
+  margin-top: 12rem;
+}
+
+.titulo
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 8rem;
+  padding-bottom: 11rem;
+
+  margin-inline: auto;
+  width: min(90%,70rem);
+}
+
+
+@media (max-width: 640px) {
+  .projects
+  {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+}
+
+
+
+
+
+
+

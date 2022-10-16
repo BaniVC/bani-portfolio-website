@@ -1,0 +1,26 @@
+.section-intro
+{
+  border-bottom: solid #FF99C1 1px;
+}
+
+.container-text
+{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+ 
+  margin-inline: auto;
+  width: min(90%,50rem);
+}
+
+.p-hello
+{
+  font-size: 2rem;
+  line-height: 2.7rem;
+}
+
+.p-intro
+{
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}

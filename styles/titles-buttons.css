@@ -1,0 +1,158 @@
+/* TITLE */ 
+
+  .container-title-info
+  {
+    display: flex;
+    justify-content: space-between; /* aligns space horizontally */
+
+    margin-inline: auto;
+    width: min(90%,90rem);
+  }
+
+  .left-info
+  {
+    display: flex;
+    align-items: center; /* aligns vertically */
+  }
+
+  .right-info
+  {
+    display: flex;
+    align-items: center; /* aligns vertically */ 
+  }
+
+
+
+/* BUTTON VIEW ALL */
+
+  .container-button
+  {
+    display: flex;
+    justify-content: end;
+
+    margin-inline: auto;
+    width: min(90%,70rem);
+
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .button-all-projects
+  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #FF99C1;
+    padding: 1.4rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: left;
+
+    transition: all .2s ease-in-out;
+
+    margin-left: 1rem;
+    margin-bottom: -.8rem;
+  }
+
+  .icon-arrow
+  {
+    width: 1.6rem;
+  }
+
+        /* HOVER */
+
+        .button-all-projects:hover
+        {
+          background-color: #FF80B1;
+          transform: scale(1.1);
+          box-shadow: 0px 10px 30px rgba(255, 153, 193, 0.4);
+        }
+
+
+/* BROWSE */
+
+.container-browse
+{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+  margin-inline: auto;
+  width: min(90%,120rem);
+}
+
+.browse
+{
+  align-items: center;
+  display: flex;
+}
+
+/* BUTTON BROWSE */
+
+.browse-text{
+  color: #FFC97D;
+  font-size: 4rem;
+  font-family: alice;
+  font-weight: 700;
+}
+
+.button-browse
+{
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  font-size: 1.4rem;
+  border: none;
+
+  transition: all .2s ease-in-out;
+}
+
+.icon-arrow-browse
+{
+  width: 3.5rem;
+  margin-bottom: -.9rem;
+  margin-left: 2rem;
+}
+
+      /* HOVER */
+
+      .button-browse:hover
+      {
+        background-color: transparent;
+        transform: scale(1.1);
+      }
+
+
+@media (max-width: 800px)
+{
+  .buttons-disappear
+  {
+    display: none;
+  }
+
+  .container-browse
+  {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 640px)
+{
+  .button-browse{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .container-browse
+  {
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+  }
+}
