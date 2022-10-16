@@ -198,7 +198,8 @@ h2{
 
   h2
   {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
   }
 
   .grid-project
@@ -212,8 +213,12 @@ h2{
   }
 
   .grid-project-imgs
-{
-  margin-inline: auto;
-  width: min(95%,90rem);
-}
+  {
+    margin-inline: auto;
+    width: min(100%,90rem);
+  }
+
+  .grid-img{
+    border-radius: 0px;
+  }
 }

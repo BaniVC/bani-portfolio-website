@@ -245,6 +245,31 @@ h7
   }
 }
 
+@media (max-width: 480px)
+{
+  h2{
+    font-size: 3.1rem;
+  }
+
+  .header{
+    background-position: center top 15.2rem;
+    background-size: 28rem;
+  }
+
+  .row-3-imgs,
+  .row-3-imgs-cms,
+  .row-2-imgs
+  {
+    gap: 2rem;
+    width: min(100%,90rem);
+  }
+
+  .mask
+  {
+    border-radius: 0px;
+  }
+}
+
 @media (max-width: 450px)
 {
   .flor
@@ -252,6 +277,8 @@ h7
     display: none;
   }
 }
+
+
 
 
 

@@ -99,12 +99,37 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px)
+{
   .grid-projects
   {
     grid-template-columns: 1fr;
     row-gap: 4rem;
   }
+}
+
+@media (max-width: 480px)
+{
+  .mask
+  {
+    border-radius: 10px;
+  }
+
+  .grid-projects
+  {
+    margin-top: 2.5rem;
+  }
+
+  .home-section-work
+  {
+    margin-top: 6rem;
+  }
+
+  .grid-projects
+  {
+    row-gap: 3rem;
+  }
+
 }
 
 

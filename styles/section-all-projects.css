@@ -35,6 +35,18 @@
   }
 }
 
+@media (max-width: 480px)
+{
+  h2{
+    font-size: 3.1rem;
+  }
+
+  .header{
+    background-position: center top 15.2rem;
+    background-size: 28rem;
+  }
+  
+}
 
 
 
