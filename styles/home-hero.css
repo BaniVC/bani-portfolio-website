@@ -49,6 +49,11 @@
   display: none;
 }
 
+.accent-info-mobile
+{
+  display: none;
+}
+
 
 
 
@@ -154,18 +159,25 @@
 
   .accent-info
   {
-    margin-top: 2rem;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: #543772;
+    display: none ;
   }
 
   .section-hero{
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
 
   .img-profile-mobile
   {
     margin-bottom: 2rem;
+  }
+
+  .accent-info-mobile
+  {
+    display: block;
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #543772;
+    font-family: inter, arial;
   }
 }

@@ -24,3 +24,12 @@
   font-size: 1.3rem;
   line-height: 2rem;
 }
+
+@media (max-width: 480px) 
+{
+  .container-text
+  {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}
