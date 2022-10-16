@@ -135,7 +135,7 @@
   }
 }
 
-@media (max-width: 350px) 
+@media (max-width: 480px) 
 {
   .img-profile-mobile
   {
@@ -154,8 +154,18 @@
 
   .accent-info
   {
-    margin-top: 2.2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     color: #543772;
+  }
+
+  .section-hero{
+    padding-bottom: 5rem;
+  }
+
+  .img-profile-mobile
+  {
+    margin-bottom: 2rem;
   }
 }

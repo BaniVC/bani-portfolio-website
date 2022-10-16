@@ -156,3 +156,10 @@
     margin-bottom: 7rem;
   }
 }
+
+@media (max-width: 480px)
+{
+  h1{
+    font-size: 3rem;
+  }
+}
