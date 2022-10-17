@@ -92,11 +92,12 @@
   display: flex;
 }
 
+
 /* BUTTON BROWSE */
 
 .browse-text{
   color: #FFC97D;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: alice;
   font-weight: 700;
 }
@@ -115,18 +116,21 @@
 
 .icon-arrow-browse
 {
-  width: 3rem;
-  margin-bottom: -.6rem;
+  width: 3.5rem;
+  margin-bottom: -.7rem;
   margin-left: 2rem;
 }
 
-      /* HOVER */
 
-      .button-browse:hover
-      {
-        background-color: transparent;
-        transform: scale(1.1);
-      }
+/* HOVER */
+
+.button-browse:hover
+{
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+
 
 
 @media (max-width: 800px)
@@ -141,6 +145,16 @@
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
+
+  .browse-text{
+    font-size: 3rem;
+  }
+
+  .icon-arrow-browse
+{
+  width: 3.1rem;
+  margin-bottom: -.5rem;
+}
 }
 
 @media (max-width: 640px)
@@ -160,6 +174,10 @@
 @media (max-width: 480px)
 {
   h1{
+    font-size: 3rem;
+  }
+
+  .browse-text{
     font-size: 3rem;
   }
   

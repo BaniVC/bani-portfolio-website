@@ -115,6 +115,8 @@ h7
   margin-bottom: -1.5rem;
 }
 
+
+
 /* HOVER ZOOM */
 
 .mask
@@ -258,7 +260,8 @@ h7
 
   .row-3-imgs,
   .row-3-imgs-cms,
-  .row-2-imgs
+  .row-2-imgs,
+  .column-imgs
   {
     gap: 2rem;
     width: min(100%,90rem);

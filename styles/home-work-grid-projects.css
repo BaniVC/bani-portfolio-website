@@ -46,48 +46,58 @@
   transition: all .3s ease-out;
 }
 
-
-/* HOVER COLOR TEXT OF PROJECTS */
-
-.container-more-projects:hover h4,
-.container-more-projects:hover h3
-{ 
-  color: #FFC26B;
-}
-
-.grid-projects a:hover {
-  border-bottom: solid 3px #FFC26B;
-  margin-bottom: -2px;
-}
-
-
-/* HOVER ZOOM IN THUMBNAIL*/
-
-.container-zoom img
-{
-  transform: scale(1);
-  transition: 0.5s ease-in-out;
-}
-
-.container-zoom:hover img
-{
-  transform: scale(1.08);
-}
-
 .mask
 {
-  overflow: hidden;
   border-radius: 20px;
-  transform: scale(1);
-  transition: 0.3s ease-in-out;
 }
 
-.mask:hover{
-  transform: scale(1.06);
+
+@media (hover: hover)
+{
+  /* HOVER COLOR TEXT OF PROJECTS */
+
+  .container-more-projects:hover h4,
+  .container-more-projects:hover h3
+  { 
+    color: #FFC26B;
+  }
+
+  .grid-projects a:hover {
+    border-bottom: solid 3px #FFC26B;
+    margin-bottom: -2px;
+  }
+
+  /* HOVER ZOOM IN THUMBNAIL*/
+
+  .container-zoom img
+  {
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+  }
+
+  .container-zoom:hover img
+  {
+    transform: scale(1.08);
+  }
+
+  .mask
+  {
+    overflow: hidden;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+
+  .mask:hover
+  {
+    transform: scale(1.06);
+  }
 }
 
-@media (max-width: 900px) {
-  .grid-projects {
+
+@media (max-width: 900px)
+{
+  .grid-projects
+  {
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
     row-gap: 5rem;
@@ -129,7 +139,6 @@
   {
     row-gap: 3rem;
   }
-
 }
 
 
