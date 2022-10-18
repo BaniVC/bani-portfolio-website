@@ -54,6 +54,11 @@
   display: none;
 }
 
+.list-hero-info-mobile
+{
+  display: none;
+}
+
 
 
 
@@ -120,23 +125,28 @@
 
   .list-hero-info
   {
-    order: 2;
+    display: none;
   }
 
-  .list-hero-info
+  .list-hero-info-mobile
   {
+    display: block;
+    order: 2;
+
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #FF80B1;
-    line-height: 4rem;
+    line-height: 4.8rem;
     text-align: center;
+    font-family: alice;
   }
 
   .accent-info
   {
-    margin-top: 2.3rem;
+    margin-top: 4rem;
     line-height: 0%;
     color: #543772;
+    font-size: 2.6rem;
   }
 }
 
@@ -148,12 +158,12 @@
     height: 350px;
   }
 
-  .list-hero-info
+  .list-hero-info-mobile
   {
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #FF80B1;
-    line-height: 3rem;
+    line-height: 3.8rem;
     text-align: center;
   }
 
