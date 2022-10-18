@@ -106,6 +106,12 @@ h2{
   display: none;
 }
 
+.video
+{
+  overflow: hidden;
+  border-radius: 20px;
+}
+
 
 @media (max-width: 1279px)
 {
@@ -117,16 +123,11 @@ h2{
   }
 }
 
-@media (max-width: 800px)
+@media (max-width: 920px)
 {
-  .section-browse
+  .grid-img
   {
-    display: block;
-  }
-
-  .more-projects
-  {
-    margin-bottom: 0rem;
+    border-radius: 10px;
   }
 }
 
@@ -138,15 +139,15 @@ h2{
     font-size: 3.8rem;
   }
 
-  .grid-img
-  {
-    border-radius: 10px;
-  }
-
   .grid-project-imgs
   {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .desert-order
+  {
+    order: 2;
   }
 
   .grid-span-2
@@ -167,6 +168,22 @@ h2{
     border-radius: 10px;
     box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
   }
+
+  .section-browse
+  {
+    display: block;
+  }
+
+  .more-projects
+  {
+    margin-bottom: 0rem;
+  }
+
+  .video
+  {
+    overflow: hidden;
+    border-radius: 10px;
+  }
 }
 
 @media (min-width: 801px)
@@ -179,6 +196,7 @@ h2{
 
 @media (max-width: 480px) 
 {
+
   .container-text
   {
     margin-top: 6rem;
@@ -188,12 +206,16 @@ h2{
   .grid-project
   {
     padding-top: 6rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
   .grid-project-imgs
   {
     gap: 1rem;
+    margin-bottom: 6rem;
+
+    margin-inline: auto;
+    width: min(100%,90rem);
   }
 
   h2
@@ -202,23 +224,13 @@ h2{
     line-height: 2.9rem;
   }
 
-  .grid-project
-  {
-    margin-bottom: 4.2rem;
-  }
-
-  .grid-project-imgs
-  {
-    margin-bottom: 6rem;
-  }
-
-  .grid-project-imgs
-  {
-    margin-inline: auto;
-    width: min(100%,90rem);
-  }
-
   .grid-img{
+    border-radius: 0px;
+  }
+
+  .video
+  {
+    overflow: hidden;
     border-radius: 0px;
   }
 }

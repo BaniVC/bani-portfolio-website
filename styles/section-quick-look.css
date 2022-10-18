@@ -1,7 +1,7 @@
 .header{
   background-color:#FFCCE0;
   background-image: url(../img/bg-quick-look.svg);
-  background-position: center top 14.9rem;
+  background-position: center top 15.1rem;
   background-size: 32rem;
   background-repeat: no-repeat;
 }
@@ -95,6 +95,12 @@ h7
 
 /* IMGS AND SPACING */
 
+.video
+{
+  overflow: hidden;
+  border-radius: 20px;
+}
+
 .row-spacing1,
 .row-spacing2
 {
@@ -115,23 +121,39 @@ h7
   margin-bottom: -1.5rem;
 }
 
-
-
-/* HOVER ZOOM */
-
 .mask
 {
   overflow: hidden;
   border-radius: 20px;
-  transform: scale(1);
-  transition: 0.3s ease-in-out;
 }
 
-.mask:hover{
-  transform: scale(1.05);
+.website-mobile
+{
+  display: none;
+}
+
+.end-padding
+{
+  margin-bottom: 8.5rem;
 }
 
 
+@media (hover: hover) and (pointer: fine)
+{
+  /* HOVER ZOOM */
+
+  .mask
+  {
+    overflow: hidden;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+
+  .mask:hover{
+    transform: scale(1.05);
+  }
+}
 
 
 @media (max-width: 1420px)
@@ -253,9 +275,15 @@ h7
     font-size: 3.1rem;
   }
 
+  h7
+  {
+    font-size: 4rem;
+    line-height: 3.2rem;
+  }
+
   .header{
-    background-position: center top 15.2rem;
-    background-size: 28rem;
+    background-position: center top 14.7rem;
+    background-size: 27rem;
   }
 
   .row-3-imgs,
@@ -263,17 +291,39 @@ h7
   .row-2-imgs,
   .column-imgs
   {
-    gap: 2rem;
+    gap: 1rem;
     width: min(100%,90rem);
+  }
+
+  .row-spacing1,
+  .row-spacing2
+  {
+    margin-top: 1rem;
   }
 
   .mask
   {
     border-radius: 0px;
   }
+
+  .video
+  {
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+  .website-desktop
+  {
+    display: none;
+  }
+
+  .website-mobile
+  {
+    display: block;
+  }
 }
 
-@media (max-width: 450px)
+@media (max-width: 350px)
 {
   .flor
   {

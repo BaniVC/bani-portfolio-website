@@ -1,14 +1,13 @@
 .header{
   background-color:#FFCCE0;
   background-image: url(../img/bg-projects.svg);
-  background-position: center top 14.9rem;
+  background-position: center top 15.1rem;
   background-size: 32rem;
   background-repeat: no-repeat;
 }
 
 .projects
 {
-  margin-bottom: 12rem;
   margin-top: 12rem;
 }
 
@@ -42,8 +41,8 @@
   }
 
   .header{
-    background-position: center top 15.2rem;
-    background-size: 28rem;
+    background-position: center top 14.7rem;
+    background-size: 27rem;
   }
   
 }

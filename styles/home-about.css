@@ -86,10 +86,15 @@
   font-size: 1.2rem;
 }
 
+.section-browse
+{
+  display: none;
+}
 
 
-@media (max-width: 825px) {
 
+@media (max-width: 825px)
+{
   .container-about-category
   {
     display: flex;
@@ -137,6 +142,27 @@
   }
 }
 
+@media (max-width: 800px)
+{
+  .section-browse
+  {
+    display: block;
+    background-color: #FFCCE0;
+    padding-top: 8rem;
+    background-image: url(../img/bg-cv-mobile.svg);
+    background-position: center;
+    background-size: 26rem;
+    background-repeat: no-repeat;
+  }
+
+  .browse-text-cv{
+    color: white ;
+    font-size: 3rem;
+    font-family: alice;
+    font-weight: 700;
+  }
+}
+
 @media (max-width: 480px)
 {
   h5{
@@ -146,6 +172,12 @@
   .list-skills,
   .list-main-title{
     font-size: 1.6rem;
+  }
+
+  .section-about
+  {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 

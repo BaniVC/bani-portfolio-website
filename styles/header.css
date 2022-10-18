@@ -38,6 +38,11 @@
   display: block;
 }
 
+.logo-mobile
+{
+  display: none;
+}
+
 /* BOTON CV */
 
 .button-full-cv
@@ -61,16 +66,15 @@
   width: 1.3rem;
 }
 
-      /* HOVER */
+/* HOVER */
 
-      .button-full-cv:hover
-      {
-        background-color: #3e2757;
-        color: white;
-        transform: scale(1.1);
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-      }
-
+.button-full-cv:hover
+{
+  background-color: #3e2757;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
 
 /* BURGER MENU */
 
@@ -168,6 +172,20 @@
   .nav-active
   {
     transform: translateX(0%);
+  }
+}
+
+@media (max-width: 480px) 
+{
+  .logo
+  {
+    display: none;
+  }
+
+  .logo-mobile
+  {
+    height: 3.5rem;
+    display: block;
   }
 }
 
