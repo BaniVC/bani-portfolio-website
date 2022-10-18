@@ -1,7 +1,7 @@
 .section-hero
 {
   height: auto;
-  background-image: url("../img/hero-bg2.svg");
+  background-image: url(../img/hero-bg2.svg);
   background-color: #FFC97D;
   background-size: 100%;
   background-repeat: no-repeat;

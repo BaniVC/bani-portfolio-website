@@ -1,8 +1,8 @@
 .header{
   background-color:#FFCCE0;
-  background-image: url(../img/bg-quick-look.svg);
-  background-position: center top 15.1rem;
-  background-size: 32rem;
+  background-image: url(../img/bg-other-sections.svg);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -11,18 +11,23 @@
 .titulo
 {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+
   align-items: center;
   text-align: center;
 
-  margin-top: 8rem;
-  padding-bottom: 11rem;
+  margin-top: 9rem;
+  padding-bottom: 13rem;
 
   margin-inline: auto;
-  width: min(90%,70rem);
+  width: min(90%,32rem);
 }
 
-
+.title-flower
+{
+  display: block;
+  width: 60px;
+}
 
 /* TITLES SECTIONS*/
 
@@ -48,13 +53,13 @@ h7
 .section-title
 {
   margin-inline: auto;
-  width: min(90%,120rem);
+  width: min(90%,110rem);
 }
 
 .section-title-2
 {
   margin-inline: auto;
-  width: min(90%,80rem);
+  width: min(90%,70rem);
 }
 
 
@@ -67,7 +72,7 @@ h7
   gap: 2rem;
 
   margin-inline: auto;
-  width: min(90%,120rem);
+  width: min(90%,110rem);
 }
 
 .row-2-imgs
@@ -76,7 +81,7 @@ h7
   gap: 2rem;
 
   margin-inline: auto;
-  width: min(90%,80rem);
+  width: min(90%,70rem);
 }
 
 
@@ -89,7 +94,7 @@ h7
   gap: 4rem;
 
   margin-inline: auto;
-  width: min(90%,80rem);
+  width: min(90%,70rem);
 }
 
 
@@ -202,7 +207,8 @@ h7
 
 @media (max-width: 1050px)
 {
-  .hide{
+  .hide
+  {
     display: none;
   }
 
@@ -220,9 +226,25 @@ h7
   }
 }
 
+@media (max-width: 1050px)
+{
+  .mask
+  {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+}
+
 
 @media (max-width: 750px)
 {
+  .header{
+    background-image: url(../img/bg-other-sections-mobile.svg);
+    background-position: center 8.1rem;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+  }
+
   .hide{
     display: block;
   }
@@ -271,6 +293,19 @@ h7
 
 @media (max-width: 480px)
 {
+  .header{
+    background-image: url(../img/bg-other-sections-mobile.svg);
+    background-position: center 8.8rem;
+    background-size: 16rem;
+    background-repeat: no-repeat;
+  }
+
+  .title-flower
+  {
+    display: block;
+    width: 50px;
+  }
+
   h2{
     font-size: 3.1rem;
   }
@@ -279,11 +314,6 @@ h7
   {
     font-size: 4rem;
     line-height: 3.2rem;
-  }
-
-  .header{
-    background-position: center top 14.7rem;
-    background-size: 27rem;
   }
 
   .row-3-imgs,

@@ -1,8 +1,8 @@
 .header{
   background-color:#FFCCE0;
-  background-image: url(../img/bg-projects.svg);
-  background-position: center top 15.1rem;
-  background-size: 32rem;
+  background-image: url(../img/bg-other-sections.svg);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -14,15 +14,22 @@
 .titulo
 {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+
   align-items: center;
   text-align: center;
 
-  margin-top: 8rem;
-  padding-bottom: 11rem;
+  margin-top: 9rem;
+  padding-bottom: 13rem;
 
   margin-inline: auto;
-  width: min(90%,70rem);
+  width: min(90%,27rem);
+}
+
+.title-flower
+{
+  display: block;
+  width: 60px;
 }
 
 
@@ -41,8 +48,16 @@
   }
 
   .header{
-    background-position: center top 14.7rem;
-    background-size: 27rem;
+    background-image: url(../img/bg-other-sections-mobile.svg);
+    background-position: center 8.8rem;
+    background-size: 16rem;
+    background-repeat: no-repeat;
+  }
+
+  .title-flower
+  {
+    display: block;
+    width: 50px;
   }
   
 }
