@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,90rem);
 
   margin-top: 8rem;

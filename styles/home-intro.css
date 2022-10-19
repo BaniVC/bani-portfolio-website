@@ -5,9 +5,8 @@
 
 .container-text
 {
-
   padding: 10rem 0rem;
- 
+  
   margin: auto;
   width: min(90%,50rem);
 }
@@ -39,7 +38,6 @@
 {
   .container-text
   {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    padding: 6rem 0rem;
   }
 }

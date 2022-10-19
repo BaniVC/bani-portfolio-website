@@ -117,7 +117,8 @@
 
   body
   {
-    overflow: hidden;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
   }
 
 
