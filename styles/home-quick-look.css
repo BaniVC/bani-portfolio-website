@@ -15,13 +15,14 @@
 
   padding-top: 10rem;
  
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,90rem);
 }
 
 .text-question
 {
   color: #543772;
+  -webkit-text-fill-color: #543772;
   font-size: 3.6rem;
   font-family: 'Lora', serif;
   margin-bottom: 2rem;

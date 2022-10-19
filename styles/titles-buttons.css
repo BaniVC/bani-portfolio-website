@@ -75,6 +75,7 @@
 
 .browse-text{
   color: #FFC97D;
+  -webkit-text-fill-color: #FFC97D;
   font-size: 4rem;
   font-family: 'Lora', serif;
   font-weight: 600;
