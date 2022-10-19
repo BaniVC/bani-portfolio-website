@@ -14,13 +14,23 @@
 
 .p-hello
 {
-  font-size: 2rem;
-  line-height: 2.7rem;
+  color: #FFC26B;
+  font-size: 4rem;
+  font-family: alice;
+  margin-bottom: 2rem;
+}
+
+.p-im
+{
+  font-size: 3rem;
+  line-height: 3.3rem;
+  font-family: alice;
+  color: #FFC26B;
 }
 
 .p-intro
 {
-  margin-top: 2.5rem;
+  margin-top: 2.8rem;
   font-size: 1.3rem;
   line-height: 2rem;
 }

@@ -1,0 +1,140 @@
+.section-banner-quick-look
+{
+  background-color:#FFCCE0;
+  background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
+  background-position: right 50% bottom 4rem, bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 7.8rem, auto;
+}
+
+.container-text-ql
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 10rem;
+ 
+  margin-inline: auto;
+  width: min(90%,90rem);
+}
+
+.text-question
+{
+  color: #543772;
+  font-size: 3.8rem;
+  font-family: alice;
+  margin-bottom: 2rem;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.banner-ql-img
+{
+  display: block;
+  width: 900px;
+  margin-top: 5rem;
+}
+
+.banner-ql-img-mobile
+{
+  display: none;
+}
+
+@media (max-width: 960px) 
+{
+  .container-text-ql
+  {
+    padding-top: 9rem;
+  }
+  .section-banner-quick-look
+  {
+    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
+    background-position: right 50% bottom 3.8rem, bottom;
+    background-repeat: repeat-x, repeat-x;
+    background-size: 6.4rem, auto;
+  }
+  .banner-ql-img
+  {
+    display: block;
+    width: 700px;
+    margin-top: 5.5rem;
+  }
+
+  .text-question
+  {
+    font-size: 3.1rem;
+  }
+}
+
+@media (max-width: 740px) 
+{
+  .section-banner-quick-look
+  {
+    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
+    background-position: right 50% bottom 6.6rem, bottom;
+    background-repeat: repeat-x, repeat-x;
+    background-size: 6rem, auto;
+  }
+
+  .banner-ql-img
+  {
+    display: none;
+  }
+
+  .banner-ql-img-mobile
+  {
+    display: block;
+    width: 500px;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 540px) 
+{
+  .container-text-ql
+  {
+    padding-top: 7.2rem;
+  }
+
+  .section-banner-quick-look
+  {
+    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
+    background-position: right 50% bottom 4rem, bottom;
+    background-repeat: repeat-x, repeat-x;
+    background-size: 3.7rem, auto;
+  }
+
+  .banner-ql-img-mobile
+  {
+    display: block;
+    width: 400px;
+    margin-top: 4rem;
+  }
+
+  .text-question
+  {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 435px) 
+{
+  .container-text-ql
+  {
+    padding-top: 6.7rem;
+  }
+
+  .banner-ql-img-mobile
+  {
+    display: block;
+    width: 300px;
+    margin-top: 4rem;
+  }
+
+  .text-question
+  {
+    font-size: 2.5rem;
+  }
+}

@@ -20,13 +20,20 @@
   margin-top: 8rem;
 }
 
+.list-flor
+{
+  width: 22px;
+  margin-right: 1.3rem;
+  margin-bottom: .4rem;
+}
+
 .list-hero-info
 {
-  font-weight: 700;
   font-size: 4rem;
   color: #FF80B1;
   line-height: 5.5rem;
   font-family: alice;
+  font-weight: 700;
 }
 
 .accent-info
@@ -80,6 +87,13 @@
 
 @media (max-width: 1088px) 
 {
+  .list-flor
+  {
+    width: 18px;
+    margin-right: 1rem;
+    margin-bottom: .3rem;
+  }
+
   .list-hero-info
   {
   font-size: 3rem;
@@ -109,9 +123,9 @@
 
   .section-hero
   {
-    background-image: url("../img/hero-bg-mobile.svg");
+    background-image: url(../img/hero-bg-mobile.svg);
     background-position: top left;
-    background-size: 16rem;
+    background-size: 12rem;
     background-repeat: no-repeat;
   }
 
