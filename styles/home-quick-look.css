@@ -2,9 +2,9 @@
 {
   background-color:#FFCCE0;
   background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-  background-position: right 50% bottom 4rem, bottom;
+  background-position: right 50% bottom 5.5rem, bottom;
   background-repeat: repeat-x, repeat-x;
-  background-size: 7.8rem, auto;
+  background-size: 6.45rem, auto;
 }
 
 .container-text-ql
@@ -73,9 +73,9 @@
   .section-banner-quick-look
   {
     background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 6.6rem, bottom;
+    background-position: right 50% bottom 7rem, bottom;
     background-repeat: repeat-x, repeat-x;
-    background-size: 6rem, auto;
+    background-size: 6.4rem, auto;
   }
 
   .banner-ql-img
@@ -101,9 +101,9 @@
   .section-banner-quick-look
   {
     background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 4rem, bottom;
+    background-position: right 50% bottom 5.6rem, bottom;
     background-repeat: repeat-x, repeat-x;
-    background-size: 3.7rem, auto;
+    background-size: 5rem, auto;
   }
 
   .banner-ql-img-mobile
@@ -124,6 +124,14 @@
   .container-text-ql
   {
     padding-top: 6.7rem;
+  }
+
+  .section-banner-quick-look
+  {
+    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
+    background-position: right 50% bottom 4.2rem, bottom;
+    background-repeat: repeat-x, repeat-x;
+    background-size: 6rem, auto;
   }
 
   .banner-ql-img-mobile
