@@ -14,6 +14,7 @@
 .p-hello
 {
   color: #FFC26B;
+  -webkit-text-fill-color: #FFC26B;
   font-size: 4rem;
   font-family: 'Lora', serif;
   margin-bottom: 2rem;
@@ -22,9 +23,10 @@
 .p-im
 {
   font-size: 3rem;
-  line-height: 3.3rem;
+  line-height: 4.2rem;
   font-family: 'Lora', serif;
   color: #FFC26B;
+  -webkit-text-fill-color: #FFC26B;
 }
 
 .p-intro
@@ -39,5 +41,11 @@
   .container-text
   {
     padding: 6rem 0rem;
+  }
+
+  .p-im
+  {
+    font-size: 2.4rem;
+    line-height: 3rem;
   }
 }
