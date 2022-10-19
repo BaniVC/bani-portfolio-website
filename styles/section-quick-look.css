@@ -143,10 +143,24 @@ h7
 }
 
 
+/* HOVER ZOOM */
+
+.mask
+{
+  overflow: hidden;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.mask:hover{
+  transform: scale(1.05);
+}
+
+
+  /* HOVER ZOOM 
 @media (hover: hover) and (pointer: fine)
 {
-  /* HOVER ZOOM */
-
   .mask
   {
     overflow: hidden;
@@ -158,7 +172,7 @@ h7
   .mask:hover{
     transform: scale(1.05);
   }
-}
+}*/
 
 
 @media (max-width: 1420px)
