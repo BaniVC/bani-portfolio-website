@@ -46,10 +46,11 @@
   border-radius: 20px;
 }
 
+/*
 
 @media (pointer: fine)
 {
-  /* HOVER ZOOM IN THUMBNAIL*/
+  /* HOVER ZOOM IN THUMBNAIL 
 
   .container-zoom img
   {
@@ -75,7 +76,7 @@
     transform: scale(1.06);
   }
 
-  /* HOVER COLOR TEXT OF PROJECTS */
+  /* HOVER COLOR TEXT OF PROJECTS 
 
   .container-more-projects h4,
   .container-more-projects h3
@@ -93,7 +94,7 @@
     border-bottom: solid 3px #FFC26B;
     margin-bottom: -2px;
   }
-}
+}*/
 
 @media (max-width: 920px)
 {
