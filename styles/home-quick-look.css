@@ -129,15 +129,15 @@
   .section-banner-quick-look
   {
     background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 4.2rem, bottom;
+    background-position: right 50% bottom 4.7rem, bottom;
     background-repeat: repeat-x, repeat-x;
-    background-size: 6rem, auto;
+    background-size: 6.5rem, auto;
   }
 
   .banner-ql-img-mobile
   {
     display: block;
-    width: 300px;
+    width: 350px;
     margin-top: 4rem;
   }
 
