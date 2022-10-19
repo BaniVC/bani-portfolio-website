@@ -249,7 +249,7 @@ h7
 {
   .header{
     background-image: url(../img/bg-other-sections-mobile.svg);
-    background-position: center 8.1rem;
+    background-position: center 9rem;
     background-size: 18rem;
     background-repeat: no-repeat;
   }
@@ -304,7 +304,7 @@ h7
 {
   .header{
     background-image: url(../img/bg-other-sections-mobile.svg);
-    background-position: center 10.5rem;
+    background-position: center 11.1rem;
     background-size: 13rem;
     background-repeat: no-repeat;
   }
@@ -315,7 +315,7 @@ h7
     width: 50px;
   }
 
-  h2{
+  .main-title{
     font-size: 3.1rem;
   }
 
@@ -370,11 +370,11 @@ h7
   }
 }
 
-@media (max-width: 392px)
+@media (max-width: 406px)
 {
   .header{
     background-image: url(../img/bg-other-sections-mobile.svg);
-    background-position: center 12.2rem;
+    background-position: center 12.6rem;
     background-size: 13rem;
     background-repeat: no-repeat;
   }
