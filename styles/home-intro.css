@@ -5,10 +5,10 @@
 
 .container-text
 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+
+  padding: 10rem 0rem;
  
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,50rem);
 }
 
