@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between; /* aligns space horizontally */
 
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,90rem);
 }
 
@@ -24,18 +24,6 @@
 
 
 /* BUTTON VIEW ALL */
-
-.container-button
-{
-  display: flex;
-  justify-content: end;
-
-  margin-inline: auto;
-  width: min(90%,70rem);
-
-  margin-top: 2.5rem;
-  margin-bottom: 3.5rem;
-}
 
 .button-all-projects
 {
@@ -61,6 +49,8 @@
   padding-left: .9rem;
 }
 
+
+
 /* BROWSE */
 
 .container-browse
@@ -71,7 +61,7 @@
   padding-top: 6.5rem;
   padding-bottom: 15rem;
 
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,120rem);
 }
 
