@@ -14,7 +14,8 @@
   border-top: solid #FFC26B 1px;
   margin-top: 6rem;
 
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: min(90%,90rem);
 }
 
