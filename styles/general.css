@@ -54,6 +54,7 @@ h3
 {
   color: #FF99C1;
   font-size: 2rem;
+  -webkit-text-fill-color: #FF99C1; 
 }
 
 h4

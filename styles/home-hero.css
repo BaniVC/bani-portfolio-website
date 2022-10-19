@@ -33,7 +33,7 @@
   color: #FF80B1;
   line-height: 5.5rem;
   font-family: alice;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .accent-info
@@ -42,6 +42,7 @@
   margin-top: 1rem;
   font-family: inter, arial;
   font-size: 2.3rem;
+  font-weight: 700;
 }
 
 .img-profile
