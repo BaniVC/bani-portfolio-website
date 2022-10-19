@@ -145,9 +145,19 @@
     transition: transform 0.3s ease-out;
   }
 
-  .nav-links li
+  .nav-links li:nth-child(2)
   {
-    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .nav-links li:nth-child(3)
+  {
+    padding-top: 5rem;
+  }
+
+  .nav-links li:nth-child(4)
+  {
+    padding-top: 5rem;
   }
 
   .home-link-mobile
