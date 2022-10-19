@@ -46,7 +46,8 @@
   border-radius: 20px;
 }
 
-@media (hover: hover) and (pointer: fine)
+
+@media (pointer: fine)
 {
   /* HOVER ZOOM IN THUMBNAIL*/
 
