@@ -22,10 +22,10 @@
 .text-question
 {
   color: #543772;
-  font-size: 3.8rem;
-  font-family: alice;
+  font-size: 3.6rem;
+  font-family: 'Lora', serif;
   margin-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 
   text-align: center;
 }

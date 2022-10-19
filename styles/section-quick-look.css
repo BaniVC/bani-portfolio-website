@@ -16,11 +16,19 @@
   align-items: center;
   text-align: center;
 
-  margin-top: 9rem;
+  padding-top: 9rem;
   padding-bottom: 13rem;
 
-  margin-inline: auto;
+  margin: auto;
   width: min(90%,32rem);
+}
+
+.main-title
+{
+  color: #543772;
+  font-size: 3.6rem;
+  font-family: 'Lora', serif;
+  font-weight: 600;
 }
 
 .title-flower
@@ -34,8 +42,8 @@
 h7
 {
   color: #FFCCE0;
-  font-size: 8rem;
-  font-family: alice;
+  font-size: 7rem;
+  font-family: 'Lora', serif;
   line-height: 5rem;
 }
 
@@ -143,22 +151,9 @@ h7
 }
 
 
+
 /* HOVER ZOOM */
 
-.mask
-{
-  overflow: hidden;
-  border-radius: 20px;
-  transform: scale(1);
-  transition: 0.3s ease-in-out;
-}
-
-.mask:hover{
-  transform: scale(1.05);
-}
-
-
-  /* HOVER ZOOM 
 @media (hover: hover) and (pointer: fine)
 {
   .mask
@@ -172,7 +167,7 @@ h7
   .mask:hover{
     transform: scale(1.05);
   }
-}*/
+}
 
 
 @media (max-width: 1420px)

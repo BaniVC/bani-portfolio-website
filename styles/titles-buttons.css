@@ -41,7 +41,6 @@
 {
   display: flex;
   align-items: center;
-  gap: .9rem;
 
   background-color: #FF99C1;
   padding: 1.1rem 1.3rem;
@@ -49,6 +48,7 @@
   border-radius: 10px;
   border: none;
   color: white;
+  -webkit-text-fill-color: white;
   text-align: left;
 
   margin-left: 1rem;
@@ -58,6 +58,7 @@
 .icon-arrow
 {
   width: 1.3rem;
+  padding-left: .9rem;
 }
 
 /* BROWSE */
@@ -85,8 +86,8 @@
 .browse-text{
   color: #FFC97D;
   font-size: 4rem;
-  font-family: alice;
-  font-weight: 700;
+  font-family: 'Lora', serif;
+  font-weight: 600;
 }
 
 .button-browse
@@ -109,31 +110,9 @@
 
 
 
+
+
 /* HOVER BUTTONS ALL */
-
-.button-all-projects
-{
-  transition: all .2s ease-in-out;
-}
-
-.button-all-projects:hover
-{
-  background-color: #FF80B1;
-  transform: scale(1.1);
-  box-shadow: 0px 10px 30px rgba(255, 153, 193, 0.4);
-}
-
-/* HOVER BROWSE HOVER */
-
-.button-browse:hover
-{
-  background-color: transparent;
-  transform: scale(1.1);
-}
-
-
-
-/* HOVER BUTTONS ALL 
 
 @media (hover: hover) and (pointer: fine)
 {
@@ -155,7 +134,7 @@
     transform: scale(1.1);
   }
 }
-*/
+
 
 @media (max-width: 800px)
 {
