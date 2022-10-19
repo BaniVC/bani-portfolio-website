@@ -159,6 +159,7 @@
 
   .browse-text-cv{
     color: white;
+    -webkit-text-fill-color: white;
     font-size: 3rem;
     font-family: 'Lora', serif;
     font-weight: 600;
