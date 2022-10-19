@@ -2,7 +2,7 @@
 
 .home-section-work
 {
-  margin-top: 10rem;
+  padding-top: 10rem;
   padding-bottom: 4.5rem;
 }
 
@@ -15,11 +15,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2rem;
   row-gap: 5.5rem;
-  
-  padding-top: 4rem;
-  padding-bottom: 8rem;
 
-  margin: auto;
+  margin: 4.5rem auto 8rem;
   width: min(90%,90rem);
 }
 
@@ -135,13 +132,8 @@
 
   .home-section-work
   {
-    margin-top: 6rem;
-  }
-
-  .home-section-work
-  {
-    margin-top: 6rem;
-    padding-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
   }
 }
 
