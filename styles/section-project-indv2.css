@@ -184,7 +184,18 @@ h2
 
 @media (max-width: 480px) 
 {
-
+  .section-project-cover
+  {
+    background-position: center bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 32rem;
+    border-bottom: solid #543772 1px;
+  }
+  .binmatter
+  {
+    background-image: url(../img/projects/binmatter/binmatter-project-cover-movil.jpg);
+  }
   .container-text
   {
     margin-top: 6rem;

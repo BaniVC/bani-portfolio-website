@@ -10,6 +10,11 @@
   width: min(90%,90rem);
 }
 
+.padding-header-indv-projects
+{
+  padding-bottom: 3rem;
+}
+
 
 /* RIGHT NAVIGATION LINKS */
 
@@ -200,6 +205,10 @@
 
 @media (max-width: 480px) 
 {
+  .padding-header-indv-projects
+  {
+    padding-bottom: 1rem;
+  }
   .logo
   {
     display: none;
