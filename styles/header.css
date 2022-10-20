@@ -50,7 +50,6 @@
 {
   display: flex;
   align-items: center;
-  gap: .9rem;
 
   background-color: #543772;
   padding: 1.1rem 1.3rem;
@@ -59,22 +58,13 @@
   border: none;
   color: white;
   -webkit-text-fill-color: white;
-
-  transition: all .2s ease-in-out;
+  text-align: left;
 }
 
 .icon-arrow-header
 {
   width: 1.3rem;
-}
-
-/* HOVER */
-
-.button-full-cv:hover
-{
-  background-color: #7c47b4;
-  transform: scale(1.1);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding-left: .9rem;
 }
 
 /* BURGER MENU */
@@ -109,7 +99,21 @@
 
 
 
+@media (hover: hover) and (pointer: fine)
+{
+  .button-full-cv
+  {
+    transition: all .2s ease-in-out;
+  }
 
+  /* HOVER */
+
+  .button-full-cv:hover
+  {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}
 
 
 
@@ -128,13 +132,13 @@
   {
     position: fixed;
     flex-direction: column;
-
     align-items: flex-start;
-    padding: 4rem 3rem;
+    
+    padding: 4.2rem 3rem;
     gap: 0rem;
     z-index: 1000;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     top: 0%;
     bottom: 0%;
     left: 0%;
@@ -170,8 +174,7 @@
 
   .button-full-cv
   {
-    gap: .9rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 1.2rem 1.5rem;
   }
 

@@ -22,11 +22,12 @@
 
 .p-im
 {
-  font-size: 3rem;
-  line-height: 4.2rem;
+  font-size: 2.8rem;
+  line-height: 4rem;
   font-family: 'Lora', serif;
   color: #FFC26B;
   -webkit-text-fill-color: #FFC26B;
+  font-weight: 500;
 }
 
 .p-intro
@@ -40,12 +41,12 @@
 {
   .container-text
   {
-    padding: 6rem 0rem;
+    padding: 7rem 0rem;
   }
 
   .p-im
   {
     font-size: 2.4rem;
-    line-height: 3rem;
+    line-height: 3.2rem;
   }
 }

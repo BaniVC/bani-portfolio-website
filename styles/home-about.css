@@ -84,7 +84,7 @@
   font-size: 1.2rem;
 }
 
-.section-browse
+.section-browse-home
 {
   display: none;
 }
@@ -114,7 +114,8 @@
     font-size: 1.5rem;
   }
 
-  h5{
+  h5
+  {
     font-size: 2.9rem;
     margin-top: 4rem;
   }
@@ -140,43 +141,44 @@
   }
 }
 
-@media (max-width: 800px)
-{
-  .section-browse
-  {
-    display: block;
-    background-color: #FFCCE0;
-    padding-top: 8rem;
-    background-image: url(../img/bg-cv-mobile.svg);
-    background-position: center;
-    background-size: 26rem;
-    background-repeat: no-repeat;
-  }
-
-  .browse-text-cv{
-    color: white;
-    -webkit-text-fill-color: white;
-    font-size: 3rem;
-    font-family: 'Lora', serif;
-    font-weight: 600;
-  }
-}
-
 @media (max-width: 480px)
 {
-  h5{
-    font-size: 2.5rem;
-  }
-
-  .list-skills,
-  .list-main-title{
-    font-size: 1.6rem;
-  }
-
   .section-about
   {
     padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
+  }
+
+  .section-browse-home
+  {
+    display: block;
+    background-color: #FFCCE0;
+    background-image: url(../img/bg-cv-mobile.svg);
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+  }
+
+  .container-browse-home
+  {
+    display: flex;
+    justify-content: center;
+  
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  
+    margin: auto;
+    width: min(90%,120rem);
+  }
+
+  h5
+  {
+    font-size: 2.5rem;
+  }
+
+    .list-skills,
+    .list-main-title{
+      font-size: 1.6rem;
   }
 }
 
