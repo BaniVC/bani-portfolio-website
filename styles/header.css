@@ -18,14 +18,19 @@
   display: flex;
   align-items: center;
 
-  gap: 4.5rem;
+  gap: 5rem;
   color: #543772;
   -webkit-text-fill-color: #543772;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .home-link-mobile
+{
+  display: none;
+}
+
+.mobile-cv-button
 {
   display: none;
 }
@@ -78,14 +83,14 @@
 .burger div
 {
   width: 40px;
-  height: 4px;
+  height: 3px;
   background-color: #543772;
   margin: 7px;
   transition: all 0.3s ease;
 }
 
 .toggle .line1{
-  transform: rotate(-45deg) translate(-5px,10px);
+  transform: rotate(-45deg) translate(-4px,10px);
 }
 
 .toggle .line2{
@@ -93,7 +98,7 @@
 }
 
 .toggle .line3{
-  transform: rotate(45deg) translate(-5px,-10px);
+  transform: rotate(45deg) translate(-4px,-10px);
 }
 
 
@@ -125,6 +130,11 @@
     overflow-x: hidden;
   }
 
+  .desktop-cv-button
+  {
+    display: none;
+  }
+
 
   /* MOBILE LINKS */
 
@@ -149,6 +159,11 @@
     transition: transform 0.3s ease-out;
   }
 
+  .mobile-cv-button
+  {
+    display: block;
+  }
+
   .nav-links li:nth-child(2)
   {
     padding-top: 5rem;
@@ -168,21 +183,6 @@
   {
     display: block;
   }
-
-
-  /* BOTON CV */
-
-  .button-full-cv
-  {
-    font-size: 1.6rem;
-    padding: 1.2rem 1.5rem;
-  }
-
-  .icon-arrow-header
-  {
-    width: 1.7rem;
-  }
-
 
   /* BURGER MENU */
 
