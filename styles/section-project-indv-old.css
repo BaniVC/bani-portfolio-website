@@ -1,24 +1,5 @@
 /* SECTION PROJECT COVER */
 
-.section-project-cover
-{
-  background-position: center;
-  background-size: 1920px;
-  background-repeat: no-repeat;
-  height: 47rem;
-  border-bottom: solid #543772 1px;
-}
-
-.binmatter
-{
-  background-image: url(../img/projects/binmatter/binmatter-project-cover.jpg);
-}
-
-.diario
-{
-  background-image: url(../img/projects/diario/diario-project-cover.jpg);
-}
-
 .more-projects
 {
   margin-bottom: 12rem;
@@ -33,6 +14,15 @@
   width: min(90%,90rem);
 
   height: auto;
+}
+
+.img-project-cover
+{
+  max-width: 100%;
+  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  border-radius: 20px;
+  box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
 }
 
 h2
@@ -164,6 +154,20 @@ h2
   grid-column: span 1;
   }
 
+  .img-project-cover
+  {
+    display: none;
+  }
+
+  .img-projects-cover-mobile
+  {
+    max-width: 100%;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
+  }
+
   .section-browse
   {
     display: block;
@@ -181,21 +185,17 @@ h2
   }
 }
 
+@media (min-width: 801px)
+{
+  .img-projects-cover-mobile
+  {
+    display: none;
+  }
+}
 
 @media (max-width: 480px) 
 {
-  .section-project-cover
-  {
-    background-position: center bottom;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    height: 32rem;
-    border-bottom: solid #543772 1px;
-  }
-  .binmatter
-  {
-    background-image: url(../img/projects/binmatter/binmatter-project-cover-movil.jpg);
-  }
+
   .container-text
   {
     margin-top: 6rem;

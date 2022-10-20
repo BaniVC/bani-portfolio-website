@@ -1,33 +1,59 @@
 /* SECTION PROJECT COVER */
 
+.section-project-cover
+{
+  background-position: center;
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  height: 47rem;
+}
+
+
+.binmatter
+{
+  background-image: url(../img/projects/cover-desktop/binmatter-project-cover.jpg);
+}
+
+.diario
+{
+  background-image: url(../img/projects/cover-desktop/diario-project-cover.jpg);
+}
+
+.blum
+{
+  background-image: url(../img/projects/cover-desktop/blum-project-cover.jpg);
+}
+
+.conhector
+{
+  background-image: url(../img/projects/cover-desktop/conhector-project-cover.jpg);
+}
+
+.caf
+{
+  background-image: url(../img/projects/cover-desktop/caf-project-cover.jpg);
+}
+
+.desert
+{
+  background-image: url(../img/projects/cover-desktop/desert-project-cover.jpg);
+}
+
+.dioses
+{
+  background-image: url(../img/projects/cover-desktop/dioses-project-cover.jpg);
+}
+
+
+
 .more-projects
 {
   margin-bottom: 12rem;
 }
 
-.container-project-info{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  margin: auto;
-  width: min(90%,90rem);
-
-  height: auto;
-}
-
-.img-project-cover
-{
-  max-width: 100%;
-  margin-bottom: 2.5rem;
-  margin-top: 3rem;
-  border-radius: 20px;
-  box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
-}
-
 h2
 {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   font-family: 'Inter', sans-serif;
   font-size: 3.5rem;
   line-height: 3.7rem;
@@ -39,7 +65,7 @@ h2
 .container-text
 {
   margin: 10rem auto 10rem;
-  width: min(90%,50rem);
+  width: min(90%,60rem);
 }
 
 .p-hello{
@@ -50,7 +76,7 @@ h2
 
 .p-intro{
 
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   font-size: 1.3rem;
   line-height: 2rem;
 }
@@ -71,7 +97,7 @@ h2
   border-top: solid #FF99C1 1px;
   background-color: #FFF0DB;
 
-  padding-top: 12rem;
+  padding-top: 10rem;
   margin-bottom: 10rem;
 }
 
@@ -115,14 +141,6 @@ h2
 }
 
 
-@media (max-width: 1279px)
-{
-  h2{
-    margin-bottom: 3.5rem;
-    font-size: 3rem;
-  }
-}
-
 @media (max-width: 920px)
 {
   .grid-img
@@ -133,10 +151,6 @@ h2
 
 @media (max-width: 800px)
 {
-  h2{
-    margin-bottom: 4rem;
-    font-size: 3.8rem;
-  }
 
   .grid-project-imgs
   {
@@ -152,20 +166,6 @@ h2
   .grid-span-2
   {
   grid-column: span 1;
-  }
-
-  .img-project-cover
-  {
-    display: none;
-  }
-
-  .img-projects-cover-mobile
-  {
-    max-width: 100%;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
-    border-radius: 10px;
-    box-shadow: 7px 7px 60px rgba(0, 0, 0, 0.15);
   }
 
   .section-browse
@@ -185,16 +185,26 @@ h2
   }
 }
 
-@media (min-width: 801px)
-{
-  .img-projects-cover-mobile
-  {
-    display: none;
-  }
-}
 
 @media (max-width: 480px) 
 {
+  .section-project-cover
+  {
+    background-position: center bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 32rem;
+  }
+
+  .binmatter
+  {
+    background-image: url(../img/projects/covers-mobile/binmatter-project-cover-mobile.jpg);
+  }
+
+  .diario
+  {
+    background-image: url(../img/projects/covers-mobile/diario-project-cover-mobile.jpg);
+  }
 
   .container-text
   {
@@ -217,12 +227,6 @@ h2
     width: min(100%,90rem);
   }
 
-  h2
-  {
-    font-size: 2.5rem;
-    line-height: 2.9rem;
-  }
-
   .grid-img{
     border-radius: 0px;
   }
@@ -241,5 +245,10 @@ h2
   {
     overflow: hidden;
     border-radius: 0px;
+  }
+
+  h2
+  {
+    font-size: 3rem;
   }
 }

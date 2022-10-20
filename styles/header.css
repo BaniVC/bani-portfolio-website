@@ -27,7 +27,7 @@
   color: #543772;
   -webkit-text-fill-color: #543772;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .home-link-mobile
@@ -207,7 +207,12 @@
 {
   .padding-header-indv-projects
   {
-    padding-bottom: 1rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .container-nav
+  {
+    padding-top: 2rem;
   }
   .logo
   {
