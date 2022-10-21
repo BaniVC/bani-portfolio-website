@@ -2,9 +2,9 @@
 {
   background-color:#FFCCE0;
   background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-  background-position: right 50% bottom 5.5rem, bottom;
+  background-position: right 50% bottom 7rem, bottom;
   background-repeat: repeat-x, repeat-x;
-  background-size: 6.45rem, auto;
+  background-size: 7rem, auto;
 }
 
 .container-text-ql
@@ -34,8 +34,8 @@
 .banner-ql-img
 {
   display: block;
-  width: 900px;
-  margin-top: 5rem;
+  width: 1000px;
+  margin-top: 4rem;
 }
 
 .banner-ql-img-mobile

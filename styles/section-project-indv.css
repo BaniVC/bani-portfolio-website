@@ -3,53 +3,89 @@
 .section-project-cover
 {
   background-position: center;
-  background-size: 1920px;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 47rem;
+  min-height: 51rem;
 }
 
 
 .binmatter
 {
-  background-image: url(../img/projects/cover-desktop/binmatter-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/binmatter-project-cover@2x.jpg");
 }
 
 .diario
 {
-  background-image: url(../img/projects/cover-desktop/diario-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/diario-project-cover@2x.jpg");
 }
 
 .blum
 {
-  background-image: url(../img/projects/cover-desktop/blum-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/blum-project-cover@2x.jpg");
 }
 
 .conhector
 {
-  background-image: url(../img/projects/cover-desktop/conhector-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/conhector-project-cover@2x.jpg");
 }
 
 .caf
 {
-  background-image: url(../img/projects/cover-desktop/caf-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/caf-project-cover@2x.jpg");
 }
 
 .desert
 {
-  background-image: url(../img/projects/cover-desktop/desert-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/desert-project-cover@2x.jpg");
 }
 
 .dioses
 {
-  background-image: url(../img/projects/cover-desktop/dioses-project-cover.jpg);
+  background-image: url("../img/projects/cover-desktop/dioses-project-cover@2x.jpg");
 }
 
-
-
-.more-projects
+.chita
 {
-  margin-bottom: 12rem;
+  background-image: url("../img/projects/cover-desktop/chita-project-cover@2x.jpg");
 }
+
+.flight-ninja
+{
+  background-image: url("../img/projects/cover-desktop/filght-ninja-project-cover@2x.jpg");
+}
+
+.jam
+{
+  background-image: url("../img/projects/cover-desktop/jam-project-cover@2x.jpg");
+}
+
+.fest
+{
+  background-image: url("../img/projects/cover-desktop/fest-project-cover@2x.jpg");
+}
+
+.input
+{
+  background-image: url("../img/projects/cover-desktop/input-project-cover@2x.jpg");
+}
+
+.juarez-limpio
+{
+  background-image: url("../img/projects/cover-desktop/juarez-limpio-project-cover@2x.jpg");
+}
+
+.phi
+{
+  background-image: url("../img/projects/cover-desktop/phi-project-cover@2x.jpg");
+}
+
+.ruba
+{
+  background-image: url("../img/projects/cover-desktop/ruba-project-cover@2x.jpg");
+}
+
+
+/* SECTION INTRO */
 
 h2
 {
@@ -58,9 +94,6 @@ h2
   font-size: 3.5rem;
   line-height: 3.7rem;
 }
-
-
-/* SECTION INTRO */
 
 .container-text
 {
@@ -91,6 +124,12 @@ h2
 
 /* SECTION GRID */
 
+
+.more-projects
+{
+  margin-bottom: 12rem;
+}
+
 .grid-project
 {
   border-bottom: solid #FF99C1 1px;
@@ -118,7 +157,8 @@ h2
   grid-column: span 2;
 }
 
-.grid-img{
+.grid-img
+{
   max-width: 100%;
   display: block;
   border-radius: 20px;
@@ -141,6 +181,8 @@ h2
 }
 
 
+
+
 @media (max-width: 920px)
 {
   .grid-img
@@ -148,6 +190,7 @@ h2
     border-radius: 10px;
   }
 }
+
 
 @media (max-width: 800px)
 {
@@ -198,13 +241,19 @@ h2
 
   .binmatter
   {
-    background-image: url(../img/projects/covers-mobile/binmatter-project-cover-mobile.jpg);
+    background-image: url("../img/projects/covers-mobile/binmatter-project-cover-mobile.jpg");
   }
 
   .diario
   {
-    background-image: url(../img/projects/covers-mobile/diario-project-cover-mobile.jpg);
+    background-image: url("../img/projects/covers-mobile/diario-project-cover-mobile.jpg");
   }
+
+  .blum
+  {
+    background-image: url("../img/projects/covers-mobile/blum-project-cover-mobile.jpg");
+  }
+
 
   .container-text
   {
