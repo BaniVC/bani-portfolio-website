@@ -43,24 +43,26 @@ h1
   font-family: 'Lora', serif;
 }
 
-h2
-{
-  color: #543772;
-  font-size: 3.5rem;
-}
-
 h3
 {
   font-size: 2rem;
   color: #FF99C1;
+  -webkit-text-fill-color: #FF99C1;
 }
 
 h4
 {
   font-weight: 400;
   color: black;
+  -webkit-text-fill-color: black;
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+h2
+{
+  color: #543772;
+  font-size: 3.5rem;
 }
 
 h5
