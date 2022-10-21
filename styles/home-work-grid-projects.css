@@ -44,6 +44,8 @@
 }
 
 
+
+
 @media (hover: hover) and (pointer: fine)
 {
   /* HOVER ZOOM IN THUMBNAIL */
@@ -78,6 +80,8 @@
   .container-more-projects h3
   { 
     transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
   }
 
   .container-more-projects:hover h4,
