@@ -141,6 +141,18 @@
     padding-top: 6rem;
     padding-bottom: 2rem;
   }
+
+  h3
+  {
+    color: #FF99C1;
+    -webkit-text-fill-color: #FF99C1;
+  }
+
+  h4
+  {
+    color: black;
+    -webkit-text-fill-color: black;
+  }
 }
 
 
