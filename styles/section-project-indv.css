@@ -11,77 +11,77 @@
 
 .binmatter
 {
-  background-image: url("../img/projects/cover-desktop/binmatter-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/binmatter-project-cover@2x.jpg");
 }
 
 .diario
 {
-  background-image: url("../img/projects/cover-desktop/diario-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/diario-project-cover@2x.jpg");
 }
 
 .blum
 {
-  background-image: url("../img/projects/cover-desktop/blum-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/blum-project-cover@2x.jpg");
 }
 
 .conhector
 {
-  background-image: url("../img/projects/cover-desktop/conhector-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/conhector-project-cover@2x.jpg");
 }
 
 .caf
 {
-  background-image: url("../img/projects/cover-desktop/caf-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/caf-project-cover@2x.jpg");
 }
 
 .desert
 {
-  background-image: url("../img/projects/cover-desktop/desert-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/desert-project-cover@2x.jpg");
 }
 
 .dioses
 {
-  background-image: url("../img/projects/cover-desktop/dioses-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/dioses-project-cover@2x.jpg");
 }
 
 .chita
 {
-  background-image: url("../img/projects/cover-desktop/chita-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/chita-project-cover@2x.jpg");
 }
 
 .flight-ninja
 {
-  background-image: url("../img/projects/cover-desktop/filght-ninja-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/filght-ninja-project-cover@2x.jpg");
 }
 
 .jam
 {
-  background-image: url("../img/projects/cover-desktop/jam-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/jam-project-cover@2x.jpg");
 }
 
 .fest
 {
-  background-image: url("../img/projects/cover-desktop/fest-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/fest-project-cover@2x.jpg");
 }
 
 .input
 {
-  background-image: url("../img/projects/cover-desktop/input-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/input-project-cover@2x.jpg");
 }
 
 .juarez-limpio
 {
-  background-image: url("../img/projects/cover-desktop/juarez-limpio-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/juarez-limpio-project-cover@2x.jpg");
 }
 
 .phi
 {
-  background-image: url("../img/projects/cover-desktop/phi-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/phi-project-cover@2x.jpg");
 }
 
 .ruba
 {
-  background-image: url("../img/projects/cover-desktop/ruba-project-cover@2x.jpg");
+  background-image: url("../img/projects/covers-desktop/ruba-project-cover@2x.jpg");
 }
 
 
@@ -89,7 +89,7 @@
 
 h2
 {
-  margin-bottom: 5rem;
+  margin-bottom: 4.5rem;
   font-family: 'Inter', sans-serif;
   font-size: 3.5rem;
   line-height: 3.7rem;
@@ -103,8 +103,13 @@ h2
 
 .p-hello{
  
-  font-size: 2rem;
-  line-height: 2.7rem;
+  font-size: 2.8rem;
+  line-height: 4rem;
+  font-family: 'Lora', serif;
+  color: #FFC26B;
+  -webkit-text-fill-color: #FFC26B;
+  font-weight: 500;
+
 }
 
 .p-intro{
@@ -180,6 +185,11 @@ h2
   border-radius: 20px;
 }
 
+.seperation-buttons
+{
+  margin-right: 1rem;
+}
+
 
 
 
@@ -229,13 +239,13 @@ h2
 }
 
 
-@media (max-width: 480px) 
+@media (max-width: 600px) 
 {
 
   .section-project-cover
   {
     background-position: center bottom;
-    background-size: 470px;
+    background-size: 600px;
     background-repeat: no-repeat;
     height: 39rem;
   }
@@ -254,6 +264,67 @@ h2
   {
     background-image: url("../img/projects/covers-mobile/blum-project-cover-mobile@2x.jpg");
   }
+
+  .conhector
+  {
+    background-image: url("../img/projects/covers-mobile/conhector-project-cover-mobile@2x.jpg");
+  }
+  
+  .caf
+  {
+    background-image: url("../img/projects/covers-mobile/caf-project-cover-mobile@2x.jpg");
+  }
+  
+  .desert
+  {
+    background-image: url("../img/projects/covers-mobile/desert-project-cover-mobile@2x.jpg");
+  }
+  
+  .dioses
+  {
+    background-image: url("../img/projects/covers-mobile/dioses-project-cover-mobile@2x.jpg");
+  }
+  
+  .chita
+  {
+    background-image: url("../img/projects/covers-mobile/chita-project-cover-mobile@2x.jpg");
+  }
+  
+  .flight-ninja
+  {
+    background-image: url("../img/projects/covers-mobile/filght-ninja-project-cover-mobile@2x.jpg");
+  }
+  
+  .jam
+  {
+    background-image: url("../img/projects/covers-mobile/jam-project-cover-mobile@2x.jpg");
+  }
+  
+  .fest
+  {
+    background-image: url("../img/projects/covers-mobile/fest-project-cover-mobile@2x.jpg");
+  }
+  
+  .input
+  {
+    background-image: url("../img/projects/covers-mobile/input-project-cover-mobile@2x.jpg");
+  }
+  
+  .juarez-limpio
+  {
+    background-image: url("../img/projects/covers-mobile/juarez-limpio-project-cover-mobile@2x.jpg");
+  }
+  
+  .phi
+  {
+    background-image: url("../img/projects/covers-mobile/phi-project-cover-mobile@2x.jpg");
+  }
+  
+  .ruba
+  {
+    background-image: url("../img/projects/covers-mobile/ruba-project-cover-mobile@2x.jpg");
+  }
+
 
   .container-text
   {
