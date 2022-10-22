@@ -231,29 +231,6 @@ h2
 
 @media (max-width: 480px) 
 {
-  .section-project-cover
-  {
-    background-position: center bottom;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    height: 32rem;
-  }
-
-  .binmatter
-  {
-    background-image: url("../img/projects/covers-mobile/binmatter-project-cover-mobile.jpg");
-  }
-
-  .diario
-  {
-    background-image: url("../img/projects/covers-mobile/diario-project-cover-mobile.jpg");
-  }
-
-  .blum
-  {
-    background-image: url("../img/projects/covers-mobile/blum-project-cover-mobile.jpg");
-  }
-
 
   .container-text
   {
