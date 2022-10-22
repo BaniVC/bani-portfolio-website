@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 51rem;
+  height: 51rem;
 }
 
 
@@ -231,6 +231,29 @@ h2
 
 @media (max-width: 480px) 
 {
+
+  .section-project-cover
+  {
+    background-position: center bottom;
+    background-size: 470px;
+    background-repeat: no-repeat;
+    height: 40rem;
+  }
+
+  .binmatter
+  {
+    background-image: url("../img/projects/covers-mobile/binmatter-project-cover-mobile@2x.jpg");
+  }
+
+  .diario
+  {
+    background-image: url("../img/projects/covers-mobile/diario-project-cover-mobile@2x.jpg");
+  }
+
+  .blum
+  {
+    background-image: url("../img/projects/covers-mobile/blum-project-cover-mobile@2x.jpg");
+  }
 
   .container-text
   {
