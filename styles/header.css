@@ -210,6 +210,11 @@
     padding-bottom: 1.8rem;
   }
 
+  .nav-links
+  {
+    padding: 3rem 3rem;
+  }
+
   .container-nav
   {
     padding-top: 2rem;
