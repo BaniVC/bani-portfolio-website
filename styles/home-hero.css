@@ -5,7 +5,7 @@
   background-color: #FFC97D;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
 }
 
 .container-hero-info
@@ -17,7 +17,7 @@
   margin: auto;
   width: min(90%,90rem);
 
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .list-flor
