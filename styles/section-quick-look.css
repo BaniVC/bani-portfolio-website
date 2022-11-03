@@ -233,13 +233,15 @@ h7
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
-}
 
-@media (max-width: 1050px)
-{
   .mask
   {
     overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .video
+  {
     border-radius: 10px;
   }
 }
