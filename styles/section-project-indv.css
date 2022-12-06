@@ -89,20 +89,35 @@
 
 .container-text
 {
-  margin: 10rem auto 10rem;
-  width: min(90%,51rem);
+  margin: 10rem auto 8rem;
+  width: min(90%,50rem);
+}
+
+.container-text2
+{
+  margin: 0rem auto 8rem;
+  width: min(90%,50rem);
 }
 
 h2
 {
-  margin-bottom: 4.5rem;
+  margin-bottom: .8rem;
   font-family: 'Inter', sans-serif;
   font-size: 3.5rem;
   line-height: 3.7rem;
 }
 
-.p-hello{
- 
+.p-skills
+{
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #543772;
+}
+
+.p-hello
+{
+  margin-top: 3rem;
   font-size: 2.4rem;
   line-height: 3rem;
   font-family: 'Lora', serif;
@@ -113,19 +128,38 @@ h2
   max-width: 40rem;
 }
 
-.p-intro{
+.p-hello2
+{
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-family: 'Lora', serif;
+  color: #FFC26B;
+  -webkit-text-fill-color: #FFC26B;
+  font-weight: 500;
+  text-align: center;
 
-  margin-top: 4rem;
-  font-size: 1.3rem;
+  max-width: 40rem;
+}
+
+.p-intro
+{
+  margin-top: 2rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 
-.ruba-list li
+.list li
 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   line-height: 1.7rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
+
+.list{
+  list-style-position: inside;
+  list-style-type: disc;}
+
+
 
 
 /* SECTION GRID */
@@ -139,11 +173,8 @@ h2
 .grid-project
 {
   border-bottom: solid #FF99C1 1px;
-  border-top: solid #FF99C1 1px;
-  background-color: #FFF0DB;
 
-  padding-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .grid-project-imgs
@@ -152,10 +183,11 @@ h2
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
 
-  margin-bottom: 12rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 
   margin-inline: auto;
-  width: min(90%,90rem);
+  width: min(90%,70rem);
 }
 
 .grid-span-2
@@ -331,7 +363,8 @@ h2
     background-image: url("../img/projects/covers-mobile/ruba-project-cover-mobile@2x.jpg");
   }
 
-  .container-text
+  .container-text,
+  .container-text2
   {
     margin-top: 6rem;
     margin-bottom: 6rem;

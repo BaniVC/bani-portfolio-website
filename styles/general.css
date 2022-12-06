@@ -8,7 +8,7 @@ p
 
 body {
   margin: 0;
-  background-color: #FFF2E0;
+  background-color: #fff3e2;
   font-family: 'Inter', sans-serif;
 }
 
@@ -35,6 +35,12 @@ h6
   font-weight: 600;
 }
 
+h2
+{
+  color: #543772;
+  font-size: 3.5rem;
+}
+
 h1
 {
   color: #FF99C1;
@@ -55,12 +61,6 @@ h4
   color: black;
   font-size: 1.2rem;
   line-height: 1.6rem;
-}
-
-h2
-{
-  color: #543772;
-  font-size: 3.5rem;
 }
 
 h5
