@@ -1,149 +1,96 @@
 .section-banner-quick-look
 {
   background-color:#FFCCE0;
-  background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-  background-position: right 50% bottom 7rem, bottom;
-  background-repeat: repeat-x, repeat-x;
-  background-size: 7rem, auto;
-}
+  background-image: url(../img/bg-banner-mockups.svg), url(../img/bg-banner-ql.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat, repeat-x;
+  background-size: auto, auto;
 
-.container-text-ql
-{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding-top: 10rem;
- 
   margin: auto;
   width: min(90%,90rem);
+  border-radius: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .text-question
 {
   color: #543772;
   -webkit-text-fill-color: #543772;
-  font-size: 3.6rem;
+  font-size: 3.5rem;
   font-family: 'Lora', serif;
-  margin-bottom: 2rem;
   font-weight: 600;
-
+  width: min(80%,40rem);
   text-align: center;
+  
+  padding-top: 2rem;
+  padding-bottom: .7rem;
+}
+
+.text-quick-look
+{
+  color: #543772;
+  -webkit-text-fill-color: #543772;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  width: min(80%,43rem);
+  text-align: center;
+}
+
+.banner-ql-img-container
+{
+  padding-top: 7.5rem;
 }
 
 .banner-ql-img
 {
   display: block;
-  width: 1000px;
-  margin-top: 4rem;
+  border-radius: 1.3rem;
+  height: 10rem;
+  filter: drop-shadow(3px 3px 10px rgb(337 100 80 / 0.3));
 }
 
-.banner-ql-img-mobile
+.button-padding
 {
-  display: none;
+  padding-top: 3rem;
+  padding-bottom: 9rem;
 }
 
-@media (max-width: 1020px) 
+@media (max-width: 680px) 
 {
-  .container-text-ql
-  {
-    padding-top: 9rem;
-  }
-  .section-banner-quick-look
-  {
-    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 3.8rem, bottom;
-    background-repeat: repeat-x, repeat-x;
-    background-size: 6.4rem, auto;
-  }
-  .banner-ql-img
-  {
-    display: block;
-    width: 700px;
-    margin-top: 5.5rem;
-  }
-
   .text-question
   {
-    font-size: 3.1rem;
+    font-size: 3rem;
+  }
+  .button-padding
+  {
+    padding-bottom: 6.5rem;
+  }
+
+  .banner-ql-img-container
+  {
+    padding-top: 6rem;
   }
 }
 
-@media (max-width: 740px) 
+@media (max-width: 480px) 
 {
-  .section-banner-quick-look
-  {
-    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 7rem, bottom;
-    background-repeat: repeat-x, repeat-x;
-    background-size: 6.4rem, auto;
-  }
-
-  .banner-ql-img
-  {
-    display: none;
-  }
-
-  .banner-ql-img-mobile
-  {
-    display: block;
-    width: 500px;
-    margin-top: 3rem;
-  }
-}
-
-@media (max-width: 540px) 
-{
-  .container-text-ql
-  {
-    padding-top: 7.2rem;
-  }
-
-  .section-banner-quick-look
-  {
-    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 5.6rem, bottom;
-    background-repeat: repeat-x, repeat-x;
-    background-size: 5rem, auto;
-  }
-
-  .banner-ql-img-mobile
-  {
-    display: block;
-    width: 400px;
-    margin-top: 4rem;
-  }
-
-  .text-question
-  {
-    font-size: 2.8rem;
-  }
-}
-
-@media (max-width: 435px) 
-{
-  .container-text-ql
-  {
-    padding-top: 6.7rem;
-  }
-
-  .section-banner-quick-look
-  {
-    background-image: url(../img/bg-banner-ql-flower.svg), url(../img/bg-banner-ql.jpg);
-    background-position: right 50% bottom 4.7rem, bottom;
-    background-repeat: repeat-x, repeat-x;
-    background-size: 6.5rem, auto;
-  }
-
-  .banner-ql-img-mobile
-  {
-    display: block;
-    width: 340px;
-    margin-top: 4rem;
-  }
-
   .text-question
   {
     font-size: 2.5rem;
+  }
+
+  .text-quick-look
+  {
+    width: min(90%,40rem);
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+
+  .text-question
+  {
+    width: min(90%,40rem);
   }
 }
