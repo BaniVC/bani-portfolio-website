@@ -148,6 +148,12 @@ h2
   line-height: 2rem;
 }
 
+.subtitle
+{
+  font-weight: 700;
+  color: #FF99C1;
+}
+
 .list li
 {
   margin-top: 1.5rem;
