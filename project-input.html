@@ -1,163 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/section-project-indv.css">
-    <link rel="stylesheet" href="styles/home-work-grid-projects.css">
-    <link rel="stylesheet" href="styles/titles-buttons.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/project-indv.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Input</title>
 
-    <title>Input</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <meta property="og:title" content="Bani | Portfolio"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
+  <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
+  <meta property="og:url" content="https://www.banicaro.com"/>
 
-    <meta property="og:title" content="Bani | Portfolio"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
-    <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
-    <meta property="og:url" content="https://www.banicaro.com"/>
+  <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+  <meta property="og:type" content='website'/>
 
-    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-    <meta property="og:type" content='website'/>
-
-  </head>
-
-
+</head>
 
 <body>
 
+  <!-- HEADER -->
+  
+  <header class="header-bg">
+    <div class="header-container">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+      </div>
 
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="playground.html">Playground</a></li>
+          <li><a href="CV_Bani Caro_English.pdf" target="_blank">CV</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  
+      <ul class="nav-links-mobile">
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
+      </ul>
+
+    </div>
+  </header>
 
   <main>
 
-    
-    <!-- SECTION PROJECT COVER -->
+    <!-- COVER -->
 
-    <section class="section-project-cover input" style="background-color: #CCEFFF">
-
-      <!-- HEADER -->
-
-      <header>
-        <nav class="container-nav padding-header-indv-projects">
-
-          <div>
-            <a href="index.html"><img class="logo" src="img/logo.svg"></a>
-            <a href="index.html"><img class="logo-mobile" src="img/logo-mobile.svg"></a>
-          </div>
-
-          <ul class="nav-links">
-            <li class="home-link-mobile">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="section-projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="section-quick-look.html">Quick look</a>
-            </li>
-            <li class="mobile-cv-button">
-              <a href="CV_Bani Caro_English.pdf">Full CV</a>
-            </li>
-
-            <li class="desktop-cv-button">
-              <a href="CV_Bani Caro_English.pdf" target="_blank">
-                <button class="button-full-cv">
-                  <div>Full CV</div>
-                  <img class="icon-arrow-header" src="img/arrow.svg">
-                </button>
-              </a>
-            </li>
-
-          </ul>
-
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-
-        </nav>
-      </header>
-
-    </section>
-
-
-
-    <!-- SECTION INTRO -->
-
-    <section>
-
-      <div class="container-text">
+    <section class="section-cover">
+      <div class="cover-title">
         <div>
-          <h2>Input</h2>
+          <h3>
+            Input
+          </h3>
         </div>
         <div>
-          <p class="p-skills">Visual identity + UI design + logo design + CRM + web design</p>
-        </div>
-
-        <div>
-          <p class="p-hello">Client</p>
-        </div>
-        <div>
-          <p class="p-intro">This was an internal project set to be released for sale as a product in Mexico. The target users were meant to be different types of businesses who seek a content managing tool. This CRM helps companies in a wide variety of information, including: leads, contacts, sales, inventory and much more.</p>
-        </div>
-
-        <div>
-          <p class="p-hello">My role</p>
-        </div>
-        <div>
-          <p class="p-intro">I was the sole designer for this project, with the task to design a brand that would encapsulate various products under the name.</p>
+          <h4>Visual identity + UI design + logo design + CRM + web design</h4>
         </div>
       </div>
 
+      <div>
+        <img class="cover-img" src="img/projects/covers/input-cover.jpg" alt="Input Cover">
+      </div>
     </section>
 
-    <!-- SECTION GRID -->
 
-    <section class="grid-project" style="border-top: solid #FF99C1 1px;">
+    <!-- GENERAL INFO -->
 
-      <div class="grid-project-imgs">
-        <div class="grid-span-2 video">
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/793986372?h=5d378c0fd4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
+    <section class="section-general-info">
+      <div>
+        <h5>Client</h5>
+        <h6><b>Binmatter.</b> Internal project set to be released for sale as a product in Mexico.</h6>
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Project overview</p>
-        </div>
-        <div>
-          <p class="p-intro">Input is a specialized CRM created for the easy management of businesses. Its made to cover a wide range of fields, including the administration of five main fields: contacts, sales, purchases, products and inventory.</p>
+      <div>
+        <h5>Role</h5>
+        <h6><b>Lead designer.</b> I was the sole designer for this project, with the task to design a brand that would encapsulate various products under the name.</h6>
+      </div>
 
-          <p class="p-intro">Aside from the main web app, the Input brand consists of additional systems that integrate into a business. This includes a POS software, a lead manager app and other features that are in the works.</p>
-        </div>
+      <div>
+        <h5>Year</h5>
+        <h6>2018 - 2022</h6>
+      </div>
 
-        <div>
-          <p class="p-hello">Problem</p>
-        </div>
-        <div>
-          <p class="p-intro">Businesses need an essential tool where they can manage all aspects of their operations. The lack of organization can cause companies to miss out on potential clients by not keeping track of leads, or lose a sale if an invoice isn’t sent on time.</p>
+      <div>
+        <h5>Company</h5>
+        <h6>Binmatter</h6>
+      </div>
+    </section>
 
-          <p class="p-intro">One of the larger problems is finding a smooth process to generate digital invoices (CFDIs) from existing quotes and receipts. It was essential for this to be a fundamental part to make the invoice process as straightforward as possible.</p>
-        </div>
+    <div class="line-section">
+      <div class="black-line1"></div>
+    </div>
 
-        <div>
-          <p class="p-hello">Goals</p>
-        </div>
 
+    <!-- VIDEO -->
+
+    <section class="video">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/793986372?h=5d378c0fd4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </section>
+
+
+    <!-- OVERVIEW -->
+
+    <section class="section-text main-section-seperation">
+      <div>
+        <h7>Project overview</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Input is a specialized CRM created for the easy management of businesses. Its made to cover a wide range of fields, including the administration of five main fields: contacts, sales, purchases, products and inventory.</p>
+        <p class="p-seperation">This was an internal project set to be released for sale as a product in Mexico. The target users were meant to be different types of businesses who seek a content managing tool. This CRM helps companies in a wide variety of information, including: leads, contacts, sales, inventory and much more.</p>
+        <p>Aside from the main web app, the Input brand consists of additional systems that integrate into a business. This includes a POS software, a lead manager app and other features that are in the works.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>Problem</h5>
+        <p class="p-seperation">Businesses need an essential tool where they can manage all aspects of their operations. The lack of organization can cause companies to miss out on potential clients by not keeping track of leads, or lose a sale if an invoice isn’t sent on time.</p>
+        <p>One of the larger problems is finding a smooth process to generate digital invoices (CFDIs) from existing quotes and receipts. It was essential for this to be a fundamental part to make the invoice process as straightforward as possible.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>Goals</h5>
         <ul class="list">
           <li>
             Design a CRM that is practical and easy to use. We sought out to develop a better administrative alternative, separating data into five main categories.
@@ -176,374 +165,270 @@
           </li>
         </ul>
       </div>
-
     </section>
 
-    <section class="grid-project">
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-      <div class="container-text2">
-        <div>
-          <h2>Logo<h2>
-        </div>
-        <div>
-          <p class="p-hello">Design process</p>
-        </div>
-        <div>
-          <p class="p-intro">The initial idea was to create something easily associated with a CMS; the goal was to make a business-friendly logo that would convey the brand's commitment to provide administrative tools.</p>
 
-          <p class="p-intro">For this reason, I decided to incorporate recognizable elements, composing of an arrow and a square to create a straightforward icon representing a web input.</p>
+    <!-- LOGO -->
 
-          <p class="p-intro">The colors were chosen to represent the various tasks Input can achieve; with a vibrant color palette, these cool tones work together to compose diverse illustrations and designs. Individual colors were picked to embody the distinct categories in which Input can be used.</p>
-        </div>
+    <section class="section-text">
+      <div>
+        <h7>Logo</h7>
       </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-01.jpg" alt="input-01">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-02.jpg" alt="input-02">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-03.jpg" alt="input-03">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-10.jpg" alt="input-10">
-        </div>
+      <div class="sub-section-seperation">
+        <h5>Design process</h5>
+        <p class="p-seperation">The initial idea was to create something easily associated with a CMS; the goal was to make a business-friendly logo that would convey the brand's commitment to provide administrative tools.</p>
+        <p class="p-seperation">For this reason, I decided to incorporate recognizable elements, composing of an arrow and a square to create a straightforward icon representing a web input.</p>
+        <p>The colors were chosen to represent the various tasks Input can achieve; with a vibrant color palette, these cool tones work together to compose diverse illustrations and designs. Individual colors were picked to embody the distinct categories in which Input can be used.</p>
       </div>
-
     </section>
 
-    <section class="grid-project">
-      
-      <div class="container-text2">
-        <div>
-          <h2>CMS<h2>
-        </div>
-        <div>
-          <p class="p-hello">Design process</p>
-        </div>
-        <div>
-          <p class="p-intro">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
-
-          <p class="p-intro">I set out to look at main competitors and saturate myself with data visualization. I started with two main components: the main side menu and the primary table layout where most information would be displayed. Some features include customization of columns, a wide variety of filters and extra options.</p>
-        </div>
-
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-01.jpg" alt="input-01">
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Refined mockups</p>
-        </div>
+      <div>
+        <img class="grid-img" src="img/projects/input/input-02.jpg" alt="input-02">
       </div>
 
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-04.jpg" alt="input-04">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-14.jpg" alt="input-14">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-15.jpg" alt="input-15">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-21.jpg" alt="input-21">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-22.jpg" alt="input-22">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-23.jpg" alt="input-23">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-24.jpg" alt="input-24">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-25.jpg" alt="input-25">
-        </div>
-
-        <div class="grid-span-2"> 
-          <img class="grid-img" src="img/projects/input/input-26.jpg" alt="input-26">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-27.jpg" alt="input-27">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-28.jpg" alt="input-28">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-31.jpg" alt="input-31">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-32.jpg" alt="input-32">
-        </div>
+      <div>
+        <img class="grid-img" src="img/projects/input/input-03.jpg" alt="input-03">
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Dashboard</p>
-        </div>
-        <div>
-          <p class="p-intro">My main purpose with the dashboard was to show the most important information right when the user logs in. Data is shown in card form, each one displaying information from the five main sections: contacts, sales, purchases, products and inventory.</p>
-        </div>
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-10.jpg" alt="input-10">
       </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-05.jpg" alt="input-05">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Setup wizard</p>
-        </div>
-        <div>
-          <p class="p-intro">A setup wizard is the first iteration of how users would set up the web app. It’s a step by step process that guides the user through the fundamentals of setup, including the method of payment. This was thought out to be on module basis, plus a monthly fee.</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-16.jpg" alt="input-16">
-        </div>
-      </div>
-
-    </section> 
-
-    <section class="grid-project">
-
-      <div class="container-text2">
-        <div>
-          <h2>Website</h2>
-        </div>
-        <div>
-          <p class="p-hello">Problem</p>
-        </div>
-        <div>
-          <p class="p-intro">This will be a future problem for when the product launches; a means of educating users on the benefits of Input, and how it can aid their business. Input would need to be achieved for users to sign up on a free trial basis, then be charged a monthly fee.</p>
-        </div>
-        <div>
-          <p class="p-hello">Solution</p>
-        </div>
-        <div>
-          <p class="p-intro">Releasing a beta version to users who sign up would be a component of my solution. This would build confidence in the public and provide testimonials showcasing growth. 
-          Going back to the website, information about prominent features are displayed on the landing page to grab attention quickly. A blog section was added to keep all updates in one place, and inform users of new features public. 
-          </p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-07.jpg" alt="input-07">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/input/input-072.jpg" alt="input-072">
-        </div>
-      </div>
-
     </section>
 
-    <section class="grid-project">
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-      <div class="container-text2">
-        <div>
-          <h2>Social media<h2>
-        </div>
-        <div>
-          <p class="p-intro">For social media, I designed initial posts and general elements to build up a brand board for future works. The emphasis is on communicating all the useful ways Input can be used, with additional creative tips on tech.</p>
-        </div>
+
+    <!-- CMS -->
+
+    <section class="section-text">
+      <div>
+        <h7>CMS</h7>
       </div>
-
-      <div class="grid-project-imgs">
-        <div>
-          <img class="grid-img" src="img/projects/input/input-08.jpg" alt="input-08">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-17.jpg" alt="input-17">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-19.jpg" alt="input-19">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-09.jpg" alt="input-09">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-20.jpg" alt="input-20">
-        </div>
-
-        <div>
-          <img class="grid-img" src="img/projects/input/input-18.jpg" alt="input-18">
-        </div>
-
-
+      <div class="sub-section-seperation">
+        <h5>Design process</h5>
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+        <p class="p-seperation">I set out to look at main competitors and saturate myself with data visualization. I started with two main components: the main side menu and the primary table layout where most information would be displayed. Some features include customization of columns, a wide variety of filters and extra options.</p>
       </div>
-
     </section>
 
-    <section class="grid-project">
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Conclusion</p>
-        </div>
-        <div>
-          <p class="p-intro">Unfortunately, I’m not with the company set to launch Input anymore. Initial user testing showed various scenarios. Examples include: handling different currencies (MXN and USD), two distinct versions of the dashboard, a redesign of the modules screen, etc.</p>
-        </div>
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-04.jpg" alt="input-04">
       </div>
 
+      <div>
+        <img class="grid-img" src="img/projects/input/input-14.jpg" alt="input-14">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-15.jpg" alt="input-15">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-21.jpg" alt="input-21">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-22.jpg" alt="input-22">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-23.jpg" alt="input-23">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-24.jpg" alt="input-24">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-25.jpg" alt="input-25">
+      </div>
+
+      <div class="grid-span-2"> 
+        <img class="grid-img" src="img/projects/input/input-26.jpg" alt="input-26">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-27.jpg" alt="input-27">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-28.jpg" alt="input-28">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-31.jpg" alt="input-31">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-32.jpg" alt="input-32">
+      </div>
     </section>
 
 
-    <!-- SECTION MORE PROJECTS -->
+    <!-- DASHBOARD -->
 
-    <section class="more-projects" >
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-      <div class="container-title-info">
+    <section class="section-text">
+      <div>
+        <h7>Dashboard</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p>My main purpose with the dashboard was to show the most important information right when the user logs in. Data is shown in card form, each one displaying information from the five main sections: contacts, sales, purchases, products and inventory.</p>
+      </div>
+    </section>
 
-        <div class="left-info">
-          <h1>More projects</h1>
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-05.jpg" alt="input-05">
+      </div>
+    </section>
+
+
+    <!-- WIZARD -->
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+    <section class="section-text">
+      <div>
+        <h7>Setup Wizard</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">A setup wizard is the first iteration of how users would set up the web app. It’s a step by step process that guides the user through the fundamentals of setup, including the method of payment. This was thought out to be on module basis, plus a monthly fee.</p>
+      </div>
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-16.jpg" alt="input-16">
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- WEBSITE -->
+
+    <section class="section-text">
+      <div>
+        <h7>Website</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <h5>Problem</h5>
+        <p class="p-seperation">This will be a future problem for when the product launches; a means of educating users on the benefits of Input, and how it can aid their business. Input would need to be achieved for users to sign up on a free trial basis, then be charged a monthly fee.</p>
+        <h5>Solution</h5>
+        <p class="p-seperation">Releasing a beta version to users who sign up would be a component of my solution. This would build confidence in the public and provide testimonials showcasing growth. Going back to the website, information about prominent features are displayed on the landing page to grab attention quickly. A blog section was added to keep all updates in one place, and inform users of new features public.</p>
+      </div>
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-07.jpg" alt="input-07">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/input/input-072.jpg" alt="input-072">
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- SOCIAL MEDIA -->
+
+    <section class="section-text">
+      <div>
+        <h7>Social media</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">For social media, I designed initial posts and general elements to build up a brand board for future works. The emphasis is on communicating all the useful ways Input can be used, with additional creative tips on tech.</p>
+      </div>
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div>
+        <img class="grid-img" src="img/projects/input/input-08.jpg" alt="input-08">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-17.jpg" alt="input-17">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-19.jpg" alt="input-19">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-09.jpg" alt="input-09">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-20.jpg" alt="input-20">
+      </div>
+
+      <div>
+        <img class="grid-img" src="img/projects/input/input-18.jpg" alt="input-18">
+      </div>
+    </section>
+
+    <div>
+      <div class="black-line3"></div>
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <section class="section-navigation">
+      <a href="project-jrz-limpio.html">
+        <div class="button-prev">
+          <img class="nav-arrow" src="img/arrow-left.svg" alt="Left Arrow">
+          <div class="hide">Previous</div>
         </div>
+      </a>
 
-        <div class="right-info buttons-disappear">
-          <a href="section-projects.html">
-            <button class="button-all-projects seperation-buttons">
-              <div>All projects</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-
-          <a href="projects.html">
-            <button class="button-all-projects">
-              <div>Quick look</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-        </div> 
-
-      </div>
-
-      <div class="grid-projects grid-projects-mobile">
-
-        <!-- Project -->
-
-        <a href="project-ruba.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-ruba.jpg" alt="Ruba Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Ruba App</h3>
-              <h4>UI design + mobile app</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-phi.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-phi.jpg" alt="Phi-1 Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Phi-1</h3>
-              <h4>UI design + web app + social media</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-flight-ninja.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-flight-ninja.jpg" alt="Flight Ninja Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Flight Ninja</h3>
-              <h4>UI design + CMS + web app</h4>
-            </div>
-          </div>
-        </a>
-
-      </div>
-
-
+      <a href="project-binmatter.html">
+        <div class="button-next">
+          <div class="hide">Next</div>
+          <img class="nav-arrow"  src="img/arrow-right.svg" alt="Right Arrow">
+        </div>
+      </a>
     </section>
-
-
-     <!-- BROWSE -->
-
-     <section class="section-browse">
-
-      <div class="container-browse">
-
-          <a href="section-projects.html">
-            <button class="button-browse">
-              <div class="browse-text">browse projects</div>
-              <img class="icon-arrow-browse" src="img/arrow-browse.svg">
-            </button>
-          </a>
-
-      </div>
-
-    </section>
-    
- 
-    <!-- FOOTER -->
-
-    <footer>
-
-      <div class="container-footer">
-
-          <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
-
-          <div class="container-socials">  
-            <a href="https://www.behance.net/banivct" target="_blank">
-              <img class="behance-img" src="img/behance.svg" alt="Behance Link">
-            </a>
-
-            <a href="https://www.linkedin.com/in/banivct" target="_blank">
-              <img class="linkedin-img" src="img/linkedin.svg" alt="Linkedin Link">
-            </a>
-          </div>
-            
-      </div>
-
-      <div class="container-email">
-        <p class="email">banivct@gmail.com</p>
-      </div>
-
-    </footer>
-
   </main>
+  
+
+  <!-- FOOTER -->
+
+  <footer class="spacing">
+    <div class="container-footer">
+      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+    </div>
+
+    <div class="container-socials">
+      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    </div>
+  </footer>
 
   <script src="header.js"></script>
 </body>

@@ -1,0 +1,308 @@
+/* MAIN TITLE */
+
+.project-header-main{
+  border-bottom: solid 1.5px black;
+  border-top: solid 1.5px black;
+}
+
+.project-header-container{
+  display: flex;
+  align-items: center;
+  height: 6.5rem;
+
+  margin-inline: auto;
+  width: min(90%,110rem);
+
+}
+
+.project-title{
+  display: flex;
+  align-items: center;
+  flex: 3;
+  height: 100%;
+  border-right: solid 1.5px black;
+  margin-right: 3rem;
+}
+
+.project-info1,
+.project-info2{
+  display: flex;
+  align-items: center;
+  flex: 12;
+  height: 100%;
+}
+
+.project-info2{
+  display: flex;
+  justify-content: end;
+}
+
+.text-info2{
+  text-align: right;
+}
+
+.text-info1,
+.text-info2{
+  width: min(96%,30rem);
+}
+
+
+/* INPUT */
+
+.input-thumb{
+  background-image: url(../img/thumbnails/input-thumb-bg.jpg);
+  background-color: white;
+}
+
+.input-thumb-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  margin-inline: auto;
+  width: min(90%,55rem);
+}
+
+.input-thumb-container > *{
+  flex-basis: 100%;
+}
+
+.input-logo{
+  display: flex;
+  justify-content: center;
+}
+
+.input-logo-img{
+  display: block;
+  width: 100%;
+  width: min(50%,19rem);
+}
+
+.input-mockup{
+  display: flex;
+  align-items: end;
+}
+
+.input-mockup-img{
+  display: block;
+  width: 100%;
+
+  border-radius: .7rem .7rem 0 0;
+  box-shadow: 0px 0px 40px rgba(4, 0, 115, 0.2);
+}
+
+.input-mockup-img-mobile{
+  display: none;
+}
+
+
+/* BINMATTER */
+
+.binmatter-thumb{
+  background-image: url(../img/thumbnails/binmatter-thumb-bg.jpg);
+  background-color: #0E0E0E;
+}
+
+.binmatter-logo-img{
+  display: block;
+  width: min(75%,26rem);
+}
+
+
+/* RUBA */
+
+.ruba-thumb{
+  background-image: url(../img/thumbnails/ruba-thumb-bg.png);
+  background-color: #901828;
+}
+
+.ruba-mockup-img{
+  display: block;
+  width: min(90%,55rem);
+}
+
+.ruba-mockup-img-mobile-1{
+  display: none;
+}
+
+
+/* PHI */
+
+.phi-thumb{
+  background-image: url(../img/thumbnails/phi-thumb-bg.jpg);
+  background-color: #9876ff;
+}
+
+.phi-mockup-img{
+  display: block;
+  width: min(90%,61rem);
+}
+
+.phi-mockup-img-mobile{
+  display: none;
+}
+
+
+/* DIARIO */
+
+.diario-thumb{
+  background-image: url(../img/thumbnails/diario-thumb-bg.jpg);
+  background-color: #9876ff;
+}
+
+.diario-mockup-img{
+  display: block;
+  width: min(90%,56rem);
+}
+
+.diario-mockup-img-mobile{
+  display: none;
+}
+
+
+/* MAIN TITLE */
+
+@media (max-width: 1200px){
+  .text-info1{
+    width: auto;
+  }
+
+  .text-info2{
+    display: none;
+  }
+  .project-info2{
+    display: none;
+  }
+}
+
+/* INPUT */
+
+@media (max-width: 880px){
+
+  .input-thumb{
+    background-image: url(../img/thumbnails/input-thumb-bg-mobile.jpg);
+  }
+
+  .input-thumb-container{
+    width: min(95%,55rem);
+  }
+
+  .input-thumb-container > *{
+    flex-basis: 33%;
+  }
+
+  .input-logo-img{
+    width: min(70%,19rem);
+  }
+
+  .input-mockup-img{
+    display: none;
+  }
+
+  .input-mockup{
+    align-items: center;
+  }
+  
+  .input-mockup-img-mobile{
+    display: block;
+    width: 100%;
+    border-radius: .7rem;
+    box-shadow: 0px 0px 40px rgba(4, 0, 115, 0.2);
+  }
+}
+
+@media (max-width: 650px){
+  .input-mockup-img-mobile{
+    display: none;
+  }
+
+  .input-mockup{
+    display: none;
+  }
+
+  .input-thumb-container > *{
+    flex-basis: 100%;
+  }
+
+  .input-logo-img{
+    width: min(80%,22rem);
+  }
+}
+
+
+/* RUBA */
+
+@media (max-width: 700px){
+  .ruba-thumb{
+    background-image: url(../img/thumbnails/ruba-thumb-bg-mobile.png);
+    background-color: #901828;
+  }
+
+  .ruba-mockup-img{
+    display: none;
+  }
+  
+  .ruba-mockup-img-mobile-1{
+    display: block;
+    width: min(85%,35rem);
+  }
+}
+
+
+/* PHI */
+
+@media (max-width: 920px){
+
+  .phi-mockup-img{
+    display: none;
+  }
+  
+  .phi-mockup-img-mobile{
+    border-radius: 10px;
+    display: block;
+    width: min(85%,55rem);
+  }
+}
+
+@media (max-width: 700px){
+
+  .phi-thumb{
+    background-image: url(../img/thumbnails/phi-thumb-bg-mobile.jpg);
+  }
+}
+
+
+/* DIARIO */
+
+@media (max-width: 770px){
+
+  .diario-mockup-img-mobile{
+    display: block;
+    width: min(98%,40rem);
+  }
+
+  .diario-mockup-img{
+    display: none;
+  }
+}
+
+
+/* LINES */
+
+@media (max-width: 370px){
+
+  .project-title{
+    border-right: solid 0px black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

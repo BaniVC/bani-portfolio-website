@@ -1,168 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/section-project-indv.css">
-    <link rel="stylesheet" href="styles/home-work-grid-projects.css">
-    <link rel="stylesheet" href="styles/titles-buttons.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/project-indv.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>El Diario de Juárez</title>
 
-    <title>El Diario de Juárez</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <meta property="og:title" content="Bani | Portfolio"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
+  <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
+  <meta property="og:url" content="https://www.banicaro.com"/>
 
-    <meta property="og:title" content="Bani | Portfolio"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
-    <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
-    <meta property="og:url" content="https://www.banicaro.com"/>
+  <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+  <meta property="og:type" content='website'/>
 
-    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-    <meta property="og:type" content='website'/>
-
-  </head>
-
-
+</head>
 
 <body>
 
+  <!-- HEADER -->
+  
+  <header class="header-bg">
+    <div class="header-container">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+      </div>
+
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="playground.html">Playground</a></li>
+          <li><a href="CV_Bani Caro_English.pdf" target="_blank">CV</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  
+      <ul class="nav-links-mobile">
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
+      </ul>
+
+    </div>
+  </header>
 
 
   <main>
 
+    <!-- COVER -->
 
-
-    <!-- SECTION PROJECT COVER -->
-
-    <section class="section-project-cover diario" style="background-color: #B5E3E1;">
-
-      <!-- HEADER -->
-
-      <header>
-        <nav class="container-nav padding-header-indv-projects">
-
-          <div>
-            <a href="index.html"><img class="logo" src="img/logo.svg"></a>
-            <a href="index.html"><img class="logo-mobile" src="img/logo-mobile.svg"></a>
-          </div>
-
-          <ul class="nav-links">
-            <li class="home-link-mobile">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="section-projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="section-quick-look.html">Quick look</a>
-            </li>
-            <li class="mobile-cv-button">
-              <a href="CV_Bani Caro_English.pdf">Full CV</a>
-            </li>
-
-            <li class="desktop-cv-button">
-              <a href="CV_Bani Caro_English.pdf" target="_blank">
-                <button class="button-full-cv">
-                  <div>Full CV</div>
-                  <img class="icon-arrow-header" src="img/arrow.svg">
-                </button>
-              </a>
-            </li>
-
-          </ul>
-
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-
-        </nav>
-      </header>
-
-    </section>
-
-
-
-    <!-- SECTION INTRO -->
-
-    <section>
-
-      <div class="container-text">
+    <section class="section-cover">
+      <div class="cover-title">
         <div>
-          <h2>El Diario de Juárez</h2>
-        </div>
-
-        <div>
-          <p class="p-skills">UI design + news website + re-design</p>
-        </div>
-
-        <div>
-          <p class="p-hello">Client</p>
-        </div>
-
-        <div>
-          <p class="p-intro">El Diario is a news organization in Juárez, Chihuahua. It started out as a newspaper in 1976 and later on, launched a news site.</p>
-        </div> 
-        
-        <div>
-          <p class="p-hello">My role</p>
+          <h3>
+            Diario de Juárez
+          </h3>
         </div>
         <div>
-          <p class="p-intro">Our team consisted of a webmaster, two developers and one designer. We were assigned to propose a redesign concept of the whole website.</p>
-
-          <p class="p-intro">I was employed at this local newspaper as the only graphic designer on the web team, meaning I designed everything to do with the digital edition at <a href="https://diario.mx/" style="text-decoration:underline;" target="_blank">www.diario.mx</a>.</p>
+          <h4>UI design + news website + re-design</h4>
         </div>
       </div>
 
+      <div>
+        <img class="cover-img" src="img/projects/covers/diario-cover.jpg" alt="Diario Cover">
+      </div>
     </section>
 
-    <!-- SECTION GRID -->
 
-    <section class="grid-project" style="border-top: solid #FF99C1 1px;">
+    <!-- GENERAL INFO -->
 
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-08.jpg" alt="diario-08">
-        </div>
+    <section class="section-general-info">
+      <div>
+        <h5>Client</h5>
+        <h6>El Diario de Juárez is a news organization in Juárez, Chihuahua. It started out as a newspaper in 1976 and later on, launched a news site.</h6>
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Project overview</p>
-        </div>
-        <div>
-          <p class="p-intro">My task was to redesign the entire existing website and come up with a better solution to showcase articles. This is one of the biggest projects I worked on earlier in my career.</p>
-        </div>
+      <div>
+        <h5>Role</h5>
+        <h6><b>Lead designer.</b> We were assigned to propose a redesign concept of the whole website.</h6>
+      </div>
 
-        <div>
-          <p class="p-hello">Problem</p>
-        </div>
-        <div>
-          <p class="p-intro">The website at the time was pretty basic, and we as a team wanted to take it in a new direction. Looking at the analytics and public comments on social media, the public mostly complained about the clunky design, and statistics showed people didn't stay long after reading one news story.</p>
+      <div>
+        <h5>Year</h5>
+        <h6>2017</h6>
+      </div>
 
-          <p class="p-intro">Another prominent problem was the amount of ads on the site (up to 12 ads in various sizes just on the landing page). This is something that could not be compromised on, and I always advised to reduce the amount. In this redesign, I needed to find a way to make the ads work with the layout.</p>
+      <div>
+        <h5>Company</h5>
+        <h6>El Diario de Juárez</h6>
+      </div>
+    </section>
 
-          <p class="p-intro">Finally, the most apparent problem was an outdated style. The site needed to be updated and brought into modern times.</p>
-        </div>
+    <div class="line-section">
+      <div class="black-line1"></div>
+    </div>
 
-        <div>
-          <p class="p-hello">Goals</p>
-        </div>
 
+    <!-- OVERVIEW -->
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-08.jpg" alt="diario-08">
+      </div>
+    </section>
+
+    <section class="section-text main-section-seperation">
+      <div>
+        <h7>Project overview</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">My task was to redesign the entire existing website and come up with a better solution to showcase articles. This is one of the biggest projects I worked on earlier in my career.</p>
+        <p class="p-seperation">Our team consisted of a webmaster, two developers and one designer. We were assigned to propose a redesign concept of the whole website. I was employed at this local newspaper as the only graphic designer on the web team, meaning I designed everything to do with the digital edition at <a href="https://diario.mx/" style="text-decoration:underline;" target="_blank">www.diario.mx</a>.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>Problem</h5>
+        <p class="p-seperation">The website at the time was pretty basic, and we as a team wanted to take it in a new direction. Looking at the analytics and public comments on social media, the public mostly complained about the clunky design, and statistics showed people didn't stay long after reading one news story.</p>
+        <p class="p-seperation">Another prominent problem was the amount of ads on the site (up to 12 ads in various sizes just on the landing page). This is something that could not be compromised on, and I always advised to reduce the amount. In this redesign, I needed to find a way to make the ads work with the layout.</p>
+        <p class="p-seperation">Finally, the most apparent problem was an outdated style. The site needed to be updated and brought into modern times.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>Goals</h5>
         <ul class="list">
           <li>
             Get visitors to stay longer; find better ways to drive attention to original stories and multimedia specials.
@@ -178,60 +162,108 @@
           </li>
         </ul>
       </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- LOGO -->
+
+    <section class="section-text">
+      <div>
+        <h7>Design process</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">I experimented with various types of grids that would allow for three different sizes of articles. I ended up with a twenty-two column grid, where headlines could be organized in different sizes following hierarchy. The middle column, comprising twelve smaller columns, would be where the most prominent and breaking stories would lay.</p>
+      </div>
+    </section>
+
+    <section class="section-text">
+      <div class="sub-section-seperation">
+        <h5>Main page</h5>
+        <p class="p-seperation">My initial challenge was designing the landing page and showing every article in an organized manner. Like I mentioned before, I was required to put as many headlines on this layout. I understand the intentions of our higher ups, but this would definitely saturate the experience. I tried my best to structure everything and keep ads to the side columns to not draw too much attention.</p>
+        <p class="p-seperation">After establishing the general direction and style, I experimented with wireframes to determine all other screens including: main sections, special sections (like multimedia, galleries, border crossing times and entertainment)</p>
+      </div>
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-01.jpg" alt="diario-01">
+      </div>
+
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-02.jpg" alt="diario-03">
+      </div>
+    </section>
+
+    <section class="section-text">
+      <div class="main-section-seperation">
+        <h5>Typography & color</h5>
+        <p class="p-seperation">The overall style that was decided on was clean, simple, and black and white. The brand green color would be used minimally for accent buttons and other elements.</p>
+        <p class="p-seperation">Typography played a huge role in my design. I remember I tested many headline and paragraph combinations. Two typographies were always the desired outcome. Merriweather and Roboto made an excellent combo, easy to read, and clean and precise.</p>
+      </div>
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-03.jpg" alt="diario-03">
+      </div>
+    </section>
+
+
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- CMS -->
+
+    <section class="section-text">
+      <div>
+        <h7>Subsections</h7>
+      </div>
+
+      <!--
+      <div class="sub-section-seperation">
+        <p class="p-seperation">An important experience we wanted to add was the gamification of sharing and engagement. Users can earn badges and medals by accumulating points; these are earned by any engagement like sharing, commenting, connecting, etc. Each user’s “level” is displayed on their profile and anywhere they comment. The more points someone has, the more reach that user has.</p>
+      </div>
+      -->
 
     </section>
 
-    <section class="grid-project">
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-01.jpg" alt="diario-01">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-02.jpg" alt="diario-03">
-        </div>
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-09.jpg" alt="diario-09">
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Design process</p>
-        </div>
-        <div>
-          <p class="p-intro">I experimented with various types of grids that would allow for three different sizes of articles. I ended up with a twenty-two column grid, where headlines could be organized in different sizes following hierarchy. The middle column, comprising twelve smaller columns, would be where the most prominent and breaking stories would lay.</p>
-
-          <p class="p-intro">The overall style that was decided on was clean, simple, and black and white. The brand green color would be used minimally for accent buttons and other elements.</p>
-
-          <p class="p-intro">Typography played a huge role in my design. I remember I tested many headline and paragraph combinations. Two typographies were always the desired outcome. Merriweather and Roboto made an excellent combo, easy to read, and clean and precise.</p>
-        </div>
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/diario/diario-06.jpg" alt="diario-06">
       </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-03.jpg" alt="diario-03">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-09.jpg" alt="diario-09">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/diario/diario-06.jpg" alt="diario-06">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-intro">My initial challenge was designing the landing page and showing every article in an organized manner. Like I mentioned before, I was required to put as many headlines on this layout. I understand the intentions of our higher ups, but this would definitely saturate the experience. I tried my best to structure everything and keep ads to the side columns to not draw too much attention.</p>
-
-          <p class="p-intro">After establishing the general direction and style, I experimented with wireframes to determine all other screens including: main sections, special sections (like multimedia, galleries, border crossing times and entertainment)</p>
-        </div>
-      </div>
-
     </section>
 
-    <section class="grid-project">
-      <div class="grid-project-imgs">
+
+    <!-- DASHBOARD -->
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+    <section class="section-text">
+      <div>
+        <h7>Special sections</h7>
+      </div>
+
+      <!-- 
+      <div class="sub-section-seperation">
+        <p>Articles are the main focus of this social network, so it was important to make a dedicated section for them. Here, the user can see articles catered to them, and at the same time, see all their favorite categories. Each article features a cover image, title, author and an external link to view it. We decided not to host full articles because of publishing issues. The idea was to centralize information and make it more discoverable.</p>
+      </div>
+      -->
+    </section>
+
+    <section class="content-grid main-section-seperation">
         <div class="grid-span-2">
           <img class="grid-img" src="img/projects/diario/diario-04.jpg" alt="diario-04">
         </div>
@@ -243,160 +275,63 @@
         <div class="grid-span-2">
           <img class="grid-img" src="img/projects/diario/diario-07.jpg" alt="diario-07">
         </div>
-      </div>
-    </section>
-
-    <section class="grid-project">
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Conclusion</p>
-        </div>
-        <div>
-          <p class="p-intro">The design phase was completed and was ready to go into development when a different approach was taken.</p>
-        </div>
-        <div>
-          <p class="p-hello">What I would do differently</p>
-        </div>
-        <div>
-          <p class="p-intro">I would have liked to advance to the testing phase and keep playing around with different layouts. It’s the most prominent news site in my home city, so seeing it live would have been amazing. Unfortunately, our team was dismantled before we got a chance to officially present our work.</p>
-        </div>
-      </div>
-
     </section>
 
 
-    <!-- SECTION MORE PROJECTS -->
+    <!-- WIZARD -->
 
-    <section class="more-projects">
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-      <div class="container-title-info">
-
-        <div class="left-info">
-          <h1>More projects</h1>
-        </div>
-
-        <div class="right-info buttons-disappear">
-          <a href="section-projects.html">
-            <button class="button-all-projects seperation-buttons">
-              <div>All projects</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-
-          <a href="section-quick-look.html">
-            <button class="button-all-projects">
-              <div>Quick look</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-        </div> 
-
+    <section class="section-text">
+      <div>
+        <h7>Conclusion</h7>
       </div>
-
-      <div class="grid-projects grid-projects-mobile">
-
-        <!-- Project -->
-
-        <a href="project-binmatter.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-binmatter.jpg" alt="Binmatter Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Binmatter</h3>
-              <h4>Visual identity + logo redesign + web design + social media</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-juarez-limpio.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-juarez-limpio.jpg" alt="Juarez Limpio Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Mi Juárez Limpio</h3>
-              <h4>Mobile app + UI Design + visual identity + logo design</h4>
-            </div>
-          </div>
-        </a>
-        
-        <!-- Project -->
-
-        <a href="project-dioses.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-dioses.jpg" alt="Dioses Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Dioses Mexicanos</h3>
-              <h4>Digital art</h4>
-            </div>
-          </div>
-        </a>
-
+      <div class="sub-section-seperation">
+        <p class="p-seperation">The design phase was completed and was ready to go into development when a different approach was taken.</p>
+        <p class="p-seperation">I would have liked to advance to the testing phase and keep playing around with different layouts. It’s the most prominent news site in my home city, so seeing it live would have been amazing. Unfortunately, our team was dismantled before we got a chance to officially present our work.</p>
       </div>
-
-
     </section>
 
 
-    <!-- BROWSE -->
+    <!-- NAVIGATION -->
 
-    <section class="section-browse">
+    <div>
+      <div class="black-line3"></div>
+    </div>
 
-      <div class="container-browse">
-
-        <div class="browse">
-          <a href="section-projects.html">
-            <button class="button-browse">
-              <div class="browse-text">browse projects</div>
-              <img class="icon-arrow-browse" src="img/arrow-browse.svg">
-            </button>
-          </a>
+    <section class="section-navigation">
+      <a href="project-phi.html">
+        <div class="button-prev">
+          <img class="nav-arrow" src="img/arrow-left.svg" alt="Left Arrow">
+          <div class="hide">Previous</div>
         </div>
+      </a>
 
-      </div>
-
+      <a href="project-ninja.html">
+        <div class="button-next">
+          <div class="hide">Next</div>
+          <img class="nav-arrow"  src="img/arrow-right.svg" alt="Right Arrow">
+        </div>
+      </a>
     </section>
-    
-
-    <!-- FOOTER -->
-
-    <footer>
-
-      <div class="container-footer">
-
-          <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
-
-          <div class="container-socials">  
-            <a href="https://www.behance.net/banivct" target="_blank">
-              <img class="behance-img" src="img/behance.svg" alt="Behance Link">
-            </a>
-
-            <a href="https://www.linkedin.com/in/banivct" target="_blank">
-              <img class="linkedin-img" src="img/linkedin.svg" alt="Linkedin Link">
-            </a>
-          </div>
-            
-      </div>
-
-      <div class="container-email">
-        <p class="email">banivct@gmail.com</p>
-      </div>
-
-    </footer>
-
   </main>
+  
+
+  <!-- FOOTER -->
+
+  <footer class="spacing">
+    <div class="container-footer">
+      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+    </div>
+
+    <div class="container-socials">
+      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    </div>
+  </footer>
 
   <script src="header.js"></script>
 </body>

@@ -1,475 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/section-project-indv.css">
-    <link rel="stylesheet" href="styles/home-work-grid-projects.css">
-    <link rel="stylesheet" href="styles/titles-buttons.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/project-indv.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Ruba</title>
 
-    <title>Ruba App</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <meta property="og:title" content="Bani | Portfolio"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
+  <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
+  <meta property="og:url" content="https://www.banicaro.com"/>
 
-    <meta property="og:title" content="Bani | Portfolio"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
-    <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
-    <meta property="og:url" content="https://www.banicaro.com"/>
+  <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+  <meta property="og:type" content='website'/>
 
-    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-    <meta property="og:type" content='website'/>
-
-  </head>
-
-
+</head>
 
 <body>
 
+  <!-- HEADER -->
+  
+  <header class="header-bg">
+    <div class="header-container">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+      </div>
+
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="playground.html">Playground</a></li>
+          <li><a href="CV_Bani Caro_English.pdf" target="_blank">CV</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  
+      <ul class="nav-links-mobile">
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
+      </ul>
+
+    </div>
+  </header>
 
 
   <main>
 
+    <!-- COVER -->
 
-    <!-- SECTION PROJECT COVER -->
-
-    <section class="section-project-cover ruba" style="background-color: #C32237">
-
-      <!-- HEADER -->
-
-      <header>
-        <nav class="container-nav padding-header-indv-projects">
-
-          <div>
-            <a href="index.html"><img class="logo" src="img/logo.svg"></a>
-            <a href="index.html"><img class="logo-mobile" src="img/logo-mobile.svg"></a>
-          </div>
-
-          <ul class="nav-links">
-            <li class="home-link-mobile">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="section-projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="section-quick-look.html">Quick look</a>
-            </li>
-            <li class="mobile-cv-button">
-              <a href="CV_Bani Caro_English.pdf">Full CV</a>
-            </li>
-
-            <li class="desktop-cv-button">
-              <a href="CV_Bani Caro_English.pdf" target="_blank">
-                <button class="button-full-cv">
-                  <div>Full CV</div>
-                  <img class="icon-arrow-header" src="img/arrow.svg">
-                </button>
-              </a>
-            </li>
-
-          </ul>
-
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-
-        </nav>
-      </header>
-
-    </section>
-
-
-    <!-- SECTION INTRO -->
-
-    <section>
-
-      <div class="container-text">
-
+    <section class="section-cover">
+      <div class="cover-title">
         <div>
-          <h2>Ruba App</h2>
-        </div>
-        
-        <div>
-          <p class="p-skills">UI design + mobile app</p>
-        </div>
-
-        <div>
-          <p class="p-hello">Client</p>
-        </div>
-
-        <div>
-          <p class="p-intro">Ruba is a national real estate development company here in Mexico. They specialize in the construction of homes in self-owned gated communities, where they also offer public spaces such as parks, gyms and pools.</p>
-        </div>  
-        
-        <div>
-          <p class="p-hello">My role</p>
+          <h3>
+            Ruba
+          </h3>
         </div>
         <div>
-          <p class="p-intro">I was the only designer on this project.</p>
+          <h4>UI design + mobile app</h4>
         </div>
       </div>
 
+      <div>
+        <img class="cover-img" src="img/projects/covers/ruba-cover.png" alt="Ruba Cover">
+      </div>
     </section>
 
-    <!-- SECTION GRID -->
 
-    <section class="grid-project" style="border-top: solid #FF99C1 1px;">
+    <!-- GENERAL INFO -->
 
-      <div class="grid-project-imgs">
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-01.jpg" alt="ruba-01">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-02.jpg" alt="ruba-02">
-        </div>
+    <section class="section-general-info">
+      <div>
+        <h5>Client</h5>
+        <h6>Ruba</h6>
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Project overview</p>
-        </div>
-        <div>
-          <p class="p-intro">Ruba wanted a mobile app primarily to launch off its rewards program that offers users money if a recommendation results in a home sale. The app also encapsulates various features targeted to help its homeowners communicate with neighbors and report any issues they may have with their house (included in the insurance).</p>
+      <div>
+        <h5>Company</h5>
+        <h6>Binmatter</h6>
+      </div>
 
-          <p class="p-intro">Ruba builds all of their homes, and they have various communities all over Mexico. This gives them the accessibility to manage types of home insurance and let its clients sign up for the rewards program. They saw an opportunity in seeing their own clients as a marketing tool, enticing them with up to 15,000 MXN if they recommended an acquaintance to the company.</p>
-        </div>
+      <div>
+        <h5>Year</h5>
+        <h6>2019</h6>
+      </div>
 
-        <div>
-          <p class="p-hello">Problem</p>
-        </div>
-        <div>
-          <p class="p-intro">The company's problem is a continuous one: selling more houses. They had already had internal meetings discussing a possible solution. Their desired solution was the creation of a rewards program. As mentioned previously, this would allow clients to win money in exchange for recommendations.</p>
+      <div>
+        <h5>Role</h5>
+        <h6><b>Lead designer.</b> I was the sole designer for this project.</h6>
+      </div>
+    </section>
 
-          <p class="p-intro">They came up with their proposed solution, we needed to come up with the method. We focused heavily on the rewards program, the problem was, how to make users actually want to use it. The marketing would be done by the company's design team; my job was to make that process as smooth as possible.</p>
-        </div>
+    <div class="line-section">
+      <div class="black-line1"></div>
+    </div>
 
-        <div>
-          <p class="p-hello">Goals</p>
-        </div>
 
+    <!-- OVERVIEW -->
+
+    <section class="section-text main-section-seperation">
+      <div>
+        <h7>Project overview</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Ruba is a national real estate development company here in Mexico. They specialize in the construction of homes in self-owned gated communities, where they also offer public spaces such as parks, gyms and pools.</p>
+        <p class="p-seperation">Ruba wanted a mobile app primarily to launch off its rewards program that offers users money if a recommendation results in a home sale. The app also encapsulates various features targeted to help its homeowners communicate with neighbors and report any issues they may have with their house (included in the insurance).</p>
+        <p>Ruba builds all of their homes, and they have various communities all over Mexico. This gives them the accessibility to manage types of home insurance and let its clients sign up for the rewards program. They saw an opportunity in seeing their own clients as a marketing tool, enticing them with up to 15,000 MXN if they recommended an acquaintance to the company.</p>
+      </div>
+    </section>
+
+    <!-- MOCKUPS -->
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-01.jpg" alt="ruba-01">
+      </div>
+    </section>
+
+    <section class="section-text main-section-seperation">
+      <div>
+        <h5>Problem</h5>
+        <p class="p-seperation">The company's problem is a continuous one: selling more houses. They had already had internal meetings discussing a possible solution. Their desired solution was the creation of a rewards program. As mentioned previously, this would allow clients to win money in exchange for recommendations.</p>
+        <p>They came up with their proposed solution, we needed to come up with the method. We focused heavily on the rewards program, the problem was, how to make users actually want to use it. The marketing would be done by the company's design team; my job was to make that process as smooth as possible.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>Goals</h5>
         <ul class="list">
           <li>
             Create a mobile app following the company’s branding, including colors and visuals elements.
           </li>
           <li>
-            Design a rewards system where users can win prizes by recommending people to buy a home.
+            Design a rewards system where users can win prizes by recommending people to buy a home
           </li>
           <li>
-            Help Ruba’s clients make claims reporting any problems or damages about their home. 
+            Help Ruba’s clients make claims reporting any problems or damages about their home.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- DESIGN PROCESS -->
+
+    <section class="section-text">
+      <div>
+        <h7>Design process</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <p class="p-seperation">I started this process by viewing Ruba’s website and getting a feel for their visual design. I wanted to make something that would fit right in with their other products. On my first meeting with the development team, we discussed the different types of users. An important thing to note is that all users would need to be registered to use the app.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>There would be three types of users:</h5>
+        <ul class="list">
+          <li>
+            Registered clients who are homeowners; this would be done automatically after providing an email to Ruba when completing the purchasing process of a home.
+          </li>
+          <li>
+            Registered clients who are not homeowners, but registered for the rewards program; these are people who don't have an association with Ruba, but want to recommend their peers to the company for the purchase of a home.
+          </li>
+          <li>
+            Registered clients who are homeowners and that registered for the rewards program.
           </li>
         </ul>
       </div>
 
+      <div class="sub-section-seperation">
+        <p>Many user flows were prototyped for this process. With feedback from other people on our team, we concluded on the refined mockups that includes a backend development for Ruba to register their own clients.</p>
+      </div>
+
+      <div class="sub-section-seperation">
+        <h5>The following mockups show various screens from the four main sections of the app:</h5>
+        <ul class="list">
+          <li>
+            House catalog allowing users to browse existing homes on the market.
+          </li>
+          <li>
+            Community section where users can get in touch with other existing members of their gated community by sharing articles and chatting.
+          </li>
+          <li>
+            Rewards program giving prizes to users who recommend their family members and friends for new homes that result in sales.
+          </li>
+          <li>
+            Claims system where homeowners can report incidents in their homes.
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="grid-project">
-      
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Design process</p>
-        </div>
-        <div>
-          <p class="p-intro">I started this process by viewing Ruba’s website and getting a feel for their visual design. I wanted to make something that would fit right in with their other products. On my first meeting with the development team, we discussed the different types of users. An important thing to note is that all users would need to be registered to use the app.</p>
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-02.jpg" alt="ruba-02">
+      </div>
+    </section>
 
-          <p class="p-intro" style="font-weight: 700;">There would be three types of users:</p>
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-          <ul class="list">
-            <li>
-              Registered clients who are homeowners; this would be done automatically after providing an email to Ruba when completing the purchasing process of a home.
-            </li>
-            <li>
-              Registered clients who are not homeowners, but registered for the rewards program; these are people who don't have an association with Ruba, but want to recommend their peers to the company for the purchase of a home. 
-            </li>
-            <li>
-              Registered clients who are homeowners and that registered for the rewards program.
-            </li>
-          </ul>
 
-          <p class="p-intro">Many user flows were prototyped for this process. With feedback from other people on our team, we concluded on the refined mockups that includes a backend development for Ruba to register their own clients.</p>
+    <!-- HOUSE CATALOG -->
 
-          <p class="p-intro" style="font-weight: 700;">The following mockups show various screens from the four main sections of the app: </p>
-
-          <ul class="list">
-            <li>
-              House catalog allowing users to browse existing homes on the market.
-            </li>
-            <li>
-              Community section where users can get in touch with other existing members of their gated community by sharing articles and chatting.
-            </li>
-            <li>
-              Rewards program giving prizes to users who recommend their family members and friends for new homes that result in sales.
-            </li>
-            <li>
-              Claims system where homeowners can report incidents in their homes.
-            </li>
-          </ul>
-        </div>
+    <section class="section-text">
+      <div>
+        <h7>House catalog</h7>
       </div>
 
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">House catalog</p>
-        </div>
+      <!--
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
       </div>
-
-
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-03.jpg" alt="ruba-03">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Creating community</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-04.jpg" alt="ruba-04">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Registering for rewards program</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-06.jpg" alt="ruba-06">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Recommending people</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-10.jpg" alt="ruba-10">
-        </div>
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-09.jpg" alt="ruba-09">
-        </div>
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Claims system</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-07.jpg" alt="ruba-07">
-        </div>
-
-      </div>
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Profile</p>
-        </div>
-      </div>
-
-      <div class="grid-project-imgs">
-
-
-        <div class="grid-span-2">
-          <img class="grid-img" src="img/projects/ruba/ruba-08.jpg" alt="ruba-08">
-        </div>
-      </div>
-
-    </section> 
-
-    <section class="grid-project">
-
-      <div class="container-text2">
-        <div>
-          <p class="p-hello">Conclusion</p>
-        </div>
-        <div>
-          <p class="p-intro">This was version number two of the app; the first version was done hastily to cover the client's deadline, so there was limited time for exploring options. There were also features that were designed, but were meant to be added later.</p>
-          
-          <p class="p-intro">
-          This second version was designed to make the app cleaner and more user-friendly. I would have loved to see this new version implemented; I believe it would increase usability and boost recommendations.</p>
-        </div>
-        <div>
-          <p class="p-hello">What I would do differently</p>
-        </div>
-        <div>
-          <p class="p-intro">Like many other projects, some user feedback and testing would have allowed me to explore more avenues, specially for the recommendation process. This section would have benefited from extra visual graphics and added gamification.</p>
-            
-
-        </div>
-      </div>
+      -->
 
     </section>
 
-
-
-
-
-
-    <!-- SECTION MORE PROJECTS -->
-
-    <section class="more-projects">
-
-      <div class="container-title-info">
-
-        <div class="left-info">
-          <h1>More projects</h1>
-        </div>
-
-        <div class="right-info buttons-disappear">
-          <a href="section-projects.html">
-            <button class="button-all-projects seperation-buttons">
-              <div>All projects</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-
-          <a href="section-quick-look.html">
-            <button class="button-all-projects">
-              <div>Quick look</div>
-              <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-            </button>
-          </a>
-        </div> 
-
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-03.jpg" alt="ruba-03">
       </div>
-
-      <div class="grid-projects grid-projects-mobile">
-
-        <!-- Project -->
-
-        <a href="project-phi.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-phi.jpg" alt="Phi-1 Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Phi-1</h3>
-              <h4>UI design + web app + social media</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-flight-ninja.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-flight-ninja.jpg" alt="Flight Ninja Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Flight Ninja</h3>
-              <h4>UI design + CMS + web app</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-diario.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-diario.jpg" alt="Diario Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">El Diario de Juárez</h3>
-              <h4>UI design + news website + re-design</h4>
-            </div>
-          </div>
-        </a>
-
-      </div>
-
-
     </section>
-    
 
-    <!-- BROWSE -->
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-    <section class="section-browse">
 
-      <div class="container-browse">
+    <!-- COMMUNITY -->
 
-        <div class="browse">
-          <a href="section-projects.html">
-            <button class="button-browse">
-              <div class="browse-text">browse projects</div>
-              <img class="icon-arrow-browse" src="img/arrow-browse.svg">
-            </button>
-          </a>
-        </div>
-
+    <section class="section-text">
+      <div>
+        <h7>Creating community</h7>
       </div>
+
+      <!-- 
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+      </div>
+      -->
 
     </section>
 
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-04.jpg" alt="ruba-04">
+      </div>
+    </section>
 
- 
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
 
-    <!-- FOOTER -->
 
-    <footer>
+    <!-- REWARDS -->
 
-      <div class="container-footer">
-
-          <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
-
-          <div class="container-socials">  
-            <a href="https://www.behance.net/banivct" target="_blank">
-              <img class="behance-img" src="img/behance.svg" alt="Behance Link">
-            </a>
-
-            <a href="https://www.linkedin.com/in/banivct" target="_blank">
-              <img class="linkedin-img" src="img/linkedin.svg" alt="Linkedin Link">
-            </a>
-          </div>
-            
+    <section class="section-text">
+      <div>
+        <h7>Rewards program</h7>
       </div>
 
-      <div class="container-email">
-        <p class="email">banivct@gmail.com</p>
+      <!-- HOUSE CATALOG 
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+      </div>
+      -->
+
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-06.jpg" alt="ruba-06">
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- REWARDS -->
+
+    <section class="section-text">
+      <div>
+        <h7>Recommending people</h7>
+      </div>
+      <!-- REWARDS 
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+      </div>
+      -->
+
+    </section>
+
+    <section class="content-grid main-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-10.jpg" alt="ruba-10">
       </div>
 
-    </footer>
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-09.jpg" alt="ruba-09">
+      </div>
+    </section>
 
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- REWARDS -->
+
+    <section class="section-text">
+      <div>
+        <h7>Claims system</h7>
+      </div>
+
+      <!-- REWARDS 
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+      </div>
+      -->
+
+    </section>
+
+    <section class="content-grid sub-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-07.jpg" alt="ruba-07">
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- PROFILE -->
+
+    <section class="section-text">
+      <div>
+        <h7>Profile</h7>
+      </div>
+      <!-- 
+      <div class="sub-section-seperation">
+        <p class="p-seperation">Without a doubt, my biggest challenge understanding the core process of how businesses make a sale. For big companies, it’s not as simple as receiving money and providing a product; it involves many user scenarios. To rephrase, our CRM’s main objective would be to adapt to all user encounters, no matter how big or small.</p>
+      </div>
+      -->
+    </section>
+
+    <section class="content-grid sub-section-seperation">
+      <div class="grid-span-2">
+        <img class="grid-img" src="img/projects/ruba/ruba-08.jpg" alt="ruba-08">
+      </div>
+    </section>
+
+    <div class="line-section">
+      <div class="black-line2"></div>
+    </div>
+
+
+    <!-- CONCLUSION -->
+
+    <section class="section-text">
+      <div>
+        <h7>Outcome</h7>
+      </div>
+      <div class="sub-section-seperation">
+        <h5>Conclusion</h5>
+        <p class="p-seperation">This was version number two of the app; the first version was done hastily to cover the client's deadline, so there was limited time for exploring options. There were also features that were designed, but were meant to be added later.</p>
+        <p class="p-seperation">This second version was designed to make the app cleaner and more user-friendly. I would have loved to see this new version implemented; I believe it would increase usability and boost recommendations.</p>
+        <h5 class="sub-section-seperation">What I would do differently</h5>
+        <p class="p-seperation">Like many other projects, some user feedback and testing would have allowed me to explore more avenues, specially for the recommendation process. This section would have benefited from extra visual graphics and added gamification.</p>
+      </div>
+    </section>
+
+
+    <!-- NAVIGATION -->
+
+    <div>
+      <div class="black-line3"></div>
+    </div>
+
+    <section class="section-navigation">
+      <a href="project-binmatter.html">
+        <div class="button-prev">
+          <img class="nav-arrow" src="img/arrow-left.svg" alt="Left Arrow">
+          <div class="hide">Previous</div>
+        </div>
+      </a>
+
+      <a href="project-phi.html">
+        <div class="button-next">
+          <div class="hide">Next</div>
+          <img class="nav-arrow"  src="img/arrow-right.svg" alt="Right Arrow">
+        </div>
+      </a>
+    </section>
   </main>
   
+
+  <!-- FOOTER -->
+
+  <footer class="spacing">
+    <div class="container-footer">
+      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+    </div>
+
+    <div class="container-socials">
+      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    </div>
+  </footer>
+
   <script src="header.js"></script>
 </body>
 </html>

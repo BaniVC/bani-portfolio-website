@@ -1,53 +1,63 @@
-footer
-{
-  background-color: #543772;
+footer{
+  border-top: solid 1.5px black;
+}
+
+.spacing{
+  margin-top: 10rem;
 }
 
 .container-footer
 {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  margin: auto;
-  width: min(90%,70rem);
-
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .footer-logo
 {
-  width: 15rem;
-  margin-bottom: 6rem;
+  display: block;
+  width: 4.2rem;
 }
 
-.behance-img
-{
-  height: 2rem;
-}
-
-.linkedin-img
-{
-  height: 2.5rem;
-  margin-left: 1.7rem;
-}
-
-.container-email
+.container-socials
 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
-  background-color: #66458a;
-  height: 2.5rem;
+  border-top: solid 1.5px black;
+  height: 3rem;
   padding-bottom: .2rem;
+  
+  margin-inline: auto;
+  width: min(95%,110rem);
 }
 
-.email
+.social
 {
-  color: #FF99C1;
-  font-size: 1.2rem;
-  font-weight: 700;
+  color: black;
+  font-size: 1.1rem;
+  width: 100%;
 
+  display: flex;
+}
+
+.social:hover{
+  color: #FFB8D4;
+  text-decoration: underline;
+}
+
+.left{
+  justify-content: left;
+}
+
+.middle{
+  justify-content: center;
+}
+
+.right{
+  justify-content: right;
 }

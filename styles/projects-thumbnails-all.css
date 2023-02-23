@@ -1,0 +1,79 @@
+/* THUMBNAIL BACKGROUDS */
+
+.bg-all-thumbs{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 700px;
+}
+
+.thumb-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+/* PINK HOVER EFFECT */
+
+.hover-effect-title{
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+}
+
+.hover-effect-title:hover{
+  background-color: #FFB8D4;
+}
+
+
+/* THUMBNAIL SCALE HOVER EFFECT */
+
+.hover-effect-thumb{
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+}
+
+.hover-effect-thumb:hover{
+  transform: scale(1.06);
+  transition: 0.2s ease-in-out;
+}
+
+.mask{
+  overflow: hidden;
+}
+
+
+/* THUMBNAIL BACKGROUDS */
+
+@media (max-width: 650px){
+  .bg-all-thumbs{
+    height: 600px;
+  }
+}
+
+@media (max-width: 560px){
+  .bg-all-thumbs{
+    height: 500px;
+  }
+}
+
+
+/* MAIN TITLEs */
+
+@media (max-width: 600px){
+  .project-info1{
+    display: none;
+  }
+
+  .card-text-info{
+    display: none;
+  }
+
+  .text-info1{
+    display: none;
+  }
+}
+
+

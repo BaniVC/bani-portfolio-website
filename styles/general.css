@@ -1,100 +1,88 @@
-p
-{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* add padding to body to create space from edges */
-
-body {
-  margin: 0;
-  background-color: #fff3e2;
-  font-family: 'Inter', sans-serif;
-}
-
-ul
-{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
-{
-  margin: 0;
+html, body, div,
+span, iframe, p,
+h1, h2, h3, h4, h5, h6, h7, h8,
+a, img, ol, ul, li,
+table, menu, nav, video{
+	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  font-weight: 600;
 }
 
-h2
-{
-  color: #543772;
-  font-size: 3.5rem;
-}
-
-h1
-{
-  color: #FF99C1;
-  -webkit-text-fill-color: #FF99C1;
-  font-size: 3.6rem;
-  font-family: 'Lora', serif;
-}
-
-h3
-{
-  font-size: 2rem;
-  color: #FF99C1;
-}
-
-h4
-{
+body{
+  background-color: #EBEEEF;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  color: black;
+}
+
+
+p{
   font-size: 1.2rem;
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 
-h5
-{
-  color: #FFC97D;
-  -webkit-text-fill-color: #FFC97D;
-  font-size: 2.6rem;
-  margin-top: 2.3rem;
-  font-family: 'Lora', serif;
+.p-seperation{
+  margin-bottom: 2rem;
 }
 
-h6
-{
-  font-size: 1.5rem;
-  color: #FF80B1;
-  -webkit-text-fill-color: #FF80B1;
-  margin-top: .5rem;
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-a
-{
+a{
   all: unset;
   cursor: pointer;
 }
 
-button
-{
+button{
   cursor: pointer;
 }
 
+h1{
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-top: -.2rem;
+  margin-right: 3rem;
+  line-height: 1.9rem;
+  white-space: nowrap;
+}
 
+h2{
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
 
+h3{
+  font-family: 'Lora', serif;
+  font-size: 6rem;
+  line-height: 6rem;
+}
 
+h4{
+  font-size: 1.5rem;
+  text-align: right;
+  line-height: 2rem;
+  margin-bottom: -15px;
+}
 
+h5{
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
 
+h6{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 
-
+h7{
+  font-family: 'Lora', serif;
+  font-size: 4rem;
+  color: #FFB8D4;
+}

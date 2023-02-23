@@ -1,585 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/home-hero.css">
-    <link rel="stylesheet" href="styles/home-intro.css">
-    <link rel="stylesheet" href="styles/home-about.css">
-    <link rel="stylesheet" href="styles/home-work-grid-projects.css">
-    <link rel="stylesheet" href="styles/home-quick-look.css">
-    <link rel="stylesheet" href="styles/titles-buttons.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/projects-thumbnails-all.css">
+  <link rel="stylesheet" href="styles/projects-featured.css">
+  <link rel="stylesheet" href="styles/projects-other.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Bani | Portfolio</title>
 
-    <title>Bani | Portfolio</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <meta property="og:title" content="Bani | Portfolio"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
+  <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
+  <meta property="og:url" content="https://www.banicaro.com"/>
 
-    <meta property="og:title" content="Bani | Portfolio"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/BaniVC/bani-portfolio-website/main/img/thumbnail.png"/>
-    <meta property="og:description" content="I'm Bani, a graphic designer. Check out my work!"/>
-    <meta property="og:url" content="https://www.banicaro.com"/>
+  <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+  <meta property="og:type" content='website'/>
 
-    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-    <meta property="og:type" content='website'/>
-
-  </head>
-
-
+</head>
 
 <body>
+
+  <!-- HEADER -->
+
+  <header class="header-bg">
+    <div class="header-container">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+      </div>
+
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="playground.html">Playground</a></li>
+          <li><a href="CV_Bani Caro_English.pdf" target="_blank">CV</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  
+      <ul class="nav-links-mobile">
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
+      </ul>
+
+    </div>
+  </header>
+
 
 
 
   <main>
 
+    <!-- HERO SECTION -->
+
     <section class="section-hero">
 
-      <!-- HEADER -->
+      <div>
+        <img class="hero-profile-picture" src="img/hero/profile-picture.png" alt="Bani Profile Picture">
+        <img class="hero-profile-picture-mobile" src="img/hero/profile-picture-mobile.png" alt="Bani Profile Picture">
+      </div>
 
-      <header>
-        <nav class="container-nav">
+      <div>
+        <p class="hero-title">
+          Hi, I'm Bani <span class="hero-caro">Caro</span>
+        </p>
+      </div>
 
-          <div>
-            <a href="index.html"><img class="logo" src="img/logo.svg"></a>
-            <a href="index.html"><img class="logo-mobile" src="img/logo-mobile.svg"></a>
-          </div>
+      <div>
+        <p class="hero-intro">
+          I’m a digital designer who enjoys spending time creating all types of lovely graphics; recently, I’ve been passionate about UI design and motion graphics.  
+        </p>
+      </div>
 
-          <ul class="nav-links">
-            <li class="home-link-mobile">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="section-projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="section-quick-look.html">Quick look</a>
-            </li>
-            <li class="mobile-cv-button">
-              <a href="CV_Bani Caro_English.pdf">Full CV</a>
-            </li>
-
-            <li class="desktop-cv-button">
-              <a href="CV_Bani Caro_English.pdf" target="_blank">
-                <button class="button-full-cv">
-                  <div>Full CV</div>
-                  <img class="icon-arrow-header" src="img/arrow.svg">
-                </button>
-              </a>
-            </li>
-          </ul>
-
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-
-        </nav>
-      </header>
-
-
-      <!-- SECTION HERO -->
-
-      <div class="container-hero-info">
-
-        <ul class="list-hero-info">
-          <li><img class="list-flor" src="img/hero-list-flor.svg">Graphic design</li>
-          <li><img class="list-flor" src="img/hero-list-flor.svg">UI Design</li>
-          <li><img class="list-flor" src="img/hero-list-flor.svg">Motion graphics</li>
-          <li class="accent-info">Check out my <a href="section-projects.html"><u>work</u></a> :)</li>
-          <li class="accent-info-mobile">Check out my<br><a href="section-projects.html"><u>work</u></a> :)</li>
-        </ul>
-
-        <ul class="list-hero-info-mobile">
-          <li>Graphic design</li>
-          <li>UI Design</li>
-          <li>Motion graphics</li>
-          <li class="accent-info">Check out my <a href="section-projects.html"><u>work</u></a> :)</li>
-          <li class="accent-info-mobile">Check out my<br><a href="section-projects.html"><u>work</u></a> :)</li>
-        </ul>
-
-        <div>
-          <img class="img-profile" src="img/hero-profile-img.png" alt="Bani Profile Picture">
-          <img class="img-profile-mobile" src="img/hero-profile-img-mobile.png" alt="Bani Profile Picture Mobile">
-        </div>
+      <div>
+        <img src="img/hero/arrow.svg" alt="Arrow">
       </div>
 
     </section>
 
 
-    <!-- SECTION INTRO -->
 
+    <!-- FEATURED PROJECTS SECTION -->
 
-    <section class="section-intro">
+    <section>
 
-      <div class="container-text">
-        <div>
-          <p class="p-hello">Hello!</p>
-          <p class="p-im">I'm Bani, a graphic designer with 9 years of experience.</p>
+      <!-- INPUT -->
+
+      <a href="project-input.html">
+        <div class="hover-effect-title">
+
+          <div class="project-header-main">
+            <div class="project-header-container">
+              <div class="project-title">
+                <h1>Input</h1>
+              </div>
+              <div class="project-info1">
+                <h2 class="text-info1">Visual identity + UI design + logo design + CRM + web design</h2>
+              </div>
+              <div class="project-info2">
+                <h2 class="text-info2">Specialized CRM created for the easy management of businesses.</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="mask">
+            <div class="input-thumb bg-all-thumbs hover-effect-thumb">
+              <div class="input-thumb-container">
+                <div class="input-logo">
+                  <img class="input-logo-img" src="img/thumbnails/input-logo.svg" alt="Input Logo">
+                </div>
+                <div class="input-mockup">
+                  <img class="input-mockup-img" src="img/thumbnails/input-mockup.jpg" alt="Input Mockup">
+                  <img class="input-mockup-img-mobile" src="img/thumbnails/input-mockup-mobile.jpg" alt="Input Mockup Mobile">
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div>
-          <p class="p-intro">I discovered my love for designing in my teens, creating colorful wallpapers and editing videos for fun, so it wasn't a surprise when I decided to immerse myself in this field. I always focused my interests on web and UI design, and gradually gained expirience and love for creating all types of UIs.</p>
+      </a>
 
-          <p class="p-intro">This is my first website ever, so apologies if some things look off. I started learning HTML and CSS a few months ago and I'm still in that process. Thank you for visiting! :)</p>
-        </div>           
-      </div>
+      <!-- BINMATTER -->
 
-    </section>
+      <a href="project-binmatter.html">
+        <div class="hover-effect-title">
 
+          <div class="project-header-main">
+            <div class="project-header-container">
+              <div class="project-title">
+                <h1>Binmatter</h1>
+              </div>
+              <div class="project-info1">
+                <h2 class="text-info1">Visual identity + logo redesign + web design + social media</h2>
+              </div>
+              <div class="project-info2">
+                <h2 class="text-info2">A fresh new look of this company's branding; a full redesign to give this tech company a fresh start.</h2>
+              </div>
+            </div>
+          </div>
 
-    <!-- SECTION WORK -->
+          <div class="mask">
+            <div class="binmatter-thumb bg-all-thumbs hover-effect-thumb">
+              <div class="thumb-container">
+                <img class="binmatter-logo-img" src="img/thumbnails/binmatter-logo.png" alt="Binmatter Logo">
+              </div>
+            </div>
+          </div>
 
-
-    <section class="home-section-work">
-
-      <!-- Title and view projects button -->
-     
-      <div class="container-title-info">
-
-        <div class="left-info">
-          <h1>Projects</h1>
         </div>
+      </a>
 
-        <div class="right-info buttons-disappear">
+      <!-- RUBA -->
 
-          <a href="section-projects.html">
-          <button class="button-all-projects">
-            <div>All projects</div>
-            <img class="icon-arrow" src="img/arrow.svg" alt="arrow">
-          </button>
-          </a>
-        </div> 
+      <a href="project-ruba.html">
+        <div class="hover-effect-title">
 
+          <div class="project-header-main">
+            <div class="project-header-container">
+              <div class="project-title">
+                <h1>Ruba</h1>
+              </div>
+              <div class="project-info1">
+                <h2 class="text-info1">UI design + mobile app</h2>
+              </div>
+              <div class="project-info2">
+                <h2 class="text-info2">Company focused on applications and the development of video games.
+                </h2>
+              </div>
+            </div>
+          </div>
 
-      </div>
-     
+          <div class="mask">
+            <div class="ruba-thumb bg-all-thumbs hover-effect-thumb">
+              <div class="thumb-container">
+                <img class="ruba-mockup-img" src="img/thumbnails/ruba-mockups.png" alt="Ruba Mockup">
+                <img class="ruba-mockup-img-mobile-1" src="img/thumbnails/ruba-mockups-mobile-1.png" alt="Ruba Mockup">
+              </div>
+            </div>
+          </div>
 
-      <!-- GRID PROJECTS -->
+        </div>
+      </a>
 
-      <div class="grid-projects">
+      <!-- PHI -->
+
+      <a href="project-phi.html">
+        <div class="hover-effect-title">
+
+          <div class="project-header-main">
+            <div class="project-header-container">
+              <div class="project-title">
+                <h1>Ph1-1</h1>
+              </div>
+              <div class="project-info1">
+                <h2 class="text-info1">UI design + web app + social media</h2>
+              </div>
+              <div class="project-info2">
+                <h2 class="text-info2">A fresh new look of this company's branding; a full redesign to give this tech company a fresh start.</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="mask">
+            <div class="phi-thumb bg-all-thumbs hover-effect-thumb">
+              <div class="thumb-container">
+                <img class="phi-mockup-img" src="img/thumbnails/phi-mockup.png" alt="Phi-1 Mockup">
+                <img class="phi-mockup-img-mobile" src="img/thumbnails/phi-mockup-mobile.jpg" alt="Phi-1 Mockup">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </a>
         
+      <!-- DIARIO -->
 
-        <!-- Project -->
+      <a href="project-diario.html">
+        <div class="hover-effect-title">
 
-        <a href="project-input.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-input.jpg" alt="Input Project Thumbnail">
+          <div class="project-header-main">
+            <div class="project-header-container">
+              <div class="project-title">
+                <h1>Diario de Juárez</h1>
+              </div>
+              <div class="project-info1">
+                <h2 class="text-info1">UI design + news website + re-design</h2>
+              </div>
+              <div class="project-info2">
+                <h2 class="text-info2">A fresh new look of this company's branding; a full redesign to give this tech company a fresh start.</h2>
               </div>
             </div>
-            <div>
-              <h3 class="title-featured-project">Input</h3>
-              <h4>Visual identity + UI design + logo design + CRM + web design</h4>
-            </div>
           </div>
-        </a>
 
-        <!-- Project -->
-
-        <a href="project-ruba.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-ruba.jpg" alt="Ruba Project Thumbnail">
+          <div class="mask">
+            <div class="diario-thumb bg-all-thumbs hover-effect-thumb">
+              <div class="thumb-container">
+                <img class="diario-mockup-img" src="img/thumbnails/diario-mockup.png" alt="Diario Mockup">
+                <img class="diario-mockup-img-mobile" src="img/thumbnails/diario-mockup-mobile.png" alt="Diario Mockup">
               </div>
             </div>
-            <div>
-              <h3 class="title-featured-project">Ruba App</h3>
-              <h4>UI design + mobile app</h4>
-            </div>
           </div>
-        </a>
-  
-        <!-- Project -->
-
-        <a href="project-phi.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-phi.jpg" alt="Phi-1 Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Phi-1</h3>
-              <h4>UI design + web app + social media</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-flight-ninja.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-flight-ninja.jpg" alt="Flight Ninja Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Flight Ninja</h3>
-              <h4>UI design + CMS + web app</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-diario.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-diario.jpg" alt="Diario Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">El Diario de Juárez</h3>
-              <h4>UI design + news website + re-design</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project -->
-
-        <a href="project-binmatter.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-binmatter.jpg" alt="Binmatter Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Binmatter</h3>
-              <h4>Visual identity + logo redesign + web design + social media</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project J-LIMPIO -->
-
-        <a href="project-juarez-limpio.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-juarez-limpio.jpg" alt="Juarez Limpio Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Mi Juárez Limpio</h3>
-              <h4>Mobile app + UI Design + visual identity + logo design</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project DESERT -->
-
-        <a href="project-desert.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-desert.jpg" alt="Innovation Desert Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Innovation Desert</h3>
-              <h4>Visual identity + logo design + web design</h4>
-            </div>
-          </div>
-        </a>
-
-        <!-- Project INDIESFEST19 -->
-
-        <a href="project-indies19.html">
-          <div class="container-more-projects">
-            <div class="container-zoom">
-              <div class="mask">
-                <img class="img-project-thumbnail" src="img/thumbnails/thumb-fest19.jpg" alt="Fest19 Project Thumbnail">
-              </div>
-            </div>
-            <div>
-              <h3 class="title-featured-project">Festival IndiesMX</h3>
-              <h4>Visual identity + web design + social media + motion graphics</h4>
-            </div>
-          </div>
-        </a>
-
-      </div>
+        
+        </div>
+      </a>
 
     </section>
 
 
-    <!-- SECTION BANNER QUICK LOOK  -->
-
-    <section class="section-banner-quick-look">
-
-      <div class="banner-ql-img-container">
-        <img class="banner-ql-img" src="img/banner-quick-look-img.svg">
-      </div> 
 
 
-      <div class="text-question">
-        <p>Quick look at my work</p>
-      </div> 
+    <!-- MORE PROJECTS -->
 
-      <div class="text-quick-look">
-        <p>Take a quick look at some refined mockups from different projects; You will see a variety of designs including UI design, web design, branding and much more.</p>
-      </div> 
+    <section>
 
-      <div class="button-padding">
-        <a href="section-quick-look.html">
-          <button class="button-full-cv">
-            <div>View</div>
-            <img class="icon-arrow" src="img/arrow.svg">
-          </button>
+      <div class="projects-cards-row-container">
+
+        <!-- FLIGHT NINJA -->
+
+        <a href="project-ninja.html">
+          <div class="right-line hover-effect-title">
+
+            <div class="lines-top-bottom">
+              <div class="card-title">
+                <div class="card-main-title">
+                  <h1>Flight Ninja</h1>
+                </div>
+
+                <h2 class="card-text-info">UI design + CMS + web app</h2>
+              </div>
+            </div>
+
+            <div class="mask">
+              <div class="ninja-thumb bg-all-thumbs hover-effect-thumb">
+                <div class="thumb-container">
+                  <img class="ninja-mockup-img" src="img/thumbnails/ninja-mockup.png" alt="Flight Ninja Mockup">
+                  <img class="ninja-mockup-img-mobile" src="img/thumbnails/ninja-mockup-mobile.png" alt="Flight Ninja Mockup">   
+                </div>   
+              </div>
+            </div>
+
+          </div>
         </a>
-      </div>
 
+        <!-- INDIES FEST -->
 
-    </section>
+        <a href="project-fest.html">
+          <div class="hover-effect-title">
 
+            <div class="lines-top-bottom">
+              <div class="card-title">
+                <div class="card-main-title">
+                  <h1>Indiest Fest</h1>
+                </div>
+                <h2 class="card-text-info">Visual identity + web design + social media + motion graphics</h2>
+              </div>
+            </div>
 
-    <!-- SECTION ABOUT ME -->
+            <div class="mask">
+              <div class="fest-thumb bg-all-thumbs hover-effect-thumb">
+                <div class="thumb-container-fest">
+                  <img class="fest-sides" src="img/thumbnails/fest-top.png" alt="Top">
+                  <img class="fest-logo-img" src="img/thumbnails/fest-logo.png" alt="Indiest Fest Logo"> 
+                  <img class="fest-sides" src="img/thumbnails/fest-bottom.png" alt="Bottom"> 
+                </div>
+              </div>
+            </div>
 
-
-    <section class="section-about">
-
-
-      <div class="container-title-info">
-
-        <div class="left-info">
-          <h1>About me</h1>
-        </div>
-
-        <div class="right-info button-disappear-about-me">
-          
-          <a href="CV_Bani Caro_English.pdf" target="_blank">
-          <button class="button-all-projects">
-            <div>Full CV</div>
-            <img class="icon-arrow" src="img/arrow.svg">
-          </button>
-          </a>
-
-        </div> 
-
-      </div>
-
-      
-
-      <!-- SKILLS -->
-
-      <div class="container-about-category">
-
-        <div class="column-title">
-          <h5>Main Skills</h5>
-        </div>
-
-        <div class="column-info">
-          <div class="info-box">
-           <ul class="list-skills">
-            <li>UI design</li>
-            <li class="list-margin-top">Web design</li>
-            <li class="accent-skill">HTML/CSS beginner</li>
-           </ul>
           </div>
-        </div>
+        </a>
 
-        <div class="column-info">
-          <div class="info-box">
-            <ul class="list-skills">
-              <li>Visual identity</li>
-              <li class="list-margin-top">Motion graphics</li>
-            </ul>
-          </div>
-        </div>
+        <!-- JUAREZ LIMPIO -->
 
-      </div>
+        <a href="project-jrz-limpio.html">
+          <div class="right-line hover-effect-title">
 
-      <!-- EXPERIENCE -->
+            <div class="lines-top-bottom">
+              <div class="card-title">
+                <div class="card-main-title">
+                  <h1>Juárez Limpio</h1>
+                </div>
+                <h2 class="card-text-info">Mobile app + UI Design + visual identity + logo design<h2>
+              </div>
+            </div>
 
-      <div class="container-about-category">
-
-        <div class="column-title">
-          <h5>Experience</h5>
-        </div>
-
-
-        <div class="column-info">
-          <div class="info-box">
-            <ul>
-              <li class="list-main-title">Web designer</li>
-              <li class="list-subtitle">Freelance</li>
-              <li class="dates">2022 - Present</li>
-             </ul>
-          </div>
-
-          <div class="info-box-appear">
-            <ul>
-             <li class="list-main-title">UI designer</li>
-             <li class="list-subtitle">Diario de Juárez</li>
-             <li class="dates">2015 - 2017</li>
-            </ul>
-         </div>
-
-         <div class="info-box-hidden">
-          <ul>
-            <li class="list-main-title">UI designer</li>
-            <li class="list-subtitle">Binmatter</li>
-            <li class="dates">2017 - 2022</li>
-          </ul>
-        </div>
-
-        </div>
-
-       <div class="column-info">
-          <div class="info-box-appear">
-            <ul>
-              <li class="list-main-title">UI designer</li>
-              <li class="list-subtitle">Binmatter</li>
-              <li class="dates">2017 - 2022</li>
-            </ul>
-          </div>
-
-          <div class="info-box-hidden">
-            <ul>
-             <li class="list-main-title">UI designer</li>
-             <li class="list-subtitle">Diario de Juarez</li>
-             <li class="dates">2015 - 2017</li>
-            </ul>
-         </div>
-
-          <div class="info-box">
-            <ul>
-            <li class="list-main-title">Graphic designer</li>
-            <li class="list-subtitle">E-Consulting</li>
-            <li class="dates">2013 - 2015</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-
-      <!-- EDUCATION -->
-
-      <div class="container-about-category">
-
-        <div class="column-title">
-          <h5>Education</h5>
-        </div>
-
-        <div class="column-info">
-          <div class="info-box">
-           <ul>
-            <li class="list-main-title">Universidad Autónoma<br>de Ciudad Juárez</li>
-            <li class="list-subtitle">Bachelor's Degree in Graphic Design</li>
-            <li class="dates">2009 - 2013</li>
-           </ul>
-          </div>
-        </div>
-
-        <div class="column-info">
-          <div class="info-box">
-           <ul>
-            <li class="list-main-title">Battle Mountain High School</li>
-            <li class="list-subtitle">High School Degree</li>
-            <li class="dates">2005 - 2009</li>
-           </ul>
-          </div>
-        </div>
-
-      </div>
-
-
-      <!-- LANGUAGES -->
-
-      <div class="container-about-category">
-
-        <div class="column-title">
-          <h5>Languages</h5>
-        </div>
-
-        <div class="column-info">
-          <div class="info-box">
-           <ul>
-            <li class="list-main-title">English</li>
-            <li class="list-subtitle">Fluent</li>
-           </ul>
-          </div>
-        </div>
-
-        <div class="column-info">
-          <div class="info-box">
-           <ul>
-            <li class="list-main-title">Spanish</li>
-            <li class="list-subtitle">Fluent</li>
-           </ul>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- MOBILE BUTTON FULL CV  -->
-
-    <section class="section-browse-home">
-
-      <div class="container-browse-home">
-
-          <a href="CV_Bani Caro_English.pdf">
-            <button class="button-browse">
-              <div class="browse-text-cv">Full CV</div>
-              <img class="icon-arrow-browse-cv" src="img/arrow-browse-cv.svg">
-            </button>
-          </a>
-
-      </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-      <div class="container-footer">
-
-          <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
-
-          <div class="container-socials">  
-            <a href="https://www.behance.net/banivct" target="_blank">
-              <img class="behance-img" src="img/behance.svg" alt="Behance Link">
-            </a>
-
-            <a href="https://www.linkedin.com/in/banivct" target="_blank">
-              <img class="linkedin-img" src="img/linkedin.svg" alt="Linkedin Link">
-            </a>
-          </div>
+            <div class="mask">
+              <div class="jrz-limpio-thumb bg-all-thumbs hover-effect-thumb">
+              </div>
+            </div>
             
+          </div>
+        </a>
+
+        <!-- DESERT -->
+        
+        <a href="project-desert.html">
+          <div class="hover-effect-title">
+
+            <div class="lines-top-bottom">
+              <div class="card-title">
+                <div class="card-main-title">
+                  <h1>Innovation Desert</h1>
+                </div>
+                <h2 class="card-text-info">Visual identity + logo design + web design</h2>
+              </div>
+            </div>
+
+            <div class="mask">
+              <div class="desert-thumb bg-all-thumbs hover-effect-thumb">
+                <div class="thumb-container">
+                  <img class="desert-logo-img" src="img/thumbnails/desert-mockup.png" alt="Innovation Desert Logo">  
+                </div>   
+              </div>
+            </div>
+
+          </div>
+        </a>
+
       </div>
 
-      <div class="container-email">
-        <p class="email">banivct@gmail.com</p>
-      </div>
-
-    </footer>
+    </section>
 
   </main>
+
+
+
+
+
+  <footer>
+    <div class="container-footer">
+      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+    </div>
+
+    <div class="container-socials">
+      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    </div>
+  </footer>
 
   <script src="header.js"></script>
 </body>
