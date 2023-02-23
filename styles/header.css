@@ -45,7 +45,8 @@
 
 .nav-links{
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
+  gap: 4rem;
   align-items: center;
   width: min(84%,30rem);
   font-size: 1.1rem;
