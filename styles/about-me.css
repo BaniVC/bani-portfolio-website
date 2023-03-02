@@ -1,0 +1,241 @@
+/* ABOUT ME */
+
+.section-about-me
+{
+  margin-inline: auto;
+  width: min(90%,110rem);
+  margin-top: 4rem;
+}
+
+.about-me-title{
+  font-size: 9rem;
+  color: #FFB8D4;
+  font-family: 'Lora', serif;
+  line-height: 8.5rem;
+  padding: 15rem 0rem 8rem 0rem;
+}
+
+
+.about-me-cotainer-text{
+  display: flex;
+  gap: 8rem;
+  max-width: 85rem;
+}
+
+.container-text{
+  flex: 13;
+}
+
+
+/* SOCIAL LINKS */
+
+.container-links{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  flex: 5;
+  font-size: 1.6rem;
+}
+
+.link-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: solid 1.5px black;
+  padding-bottom: 1rem;
+}
+
+.link-button:hover{
+  border-bottom: solid 1.5px #FFB8D4;
+  color: #FFB8D4;
+}
+
+.link-arrow{
+  height: 2.4rem;
+}
+
+
+/* LINES */
+
+.black-line1{
+  background-color: black;
+  height: 1.5px;
+  margin-top: 13rem;
+}
+
+.black-line2{
+  background-color: black;
+  height: 1.5px;
+  margin-bottom: 13rem;
+}
+
+.black-line3{
+  background-color: #FFB8D4;
+  height: 1.5px;
+  
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+
+  margin-inline: auto;
+  width: min(90%,110rem);
+}
+
+
+/* PHOTOS*/
+
+.grid-photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5px;
+  background-color: black;
+}
+
+.grid-img{
+  max-width: 100%;
+  display: block;
+}
+
+
+/* SECTION CV */
+
+.section-cv{
+  margin-bottom: 17rem;
+}
+
+.cv-grid-row{
+  display: grid;
+  grid-template-columns: 10fr 12fr 12fr;
+  gap: 4rem;
+
+  margin-inline: auto;
+  width: min(90%,110rem);
+}
+
+.cv-header{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #FFB8D4;
+  font-family: 'Lora', serif;
+  line-height: 3rem;
+}
+
+.span-row-2{
+  grid-row: span 2;
+}
+
+.cv-title,
+.cv-title2,
+.cv-title3{
+  padding-top: .9rem;
+}
+
+.cv-title{
+  font-size: 1.7rem;
+  color: black;
+  font-weight: 700;
+}
+
+.cv-title li:nth-child(-n + 2){
+  margin-bottom: 3rem;
+}
+
+
+
+.cv-title2 li{
+  margin-bottom: .4rem;
+}
+
+.cv-title2 li:nth-child(1){
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.cv-title2 li:nth-child(2){
+  font-size: 1.5rem;
+}
+
+.cv-title2 li:nth-child(3){
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #83CDF1;
+}
+
+
+
+.cv-title3 li{
+  margin-bottom: .4rem;
+}
+
+.cv-title3 li:nth-child(1){
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.cv-title3 li:nth-child(2){
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #83CDF1;
+}
+
+@media (max-width: 1320px){
+  .grid-photos{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1225px){
+  .cv-grid-row{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px){
+  .grid-photos{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-me-cotainer-text{
+    flex-direction: column;
+  }
+  
+  .container-text{
+    flex: 1;
+  }
+  
+  .container-links{
+    flex: 1;
+  }
+}
+
+@media (max-width: 700px){
+  .about-me-title{
+    font-size: 6rem;
+    line-height: 5rem;
+    padding: 11rem 0rem 6rem 0rem;
+  }
+}
+
+@media (max-width: 580px){
+  .grid-photos{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 380px){
+  .cv-header{
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -127,6 +127,16 @@
 }
 
 
+/* FEST */
+
+@media (max-width: 900px){
+
+  .fest-thumb{
+    background-image: url(../img/thumbnails/fest-thumb-bg-mobile.jpg);
+  }
+}
+
+
 /* NINJA */
 
 @media (max-width: 700px){
@@ -138,16 +148,6 @@
   .ninja-mockup-img-mobile{
     display: block;
     width: min(85%,30rem);
-  }
-}
-
-
-/* FEST */
-
-@media (max-width: 900px){
-
-  .fest-thumb{
-    background-image: url(../img/thumbnails/fest-thumb-bg-mobile.jpg);
   }
 }
 
