@@ -114,7 +114,7 @@
 
 .cv-header{
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #FFB8D4;
   font-family: 'Lora', serif;
   line-height: 3rem;
@@ -191,6 +191,13 @@
   }
 }
 
+@media (max-width: 1111px){
+
+  .about-me-cotainer-text{
+    gap: 6rem;
+  }
+}
+
 @media (max-width: 800px){
   .grid-photos{
     grid-template-columns: 1fr 1fr;
@@ -220,6 +227,14 @@
 @media (max-width: 580px){
   .grid-photos{
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 470px){
+  .about-me-title{
+    font-size: 4rem;
+    line-height: 4rem;
+    padding: 6rem 0rem 4rem 0rem;
   }
 }
 
