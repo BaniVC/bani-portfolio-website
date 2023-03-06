@@ -94,7 +94,7 @@
 
   .hero-profile-picture-mobile{
     display: block;
-    width: min(90%,24rem);
+    width: min(85%,24rem);
     margin-inline: auto;
   }
 
@@ -108,7 +108,8 @@
   .hero-title{
     font-size: 6rem;
     line-height: 6rem;
-  }}
+  }
+}
 
 
 
