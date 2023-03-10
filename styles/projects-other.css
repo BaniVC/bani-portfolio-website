@@ -108,10 +108,22 @@
 
 .desert-logo-img{
   display: block;
-  width: min(50%,15rem);
+  width: min(55%,16rem);
   margin-bottom: -3rem;
 }
 
+/* DIOSES */
+
+.dioses-thumb{
+  background-image: url(../img/thumbnails/dioses-thumb-bg.jpg);
+}
+
+
+/* ALDAVI */
+
+.aldavi-thumb{
+  background-image: url(../img/thumbnails/aldavi-thumb-bg.jpg);
+}
 
 /* GRID ROW */
 
@@ -158,6 +170,17 @@
 
   .card-main-title{
     border-right: solid 0px black;
+  }
+}
+
+/* ALDAVI */
+
+@media (max-width: 900px){
+
+  .aldavi-thumb{
+    background-image: url(../img/thumbnails/aldavi-thumb-bg-mobile.jpg);
+    background-position: top;
+    background-repeat: no-repeat, no-repeat;
   }
 }
 
