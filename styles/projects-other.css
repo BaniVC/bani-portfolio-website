@@ -46,11 +46,8 @@
 
 .ninja-mockup-img{
   display: block;
-  width: min(80%,50rem);
-}
-
-.ninja-mockup-img-mobile{
-  display: none;
+  width: min(88%,55rem);
+  border-radius: .7rem;
 }
 
 /* INDIES FEST */
@@ -125,6 +122,7 @@
   background-image: url(../img/thumbnails/aldavi-thumb-bg.jpg);
 }
 
+
 /* GRID ROW */
 
 @media (max-width: 1200px){
@@ -154,12 +152,7 @@
 @media (max-width: 700px){
 
   .ninja-mockup-img{
-    display: none;
-  }
-
-  .ninja-mockup-img-mobile{
-    display: block;
-    width: min(85%,30rem);
+    width: min(90%,40rem);
   }
 }
 
@@ -173,14 +166,31 @@
   }
 }
 
+
 /* ALDAVI */
 
-@media (max-width: 900px){
+@media (max-width: 1590px){
+
+  .aldavi-thumb{
+    background-image: url(../img/thumbnails/aldavi-thumb-bg2.jpg);
+  }
+}
+
+
+@media (max-width: 1200px){
+
+  .aldavi-thumb{
+    background-image: url(../img/thumbnails/aldavi-thumb-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
+
+
+@media (max-width: 850px){
 
   .aldavi-thumb{
     background-image: url(../img/thumbnails/aldavi-thumb-bg-mobile.jpg);
-    background-position: top;
-    background-repeat: no-repeat, no-repeat;
   }
 }
 

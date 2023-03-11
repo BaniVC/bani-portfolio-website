@@ -60,7 +60,7 @@
   height: 100%;
 
   margin-inline: auto;
-  width: min(90%,55rem);
+  width: min(90%,64rem);
 }
 
 .input-thumb-container > *{
@@ -117,7 +117,7 @@
 
 .ruba-mockup-img{
   display: block;
-  width: min(90%,55rem);
+  width: min(90%,59rem);
 }
 
 .ruba-mockup-img-mobile-1{
@@ -134,7 +134,7 @@
 
 .phi-mockup-img{
   display: block;
-  width: min(90%,61rem);
+  width: min(90%,70rem);
 }
 
 .phi-mockup-img-mobile{
@@ -149,13 +149,68 @@
   background-color: #9876ff;
 }
 
-.diario-mockup-img{
-  display: block;
-  width: min(90%,56rem);
+.diario-thumb-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: end;
+  gap: 2rem;
+  height: 100%;
+
+  margin-inline: auto;
+  width: min(90%,85rem);
 }
 
-.diario-mockup-img-mobile{
+.diario-mockup-img{
+  max-width: 100%;
+  display: block;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.border-radious-big{
+  border-radius: .8rem .8rem 0 0;
+}
+
+.border-radious-small{
+  border-radius: .5rem .5rem 0 0;
+}
+
+.diario-mockup-img-mobile,
+.diario-mockup-img-mobile2{
   display: none;
+}
+
+
+/* DIARIO */
+
+@media (max-width: 1360px){
+
+  .diario-mockup-img-mobile{
+    display: block;
+    width: min(98%,60rem);
+  }
+
+  .diario-mockup-img{
+    display: none;
+  }
+
+  .diario-thumb-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+  }
+}
+
+@media (max-width: 930px){
+
+  .diario-mockup-img-mobile{
+    display: none;
+  }
+
+  .diario-mockup-img-mobile2{
+    display: block;
+    width: min(95%,43rem);
+  }
 }
 
 
@@ -173,6 +228,27 @@
     display: none;
   }
 }
+
+
+/* PHI */
+
+@media (max-width: 920px){
+
+  .phi-mockup-img{
+    display: none;
+  }
+  
+  .phi-mockup-img-mobile{
+    border-radius: 10px;
+    display: block;
+    width: min(85%,55rem);
+  }
+
+  .phi-thumb{
+    background-image: url(../img/thumbnails/phi-thumb-bg-mobile.jpg);
+  }
+}
+
 
 /* INPUT */
 
@@ -248,42 +324,9 @@
 }
 
 
-/* PHI */
-
-@media (max-width: 920px){
-
-  .phi-mockup-img{
-    display: none;
-  }
-  
-  .phi-mockup-img-mobile{
-    border-radius: 10px;
-    display: block;
-    width: min(85%,55rem);
-  }
-}
-
-@media (max-width: 700px){
-
-  .phi-thumb{
-    background-image: url(../img/thumbnails/phi-thumb-bg-mobile.jpg);
-  }
-}
 
 
-/* DIARIO */
 
-@media (max-width: 770px){
-
-  .diario-mockup-img-mobile{
-    display: block;
-    width: min(98%,40rem);
-  }
-
-  .diario-mockup-img{
-    display: none;
-  }
-}
 
 
 /* LINES */
