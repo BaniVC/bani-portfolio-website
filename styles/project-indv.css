@@ -329,6 +329,8 @@
 
   .cover-title{
     margin: 9rem 0 4rem 0;
+    margin-inline: auto;
+    width: min(90%,70rem);
   }
 }
 
