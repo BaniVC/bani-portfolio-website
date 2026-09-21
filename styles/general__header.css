@@ -1,59 +1,35 @@
-.header-bg{
-  background-image: url(../img/header/header-bg.png);
-  background-repeat: repeat-y;
-  background-size: 100%;
-  border-bottom: solid 1.5px black;
-
-  position: fixed;
+.general__header{
+  position: sticky;
   top: 0;
   width: 100%;
-  z-index: 100;
-
-  box-shadow: 0 -5px 35px rgba(0, 0, 0, 0.2);
+  background: #F1F2F4;
+  box-shadow: 0 0 50px 0 #3c41441a;
+  
 }
 
-.header-container{
+.header__container{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
-  width: min(90%,110rem);
-  height: 4rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.logo-container{
-  display: flex;
-  align-items: center;
-  flex: 3;
-  background-color: #FFB8D4;
-  height: 100%;
-  border-right: solid 1.5px black;
-}
-
-.logo-svg{
+.header__logo-svg{
   display: block;
-  margin-right: 3rem;
-  height: 2.3rem;
 }
 
-.nav-container{
+.header__nav-links{
+  font-size: 16px;
   display: flex;
-  justify-content: end;
-  flex: 15;
-  height: 100%;
-  background-color: #EBEEEF;
-}
-
-.nav-links{
-  display: flex;
-  justify-content: end;
-  gap: 5rem;
   align-items: center;
-  width: min(84%,30rem);
-  font-size: 1.1rem;
+  gap: 60px;
 }
 
-.nav-links > li:hover{
-  color: #FFB8D4;
+
+.header__nav-links a:hover{
+  color: #FF99C4;
+  -webkit-text-fill-color: #FF99C4;
   text-decoration: underline;
 }
 
@@ -71,7 +47,7 @@
 {
   width: 40px;
   height: 2px;
-  background-color: #000000;
+  background-color: #3C4144;
   margin: 8px;
   transition: all 0.3s ease;
 }
@@ -88,7 +64,7 @@
   transform: rotate(45deg) translate(-4px,-10px);
 }
 
-.nav-links-mobile{
+.header__nav-links-mobile{
   display: none;
 }
 
@@ -98,23 +74,17 @@
 }
 
 
+
+
+
+
 @media (max-width: 670px){
 
   /* WEB MENU */
 
-  .logo-container{
-    flex: 3;
-  }
-
-  .nav-container{
-    flex: 15;
-  }
-
-  .nav-links{
+  .header__nav-links{
     display: none;
   }
-
-
 
   /* MOBILE MENU */
 
@@ -129,7 +99,7 @@
     overflow-x: hidden;
   }
 
-  .nav-links-mobile
+  .header__nav-links-mobile
   {
     display: flex;
     z-index: 9000;
@@ -141,19 +111,18 @@
     gap: 7rem;
 
     font-family: 'Lora', serif;
-    color: #000000;
     font-size: 3.3rem;
     top: 0%;
     bottom: 0%;
     left: 0%;
     right: 0%;
-    background-color: #EBEEEF;
+    background-color: #F1F2F4;
 
     transform: translatex(100%);
     transition: transform 0.3s ease-out;
   }
 
-  .nav-active
+  .header__nav-active
   {
     transform: translatex(0%);
   }

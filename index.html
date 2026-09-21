@@ -14,17 +14,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-
-
-
-  <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/hero.css">
-  <link rel="stylesheet" href="styles/footer.css">
-
-  <link rel="stylesheet" href="styles/projects-thumbnails-all.css">
-  <link rel="stylesheet" href="styles/projects-featured.css">
-  <link rel="stylesheet" href="styles/projects-other.css">
+  <link rel="stylesheet" href="styles/general__text.css">
+  <link rel="stylesheet" href="styles/general__layout.css">
+  <link rel="stylesheet" href="styles/general__header.css">
+  <link rel="stylesheet" href="styles/general__footer.css">
+  <link rel="stylesheet" href="styles/home__hero.css">
+  <link rel="stylesheet" href="styles/home__projects.css">
+  <link rel="stylesheet" href="styles/home__banner.css">
 
   <title>Bani | Portfolio</title>
 
@@ -44,14 +40,15 @@
 
   <!-- HEADER -->
 
-  <header class="header-bg">
-    <div class="header-container">
-      <div class="logo-container">
-        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+  <header class="general__header">
+    
+    <div class="header__container layout-center__1280">
+      <div>
+        <a href="index.html"><img class="header__logo-svg" src="img/header/bc_logo.svg" alt="Logo Bani"></a>
       </div>
 
-      <nav class="nav-container">
-        <ul class="nav-links">
+      <nav>
+        <ul class="header__nav-links">
           <li><a href="index.html">Work</a></li>
           <li><a href="about-me.html">About me</a></li>
           <li><a href="CV_Bani Caro_English.pdf" target="_blank">CV</a></li>
@@ -64,219 +61,115 @@
         <div class="line3"></div>
       </div>
   
-      <ul class="nav-links-mobile">
+      <ul class="header__nav-links-mobile">
         <li><a href="index.html">Work</a></li>
         <li><a href="about-me.html">About me</a></li>
         <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
       </ul>
     </div>
-  </header>
 
+  </header>
 
 
 
   <main>
 
-    <!-- HERO SECTION -->
+    <!-- HERO -->
 
-    <section class="section-hero">
+    <section class="hero__main-container">
 
-      <div>
-        <img class="hero-profile-picture" src="img/hero/profile-picture.png" alt="Bani Profile Picture">
-        <img class="hero-profile-picture-mobile" src="img/hero/profile-picture-mobile.png" alt="Bani Profile Picture">
-      </div>
+      <div class="hero__inner-container layout-center__1280">
 
-      <div>
-        <p class="hero-title">
-          Hi, I'm Bani <span class="hero-caro">Caro</span>
-        </p>
-      </div>
+        <div>
+          <h1>Visual<br>designer</h1>
+        </div>
 
-      <div>
-        <p class="hero-intro">
-          I’m a digital designer who enjoys spending time creating all types of lovely graphics; recently, I’ve been passionate about UI design and motion graphics.  
-        </p>
-      </div>
+        <div class="hero__right-column">
+          <img src="img/hero/hero__profile-picture.png" alt="Bani Profile Picture">
+          <div class="hero__right-column-text">
+            <h4>Hi! I’m Bani Caro</h4>
+            <p class="p__small">I’m a visual designer who enjoys spending time creating all types of lovely graphics! I’m particularly passionate about UI design and motion graphics.</p>
+          </div>
+        </div>
 
-      <div>
-        <img src="img/hero/arrow.svg" alt="Arrow">
       </div>
 
     </section>
 
 
 
-    <!-- FEATURED PROJECTS SECTION -->
+    <!-- PINK FLOWER SEPERATOR -->
 
-    <section>
+    <div class="seperator__flower"><img src="img/icons/seperator__flower-pink.svg" alt=""></div>
 
-      <!-- INPUT -->
 
-      <a href="project-input.html">
-        <div class="hover-effect-title">
 
-          <div class="project-header-main">
-            <div class="project-header-container">
-              <div class="project-title">
-                <h1>Input</h1>
-              </div>
-              <div class="project-info1">
-                <h2 class="text-info1">Visual identity + UI design + logo design + CRM + web design</h2>
-              </div>
-              <div class="project-info2">
-                <h2 class="text-info2">Specialized CRM created for the easy management of businesses.</h2>
-              </div>
+    <!-- SELECTED PROJECTS -->
+    
+    <section class="padding-bottom__200">
+
+      <div class="selected-projects__inner-container layout-center__1920">
+
+        <div>
+          <div class="line-headline__pink"></div>
+          <h5>Selected projects</h5>
+        </div>
+
+        <!-- NOVARTIS -->
+
+        <div class="selected-projects__item">
+
+          <div class="selected-projects__item-card border-radius__8">
+            <div>
+              <h3 class="text-color__pink-default padding-bottom__12">Novartis</h3>
+              <p class="p__small text-color__white-blue">Specialized CRM created for the easy management of businesses.</p>
+            </div>
+            <div>
+              <div class="caption__title text-color__light-blue padding-bottom__4">Type</div>
+              <p class="caption__p text-color__light-blue padding-bottom__24">Visual identity, web design, CRM</p>
+              <a class="button__primary" href="project__novartis.html">View project</a>
             </div>
           </div>
 
-          <div class="mask">
-            <div class="input-thumb bg-all-thumbs hover-effect-thumb">
-              <div class="input-thumb-container">
-                <div class="input-logo">
-                  <img class="input-logo-img" src="img/thumbnails/input-logo.svg" alt="Input Logo">
-                </div>
-                <div class="input-mockup">
-                  <img class="input-mockup-img" src="img/thumbnails/input-mockup.jpg" alt="Input Mockup">
-                  <img class="input-mockup-img-mobile" src="img/thumbnails/input-mockup-mobile.jpg" alt="Input Mockup Mobile">
-                </div>
-              </div>
-            </div>
+          <div class="grid-span__3">
+            <img class="img__cover border-radius__8" src="img/thumbnails/juarez-limpio-thumb-bg.jpg" alt="">
+          </div>
+
+          <div class="grid-span__5">
+            <img class="img__cover border-radius__8" src="img/thumbnails/juarez-limpio-thumb-bg.jpg" alt="">
           </div>
 
         </div>
-      </a>
 
-      <!-- BINMATTER -->
+        <!-- UNDO -->
 
-      <a href="project-binmatter.html">
-        <div class="hover-effect-title">
+        <div class="selected-projects__item">
 
-          <div class="project-header-main">
-            <div class="project-header-container">
-              <div class="project-title">
-                <h1>Binmatter</h1>
-              </div>
-              <div class="project-info1">
-                <h2 class="text-info1">Visual identity + logo redesign + web design + social media</h2>
-              </div>
-              <div class="project-info2">
-                <h2 class="text-info2">A fresh new look of this tech company.</h2>
-              </div>
+          <div class="grid-span__3">
+            <img class="img__cover border-radius__8" src="img/thumbnails/juarez-limpio-thumb-bg.jpg" alt="">
+          </div>
+
+          <div class="grid-span__5">
+            <img class="img__cover border-radius__8" src="img/thumbnails/juarez-limpio-thumb-bg.jpg" alt="">
+          </div>
+
+          <div class="selected-projects__item-card border-radius__8">
+            <div>
+              <h3 class="text-color__pink-default padding-bottom__12">UNDO</h3>
+              <p class="p__small text-color__white-blue">Specialized CRM created for the easy management of businesses.</p>
+            </div>
+            <div>
+              <div class="caption__title text-color__light-blue padding-bottom__4">Type</div>
+              <p class="caption__p text-color__light-blue padding-bottom__24">Visual identity, web design, CRM</p>
+              <a class="button__primary" href="project__undo.html">View project</a>
             </div>
           </div>
 
-          <div class="mask">
-            <div class="binmatter-thumb bg-all-thumbs hover-effect-thumb">
-              <div class="thumb-container">
-                <img class="binmatter-logo-img" src="img/thumbnails/binmatter-logo.png" alt="Binmatter Logo">
-              </div>
-            </div>
-          </div>
+        </div>  
 
-        </div>
-      </a>
-
-      <!-- RUBA -->
-
-      <a href="project-ruba.html">
-        <div class="hover-effect-title">
-
-          <div class="project-header-main">
-            <div class="project-header-container">
-              <div class="project-title">
-                <h1>Ruba</h1>
-              </div>
-              <div class="project-info1">
-                <h2 class="text-info1">UI design + mobile app</h2>
-              </div>
-              <div class="project-info2">
-                <h2 class="text-info2">Mobile app created for a real estate development company.
-                </h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="mask">
-            <div class="ruba-thumb bg-all-thumbs hover-effect-thumb">
-              <div class="thumb-container">
-                <img class="ruba-mockup-img" src="img/thumbnails/ruba-mockups.png" alt="Ruba Mockup">
-                <img class="ruba-mockup-img-mobile-1" src="img/thumbnails/ruba-mockups-mobile-1.png" alt="Ruba Mockup">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </a>
-
-      <!-- PHI -->
-
-      <a href="project-phi.html">
-        <div class="hover-effect-title">
-
-          <div class="project-header-main">
-            <div class="project-header-container">
-              <div class="project-title">
-                <h1>Ph1-1</h1>
-              </div>
-              <div class="project-info1">
-                <h2 class="text-info1">UI design + web app + social media</h2>
-              </div>
-              <div class="project-info2">
-                <h2 class="text-info2">Social media platform where users can share research papers.</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="mask">
-            <div class="phi-thumb bg-all-thumbs hover-effect-thumb">
-              <div class="thumb-container">
-                <img class="phi-mockup-img" src="img/thumbnails/phi-mockup.png" alt="Phi-1 Mockup">
-                <img class="phi-mockup-img-mobile" src="img/thumbnails/phi-mockup-mobile.jpg" alt="Phi-1 Mockup">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </a>
-        
-      <!-- DIARIO -->
-
-      <a href="project-diario.html">
-        <div class="hover-effect-title">
-
-          <div class="project-header-main">
-            <div class="project-header-container">
-              <div class="project-title">
-                <h1>Diario de Juárez</h1>
-              </div>
-              <div class="project-info1">
-                <h2 class="text-info1">UI design + news website + re-design</h2>
-              </div>
-              <div class="project-info2">
-                <h2 class="text-info2">Re-design of a news company's website.</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="mask">
-            <div class="diario-thumb bg-all-thumbs hover-effect-thumb">
-              <div class="diario-thumb-container">
-
-                <img class="diario-mockup-img border-radious-small" src="img/thumbnails/diario-mockup2.jpg" alt="Diario Mockup">
-                <img class="diario-mockup-img border-radious-big" src="img/thumbnails/diario-mockup.jpg" alt="Diario Mockup">
-                <img class="diario-mockup-img border-radious-small" src="img/thumbnails/diario-mockup3.jpg" alt="Diario Mockup">
-
-                <img class="diario-mockup-img-mobile" src="img/thumbnails/diario-mockup-mobile.png" alt="Diario Mockup">
-                <img class="diario-mockup-img-mobile2 border-radious-big" src="img/thumbnails/diario-mockup.jpg" alt="Diario Mockup">
-              </div>
-            </div>
-          </div>
-        
-        </div>
-      </a>
+      </div>
 
     </section>
-
 
 
 
@@ -284,174 +177,118 @@
 
     <section>
 
-      <div class="projects-cards-row-container">
+      <div class="more-projects__inner-container layout-center__1280">
 
-        <!-- FLIGHT NINJA -->
+        <div>
+          <div class="line-headline__orange"></div>
+          <h5>More projects</h5>
+        </div>
 
-        <a href="project-ninja.html">
-          <div class="right-line hover-effect-title">
+        <div class="more-projects__cards-grid">
 
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Flight Ninja</h1>
-                </div>
+          <!-- CARD -->
 
-                <h2 class="card-text-info">UI design + CMS + web app</h2>
+          <div class="more-projects__card-indv">
+            <div class="more-projects__card-info">
+              <div>
+                <h3 class="text-color__orange padding-bottom__12">Input</h3>
+                <p class="p__small">Specialized CRM created for the easy management of businesses.</p>
               </div>
+              <a class="button__secondary" href="project__undo.html">View project</a>
             </div>
-
-            <div class="mask">
-              <div class="ninja-thumb bg-all-thumbs hover-effect-thumb">
-                <div class="thumb-container">
-                  <img class="ninja-mockup-img" src="img/thumbnails/ninja-mockup.jpg" alt="Flight Ninja Mockup">  
-                </div>   
-              </div>
-            </div>
-
           </div>
-        </a>
 
-        <!-- INDIES FEST -->
+          <!-- CARD -->
 
-        <a href="project-fest.html">
-          <div class="hover-effect-title">
-
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Indiest Fest</h1>
-                </div>
-                <h2 class="card-text-info">Visual identity + web design + social media + motion graphics</h2>
+          <div class="more-projects__card-indv">
+            <div class="more-projects__card-info">
+              <div>
+                <h3 class="text-color__orange padding-bottom__12">Input</h3>
+                <p class="p__small">Specialized CRM created for the easy management of businesses.</p>
               </div>
+              <a class="button__secondary" href="project__undo.html">View project</a>
             </div>
-
-            <div class="mask">
-              <div class="fest-thumb bg-all-thumbs hover-effect-thumb">
-                <div class="thumb-container-fest">
-                  <img class="fest-sides" src="img/thumbnails/fest-top.png" alt="Top">
-                  <img class="fest-logo-img" src="img/thumbnails/fest-logo.png" alt="Indiest Fest Logo"> 
-                  <img class="fest-sides" src="img/thumbnails/fest-bottom.png" alt="Bottom"> 
-                </div>
-              </div>
-            </div>
-
           </div>
-        </a>
 
-        <!-- JUAREZ LIMPIO -->
+           <!-- CARD -->
 
-        <a href="project-jrz-limpio.html">
-          <div class="right-line hover-effect-title">
-
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Juárez Limpio</h1>
-                </div>
-                <h2 class="card-text-info">Mobile app + UI Design + visual identity + logo design<h2>
+          <div class="more-projects__card-indv">
+            <div class="more-projects__card-info">
+              <div>
+                <h3 class="text-color__orange padding-bottom__12">Input</h3>
+                <p class="p__small">Specialized CRM created for the easy management of businesses.</p>
               </div>
+              <a class="button__secondary" href="project__undo.html">View project</a>
             </div>
-
-            <div class="mask">
-              <div class="jrz-limpio-thumb bg-all-thumbs hover-effect-thumb">
-              </div>
-            </div>
-            
           </div>
-        </a>
 
-        <!-- DESERT -->
-        
-        <a href="project-desert.html">
-          <div class="hover-effect-title">
+          <!-- CARD -->
 
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Innovation Desert</h1>
-                </div>
-                <h2 class="card-text-info">Visual identity + logo design + web design</h2>
+          <div class="more-projects__card-indv">
+            <div class="more-projects__card-info">
+              <div>
+                <h3 class="text-color__orange padding-bottom__12">Input</h3>
+                <p class="p__small">Specialized CRM created for the easy management of businesses.</p>
               </div>
+              <a class="button__secondary" href="project__undo.html">View project</a>
             </div>
-
-            <div class="mask">
-              <div class="desert-thumb bg-all-thumbs hover-effect-thumb">
-                <div class="thumb-container">
-                  <img class="desert-logo-img" src="img/thumbnails/desert-mockup.png" alt="Innovation Desert Logo">  
-                </div>   
-              </div>
-            </div>
-
           </div>
-        </a>
 
-        <!-- DIOSES -->
-
-        <a href="project-dioses.html">
-          <div class="right-line hover-effect-title">
-
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Dioses Mexicanos</h1>
-                </div>
-                <h2 class="card-text-info">Illustration + social media<h2>
-              </div>
-            </div>
-
-            <div class="mask">
-              <div class="dioses-thumb bg-all-thumbs hover-effect-thumb">
-              </div>
-            </div>
-            
-          </div>
-        </a>
-
-        <!-- ALDAVI -->
-        
-        <a href="project-aldavi.html">
-          <div class="hover-effect-title">
-
-            <div class="lines-top-bottom">
-              <div class="card-title">
-                <div class="card-main-title">
-                  <h1>Aldavi</h1>
-                </div>
-                <h2 class="card-text-info">Web design + presentation + visual design</h2>
-              </div>
-            </div>
-
-            <div class="mask">
-              <div class="aldavi-thumb bg-all-thumbs hover-effect-thumb">
-              </div>
-            </div>
-
-          </div>
-        </a>
-        
+        </div>
 
       </div>
 
     </section>
 
+    <!-- PINK FLOWER SEPERATOR -->
+
+    <div class="seperator__flower"><img src="img/icons/seperator__flower-orange.svg" alt=""></div>
+
+    <!-- HOME BANNER -->
+
+    <section class="home-banner__bani-designer">
+
+      <div class="home-banner__inner-container layout-center__1280">
+        <img class="grid-span__3 img__width-100" src="img/about-me/banner__profile-picture.png" alt="">
+        <div class="home-banner__text">
+          <h3 class="padding-bottom__12">Visual designer</h3>
+          <p class="p__small padding-bottom__24">Some stuff about me, something personal, I don't know</p>
+          <a class="button__tertiary" href="about-me.html">View project</a>
+        </div>
+
+      </div>
+
+    </section>
+    
   </main>
 
-
-
-
+  <!-- FOOTER -->
 
   <footer>
-    <div class="container-footer">
-      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+
+    <div class="footer__logo">
+      <img src="img/header/bc_logo.svg" alt="Footer Bani Logo">
     </div>
 
-    <div class="container-socials">
-      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
-      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
-      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    <div class="layout-center__1280">
+
+      <div class="line-divider__white-blue"></div>
+
+      <div class="footer__socials">
+        <div class="footer__social-links footer__link-left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+        <div class="footer__social-links footer__link-middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+        <div class="footer__social-links footer__link-right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+      </div>
+
+     
     </div>
+
   </footer>
+
+
+
+
+
 
   <script src="header.js"></script>
 </body>

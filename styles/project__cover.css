@@ -1,0 +1,15 @@
+.project-cover__main-container{
+  padding-top: 120px;
+}
+
+.project-cover__inner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-cover__info{
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}

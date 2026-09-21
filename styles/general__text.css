@@ -1,0 +1,154 @@
+html, body, div,
+span, iframe, p,
+h1, h2, h3, h4, h5, h6, h7,
+a, img, ol, ul, li,
+table, menu, nav, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+  background-color: #F1F2F4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%; /* 27px */
+  color: #3C4144;
+  -webkit-text-fill-color: #3C4144;
+  font-style: normal;
+}
+
+
+
+h1{
+  font-family: 'Lora', serif;
+  font-size: 130px;
+  line-height: 110%; /* 143px */;
+}
+
+h2{
+  font-family: 'Lora', serif;
+  font-size: 90px;
+  line-height: 110%; /* 99px */
+}
+
+h3{
+  font-family: 'Lora', serif;
+  font-size: 44px;
+  line-height: 120%; /* 52.8px */
+}
+
+h4{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 120%; /* 43.2px */
+}
+
+h5{
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */;
+}
+
+h6{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+.p__small{
+  font-size: 16px;
+}
+
+.caption__title{
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.caption__p{
+  font-size: 14px;
+}
+
+
+
+a{
+  all: unset;
+  cursor: pointer;
+}
+
+.button__primary {
+  font-family: 'Lora', serif;
+  padding: 8px 24px 10px 24px;
+  text-align: center;
+  background-color: #F1F2F4;
+  border-radius: 240px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.button__secondary{
+  font-family: 'Lora', serif;
+  padding: 8px 24px 10px 24px;
+  border: 1px solid #3C4144;
+  border-radius: 240px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.button__tertiary{
+  font-family: 'Lora', serif;
+  padding: 8px 24px 10px 24px;
+  background-color:  #3C4144;
+  border-radius: 240px;
+  color: #F1F2F4;
+  -webkit-text-fill-color: #F1F2F4;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+
+.text-color__white-blue{
+  color: #F1F2F4;
+  -webkit-text-fill-color: #F1F2F4;
+}
+
+.text-color__light-blue{
+  color: #A9AFBC;
+  -webkit-text-fill-color: #A9AFBC;
+}
+
+.text-color__pink-default{
+  color: #FF99C4;
+  -webkit-text-fill-color: #FF99C4;
+}
+
+.text-color__orange{
+  color: #FFAB57;
+  -webkit-text-fill-color: #FFAB57;
+}
+
+
+
+
+
+
+

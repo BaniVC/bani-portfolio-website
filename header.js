@@ -1,9 +1,9 @@
 const navSlide = () => {
   const burger = document.querySelector('.burger');
-  const nav = document.querySelector('.nav-links-mobile');
+  const nav = document.querySelector('.header__nav-links-mobile');
 
   burger.addEventListener('click',()=>{
-    nav.classList.toggle('nav-active');
+    nav.classList.toggle('header__nav-active');
 
     burger.classList.toggle('toggle');
   });
