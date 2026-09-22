@@ -5,7 +5,7 @@
 .project-cover__inner-container{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 .project-cover__info{

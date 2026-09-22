@@ -16,6 +16,10 @@
   grid-column: span 6;
 }
 
+.grid-span__7{
+  grid-column: span 7;
+}
+
 .grid-span__12{
   grid-column: span 12;
 }
@@ -24,6 +28,10 @@
 
 .border-radius__8{
   border-radius: 8px;
+}
+
+.border-stroke__1{
+  border: 1px solid #DBE4EB;
 }
 
 
@@ -66,6 +74,11 @@ img{
   padding-bottom: 48px;
 }
 
+
+.padding-sides__150{
+  padding-left: 150px;
+  padding-right: 150px;
+}
 
 
 
