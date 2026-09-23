@@ -17,14 +17,14 @@
 
 
 
-  <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/about-me.css">
-  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/general__text.css">
+  <link rel="stylesheet" href="styles/general__layout.css">
+  <link rel="stylesheet" href="styles/general__header.css">
+  <link rel="stylesheet" href="styles/general__footer.css">
+    <link rel="stylesheet" href="styles/about__me.css">
 
-  <link rel="stylesheet" href="styles/projects-thumbnails-all.css">
-  <link rel="stylesheet" href="styles/projects-featured.css">
-  <link rel="stylesheet" href="styles/projects-other.css">
+  <link rel="stylesheet" href="styles/about-me.css">
+  <link rel="stylesheet" href="styles/project__content.css">
 
   <title>About me</title>
 
@@ -44,13 +44,14 @@
 
   <!-- HEADER -->
 
-  <header class="header-bg">
-    <div class="header-container">
-      <div class="logo-container">
-        <a href="index.html"><img class="logo-svg" src="img/header/Logo.svg" alt="Logo Bani"></a>
+  <header class="general__header">
+    
+    <div class="header__container layout-center__1280">
+      <div>
+        <a href="index.html"><img class="header__logo-svg" src="img/header/bc_logo.svg" alt="Logo Bani"></a>
       </div>
 
-      <nav class="nav-container">
+      <nav>
         <ul class="header__nav-links">
           <li><a href="index.html">Work</a></li>
           <li><a href="about-me.html">About me</a></li>
@@ -70,6 +71,7 @@
         <li><a href="CV_Bani Caro_English.pdf">CV</a></li>
       </ul>
     </div>
+
   </header>
 
 
@@ -77,18 +79,19 @@
 
     <!-- HERO SECTION -->
 
-    <section class="section-about-me">
+    <section class="about-me__hero-container layout-center__1280">
 
       <div>
-        <p class="about-me-title">about me</p>
+        <h1 class="padding-bottom__48">about me</h1>
       </div>
 
-      <div class="about-me-cotainer-text">
-        <div class="container-text">
-          <p class="p-seperation">
+      <div class="about-me__hero-content">
+
+        <div class="about-me__paragraphs">
+          <p>
             Ever since middle school, I've always been more in touch with my artistic side, doodling in all my notebooks and making random sketches. I later started making my own pieces of art with geometrical shapes and shading techniques. This continued in high school and soon I started spending all my time on my computer making wallpapers and editing music videos. These hobbies were fundamental when I decided to study graphic design.
           </p>
-          <p class="p-seperation">
+          <p>
             I'm really lucky I turned a hobby into a career, and can confidently say I chose the right path. I've focused my work on digital design, especially on UI design and motion graphics; more recently I have dived into the world of front-end development. Learning the skills necessary to transform my designs into code is the next step into my career.
           </p>
           <p>
@@ -96,7 +99,7 @@
           </p>
         </div>
   
-        <div class="container-links">
+        <div class="about-me__links">
           <a href="https://www.linkedin.com/in/banivct" target="_blank">
             <div class="link-button">
               <div>LinkedIn</div>
@@ -118,11 +121,16 @@
             </div>
           </a>
         </div>
+
       </div>
 
 
     </section>
 
+
+        <!-- PINK FLOWER SEPERATOR -->
+
+    <div class="seperator__flower"><img src="img/icons/seperator__flower-pink.svg" alt=""></div>
 
     <div class="black-line1"></div>
 
@@ -162,17 +170,17 @@
     <div class="black-line2"></div>
 
 
-    <!-- CV SECTION -->
+    <!-- CV SECTION 
 
     <section class="section-cv">
 
       <div class="cv-grid-row">
-        <div class="cv-header">
+        <h3>
           Main skills
-        </div>
+        </h3>
         <div class="cv-title">
           <ul>
-            <li>UI design</li>
+            <li><h4>UI design</h4></li>
             <li>Web design</li>
             <li>HTML/CSS beginner</li>
             <li class="mobile-skills">Branding</li>
@@ -194,12 +202,12 @@
 
 
       <div class="cv-grid-row">
-        <div class="cv-header span-row-2">
+        <h3>
           Experience
-        </div>
+        </h3>
         <div class="cv-title2">
           <ul>
-            <li>Web designer</li>
+            <li><h4>Web designer</h4></li>
             <li>Freelance</li>
             <li>2018 - present</li>
           </ul>
@@ -232,9 +240,9 @@
 
 
       <div class="cv-grid-row">
-        <div class="cv-header">
+        <h3>
           Education
-        </div>
+        </h3>
         <div class="cv-title2">
           <ul>
             <li>Universidad Autónoma<br>de Ciudad Juárez</li>
@@ -256,9 +264,9 @@
 
 
       <div class="cv-grid-row">
-        <div class="cv-header">
+        <h3>
           Languages
-        </div>
+        </h3>
         <div class="cv-title3">
           <ul>
             <li>English</li>
@@ -273,8 +281,13 @@
         </div>
       </div>
 
-
+-->
     </section>
+
+    
+    <!-- PINK FLOWER SEPERATOR -->
+
+    <div class="seperator__flower"><img src="img/icons/seperator__flower-orange.svg" alt=""></div>
 
   </main>
 
@@ -282,15 +295,24 @@
   <!-- FOOTER -->
 
   <footer>
-    <div class="footer__container">
-      <img class="footer-logo" src="img/footer-logo.svg" alt="Footer Bani Logo">
+
+    <div class="footer__logo">
+      <img src="img/header/bc_logo.svg" alt="Footer Bani Logo">
     </div>
 
-    <div class="footer__socials">
-      <div class="social left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
-      <div class="social middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
-      <div class="social right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+    <div class="layout-center__1280">
+
+      <div class="line-divider__white-blue"></div>
+
+      <div class="footer__socials">
+        <div class="footer__social-links footer__link-left"><a href="https://www.behance.net/banivct" target="_blank">behance</a></div>
+        <div class="footer__social-links footer__link-middle"><a href="https://www.linkedin.com/in/banivct" target="_blank">linkedin</a></div>
+        <div class="footer__social-links footer__link-right"><a href=mailto:“banivct@gmail.com”>email</a></div>
+      </div>
+
+     
     </div>
+
   </footer>
 
   <script src="header.js"></script>

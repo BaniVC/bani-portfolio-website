@@ -195,6 +195,24 @@ a{
     font-size: 24px;
   }
 
+
+  .button__primary {
+    padding: 8px 24px 10px 24px;
+    font-size: 14px;
+  }
+
+
+  .button__secondary{
+    font-size: 14px;
+    padding: 8px 24px 10px 24px;
+  }
+
+  .button__tertiary{
+    padding: 8px 24px 10px 24px;
+    font-size: 14px;
+
+  }
+
 }
 
 
