@@ -10,6 +10,54 @@
 
 .project-cover__info{
   display: flex;
-  align-items: center;
   gap: 64px;
+  padding-left: 32px;
+  padding-bottom: 4px;
+}
+
+.project-cover__mobile{
+  display: none;
+}
+
+
+.project-cover__height{
+  height: 700px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .project-cover__info{
+
+    gap: 20px;
+    padding-left: 0px;
+    padding-top: 20px;
+    max-width: 300px;
+
+  }
+
+  .project-cover__inner-container{
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+
+  .project-cover__info{
+    padding-left: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 479px) {
+
+  .project-cover__mobile{
+    display: block;
+  }
+
+  .project-cover__height{
+    height: 600px;
+  }
+
+
 }

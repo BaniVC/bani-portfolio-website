@@ -28,6 +28,7 @@
   text-align: right;
   align-items: flex-end;
   height: 100%;
+  padding-left: 32px;
 }
 
 .hero__right-column-text{
@@ -37,8 +38,59 @@
   gap: 16px;
 }
 
+.hero__text-mobile {
+  display: none;
+}
 
 
+@media screen and (max-width: 991px) {
+
+  .hero__inner-container{
+    height: auto;
+  }
+
+  .hero__text-mobile {
+    display: flex;
+  }
+
+  .hero__text-desktop{
+    display: none;
+  }
+
+  .hero__inner-container{
+    flex-direction: column;
+    height: auto;
+    gap: 32px;
+  }
+
+  .hero__right-column{
+    height: auto;
+    width: 100%;
+    padding-left: 0px;
+    align-items: start;
+    order: -1;
+  }
+
+  .hero__right-column-text{
+    padding-bottom: 0px;
+    padding-top: 32px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+
+@media screen and (max-width: 479px) {
+
+
+
+}
 
 
 

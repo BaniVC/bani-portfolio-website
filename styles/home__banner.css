@@ -22,9 +22,37 @@
 }
 
 .home-banner__text{
-  grid-column: 5 / span 5;
+  grid-column: span 6;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+.home-banner__img-container{
+  display: flex;
+  grid-column: span 6;
+  justify-content: flex-end;
+  padding-right: 48px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.home-banner__inner-container{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.home-banner__img-container{
+  justify-content: center;
+  padding-right: 0px;
+}
+
+.home-banner__img{
+  max-width: 250px;
+  width: 100%;
+}
+
 }
