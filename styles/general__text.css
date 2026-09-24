@@ -103,7 +103,7 @@ a{
   padding: 8px 24px 10px 24px;
   text-align: center;
   background-color: #F1F2F4;
-  border-radius: 240px;
+  border-radius: 6px;
   font-size: 16px;
   text-align: center;
   display: inline-block;
@@ -120,7 +120,7 @@ a{
 
 
 .button__secondary{
-  font-family: 'Lora', serif;
+
   padding: 8px 24px 10px 24px;
   background-color: #F1F2F4;
   border: 1px solid #3C4144;
@@ -128,7 +128,7 @@ a{
   color: #3C4144;
   -webkit-text-fill-color: #3C4144;
 
-  border-radius: 240px;
+  border-radius: 6px;
   font-size: 16px;
   text-align: center;
   display: inline-block;
