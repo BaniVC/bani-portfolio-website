@@ -68,15 +68,29 @@
   overflow: hidden;
 }
 
+
+
+
+
 .more-projects__card-info{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  padding: 20px 32px 20px 32px;
+  padding: 18px 36px 18px 36px;
   border-radius: 8px;
   background: #F1F2F4;
-   box-shadow: 0 0 45px 0 #3c414452;
+  box-shadow: 0 0 45px 0 #3c414452;
+
+
+  transition: all 0.5s ease;
+}
+
+.more-projects__card-info-right{
+  display: flex;
+  gap:18px;
+  align-items: center;
+  transition: transform 0.3s ease;
 }
 
 .more-projects__card-thumbnail{
@@ -87,7 +101,47 @@
   inset: 0%;
   z-index: -1;
   border-radius: 10px;
+
+  transition: transform 0.5s ease;
 }
+
+.more-projects__card-info-right svg path {
+  transition: fill 0.5s ease;
+}
+
+
+.more-projects__card-indv:hover .more-projects__card-info-right {
+  transform: translateX(8px);
+}
+
+
+.more-projects__card-indv:hover .more-projects__card-info-right svg path {
+  fill: #FFFFFF;
+}
+
+
+.more-projects__card-indv:hover .more-projects__card-thumbnail {
+  transform: scale(1.1);
+}
+
+.more-projects__card-indv:hover .more-projects__card-info {
+  background: #3C4144;
+  color: #F1F2F4;
+  -webkit-text-fill-color: #F1F2F4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1280px) {

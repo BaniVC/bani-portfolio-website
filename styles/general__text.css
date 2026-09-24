@@ -109,7 +109,7 @@ a{
   display: inline-block;
   white-space: nowrap;
 
-  transition: background-color 0.3s ease, color 0.3s ease
+  transition: background-color 0.3s ease;
 }
 
 .button__primary:hover {
@@ -134,7 +134,7 @@ a{
   display: inline-block;
   white-space: nowrap;
 
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .button__secondary:hover {
@@ -163,7 +163,7 @@ a{
   display: inline-block;
   white-space: nowrap;
 
-  transition: background-color 0.3s ease, color 0.3s ease
+  transition: background-color 0.3s ease;
 }
 
 .button__tertiary:hover {
