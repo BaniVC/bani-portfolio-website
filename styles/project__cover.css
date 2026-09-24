@@ -56,7 +56,13 @@
   }
 
   .project-cover__height{
-    height: 600px;
+    height: 500px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .project-cover__img-border{
+    border-radius: 0px !important;
   }
 
 

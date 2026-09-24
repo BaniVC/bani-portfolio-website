@@ -45,6 +45,18 @@
 
 @media screen and (max-width: 991px) {
 
+  .hero__h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero__profile-img{
+    max-width: 200px;
+  }
+
   .hero__inner-container{
     height: auto;
   }
@@ -67,13 +79,14 @@
     height: auto;
     width: 100%;
     padding-left: 0px;
-    align-items: start;
+    align-items: center;
     order: -1;
   }
 
   .hero__right-column-text{
     padding-bottom: 0px;
     padding-top: 32px;
+    max-width: 500px;
   }
 
 }
