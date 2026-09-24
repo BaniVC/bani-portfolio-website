@@ -114,7 +114,6 @@ a{
 
 .button__primary:hover {
   background-color: #FFB8D5;
-
 }
 
 
@@ -145,6 +144,13 @@ a{
   -webkit-text-fill-color: #F1F2F4;
 }
 
+
+
+
+
+
+
+
 .button__tertiary{
   font-family: 'Lora', serif;
   padding: 8px 24px 10px 24px;
@@ -160,13 +166,16 @@ a{
   transition: background-color 0.3s ease, color 0.3s ease
 }
 
-
 .button__tertiary:hover {
   background-color: #FFB8D5;
 
   color: #3C4144;
   -webkit-text-fill-color: #3C4144;
 }
+
+
+
+
 
 
 
@@ -221,6 +230,10 @@ a{
     font-size: 16px;
   }
 
+  .p__small{
+  font-size: 14px;
+  }
+
   h1{
     font-size: 56px;
   }
@@ -239,27 +252,10 @@ a{
   }
 
 
-    h6{
+  h6{
     font-size: 20px;
   }
 
-
-  .button__primary {
-    padding: 8px 24px 10px 24px;
-    font-size: 14px;
-  }
-
-
-  .button__secondary{
-    font-size: 14px;
-    padding: 8px 24px 10px 24px;
-  }
-
-  .button__tertiary{
-    padding: 8px 24px 10px 24px;
-    font-size: 14px;
-
-  }
 
 }
 

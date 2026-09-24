@@ -179,7 +179,7 @@
   .selected-projects__item-img-big{
     grid-column: span 12;
     grid-row: 2;
-    height: 250px;
+    height: 300px;
   }
 
 }
