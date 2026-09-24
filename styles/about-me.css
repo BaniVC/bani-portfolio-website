@@ -46,10 +46,7 @@
   padding-bottom: 1rem;
 }
 
-.link-button:hover{
-  border-bottom: solid 1.5px #FFB8D4;
-  color: #FFB8D4;
-}
+
 
 .link-arrow{
   height: 2.4rem;

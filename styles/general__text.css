@@ -54,7 +54,7 @@ h3{
 
 h4{
   font-family: 'Lora', serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 120%; /* 43.2px */
 }
@@ -108,17 +108,41 @@ a{
   text-align: center;
   display: inline-block;
   white-space: nowrap;
+
+  transition: background-color 0.3s ease, color 0.3s ease
 }
+
+.button__primary:hover {
+  background-color: #FFB8D5;
+
+}
+
+
+
 
 .button__secondary{
   font-family: 'Lora', serif;
   padding: 8px 24px 10px 24px;
+  background-color: #F1F2F4;
   border: 1px solid #3C4144;
+
+  color: #3C4144;
+  -webkit-text-fill-color: #3C4144;
+
   border-radius: 240px;
   font-size: 16px;
   text-align: center;
   display: inline-block;
   white-space: nowrap;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button__secondary:hover {
+  background-color: #3C4144;
+
+  color: #F1F2F4;
+  -webkit-text-fill-color: #F1F2F4;
 }
 
 .button__tertiary{
@@ -132,6 +156,16 @@ a{
   text-align: center;
   display: inline-block;
   white-space: nowrap;
+
+  transition: background-color 0.3s ease, color 0.3s ease
+}
+
+
+.button__tertiary:hover {
+  background-color: #FFB8D5;
+
+  color: #3C4144;
+  -webkit-text-fill-color: #3C4144;
 }
 
 
