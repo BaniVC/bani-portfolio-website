@@ -20,6 +20,11 @@
   border-radius: 10px;
 
   background-color: #3C4144;
+
+  transition: all 0.5s ease;
+}
+
+.selected-projects__grid-span{
   grid-column: span 3;
 }
 
@@ -88,7 +93,7 @@
 
 .more-projects__card-info-right{
   display: flex;
-  gap:18px;
+  gap:16px;
   align-items: center;
   transition: transform 0.3s ease;
 }
@@ -110,7 +115,9 @@
 }
 
 
-.more-projects__card-indv:hover .more-projects__card-info-right {
+.more-projects__card-indv:hover .more-projects__card-info-right,
+.selected-projects__item-card:hover .more-projects__card-info-right
+ {
   transform: translateX(8px);
 }
 
@@ -133,6 +140,17 @@
 
 
 
+.selected-projects__item-card.hover__rtlcare:hover {
+  background: #002068;
+}
+
+.selected-projects__item-card.hover__undo:hover {
+  background: #0F0F0F;
+}
+
+
+
+
 
 
 
@@ -146,9 +164,10 @@
 
 @media screen and (max-width: 1280px) {
 
-  .selected-projects__item-card{
-    grid-column: span 4;
-  }
+
+.selected-projects__grid-span{
+  grid-column: span 4;
+}
 
 
   .selected-projects__item-img-big{
@@ -166,10 +185,13 @@
 @media screen and (max-width: 991px) {
 
   .selected-projects__item-card{
-    grid-column: span 5;
     height: 500px;
     padding: 32px 24px;
   }
+
+  .selected-projects__grid-span{
+      grid-column: span 5;
+}
 
 
   .selected-projects__item-img-big{
@@ -182,13 +204,16 @@
 
 
   .more-projects__card-info{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    padding: 20px;
+    padding: 12px 24px 12px 24px;
   }
 
+}
 
+@media screen and (max-width: 840px) {
+
+.more-projects__card-info p {
+  display: none;
+}
 
 }
 
@@ -205,6 +230,10 @@
     padding: 12px;
   }
 
+  .more-projects__card-info p {
+    display: block;
+}
+
 }
 
 
@@ -217,13 +246,18 @@
   }
 
   .selected-projects__item-card{
-    grid-column: span 12;
+    
     grid-row: 1;
     height: auto;
     gap: 32px;
     padding: 32px 20px;
     border-radius: 10px 10px 0px 0px;
   }
+
+    .selected-projects__grid-span{
+      grid-column: span 12;
+}
+
 
   .selected-projects__img-border{
     border-radius: 0px 0px 10px 10px;
@@ -235,5 +269,13 @@
     grid-row: 2;
     height: 300px;
   }
+
+}
+
+@media screen and (max-width: 372px) {
+
+.more-projects__card-info p {
+  display: none;
+}
 
 }
