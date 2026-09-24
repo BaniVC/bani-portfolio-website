@@ -239,6 +239,11 @@ a{
   }
 
 
+    h6{
+    font-size: 20px;
+  }
+
+
   .button__primary {
     padding: 8px 24px 10px 24px;
     font-size: 14px;

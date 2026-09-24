@@ -116,5 +116,12 @@
   gap: 12px;
 }
 
+.project-content__text-paragraphs {
+gap: 20px;
+}
+
+.project-content__text-column{
+    gap: 48;
+  }
 
 }
