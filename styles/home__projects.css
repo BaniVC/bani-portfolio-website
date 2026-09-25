@@ -18,12 +18,11 @@
   padding: 44px 28px;
   height: 400px;
   border-radius: 10px;
-  box-shadow: 0 0 25px 0 #3c41448b;
-
+ 
   background-color: #3C4144;
-
-  transition: all 0.5s ease;
 }
+
+
 
 .selected-projects__grid-span{
   grid-column: span 3;
@@ -67,7 +66,6 @@
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-
   height: 520px;
   padding: 12px;
   border-radius: 10px;
@@ -86,13 +84,10 @@
   padding: 18px 36px 18px 36px;
   border-radius: 8px;
   background: #F1F2F4;
-  box-shadow: 0 0 45px 0 #3c414452;
 
-
-  transition: all 0.5s ease;
 }
 
-.more-projects__card-info-right{
+.projects__view-project{
   display: flex;
   gap:16px;
   align-items: center;
@@ -108,55 +103,66 @@
   inset: 0%;
   z-index: -1;
   border-radius: 10px;
-
-  transition: transform 0.5s ease;
-}
-
-.more-projects__card-info-right svg path {
-  transition: fill 0.5s ease;
-}
-
-
-.more-projects__card-indv:hover .more-projects__card-info-right,
-.selected-projects__item-card:hover .more-projects__card-info-right
- {
-  transform: translateX(8px);
-}
-
-
-.more-projects__card-indv:hover .more-projects__card-info-right svg path {
-  fill: #FFFFFF;
-}
-
-
-.more-projects__card-indv:hover .more-projects__card-thumbnail {
-  transform: scale(1.1);
 }
 
 
 
+.projects__view-project svg path,
+.more-projects__card-thumbnail,
+.more-projects__card-info,
 
-.more-projects__card-indv:hover .more-projects__card-info {
-  background: #3C4144;
-  color: #F1F2F4;
-  -webkit-text-fill-color: #F1F2F4;
-}
-
-
-
-
-.selected-projects__item-card.hover__rtlcare:hover {
-  background: #002068;
-}
-
-.selected-projects__item-card.hover__undo:hover {
-  background: #0F0F0F;
+.selected-projects__item-card{
+  transition: all 0.5s ease;
 }
 
 
 
 
 
+
+
+
+
+
+
+
+@media (hover: hover) and (pointer: fine) {
+
+
+  .more-projects__card-indv:hover .projects__view-project,
+  .selected-projects__item-card:hover .projects__view-project
+  {
+    transform: translateX(8px);
+  }
+
+
+  .more-projects__card-indv:hover .projects__view-project svg path {
+    fill: #FFFFFF;
+  }
+
+
+  .more-projects__card-indv:hover .more-projects__card-thumbnail {
+    transform: scale(1.1);
+  }
+
+  .more-projects__card-indv:hover .more-projects__card-info {
+    background: #3C4144;
+    color: #F1F2F4;
+    -webkit-text-fill-color: #F1F2F4;
+    
+  }
+
+  .selected-projects__item-card.hover__rtlcare:hover {
+    background: #002068;
+    box-shadow: 0 0 45px 0 #3c414490;
+  }
+
+  .selected-projects__item-card.hover__undo:hover {
+    background: #0F0F0F;
+  }
+
+
+}
 
 
 
@@ -196,7 +202,7 @@
 
   .selected-projects__grid-span{
       grid-column: span 5;
-}
+  }
 
 
   .selected-projects__item-img-big{
