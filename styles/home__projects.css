@@ -159,6 +159,7 @@
 
   .selected-projects__item-card.hover__undo:hover {
     background: #0F0F0F;
+    box-shadow: 0 0 45px 0 #3c414490;
   }
 
 
