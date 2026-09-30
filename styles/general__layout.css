@@ -35,6 +35,17 @@
 }
 
 
+.bg-color-rltcare__blue{
+  background-color: #D5DDF2;
+}
+
+.bg-color-undo__black{
+  background-color: #0F0F0F;
+    background-image:
+    url("../img/home-thumbnails/undo-home__bg.jpg");
+}
+
+
 img{
   max-width: 100%;
   display: block;
@@ -42,6 +53,10 @@ img{
 
 .img__width-100{
   width: 100%;
+}
+
+.img__height-100{
+  height: 100%;
 }
 
 .img__cover{

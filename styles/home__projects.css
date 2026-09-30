@@ -4,11 +4,24 @@
   gap: 60px;
 }
 
+
+
+
+
 .selected-projects__item{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
-  column-gap: 8px;
+  column-gap: 0px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.selected-projects__grid-span-info{
+  grid-column: span 3;
+  padding: 20px 0px 20px 20px;
+  display: flex;
+  z-index: 50;
 }
 
 .selected-projects__item-card{
@@ -16,29 +29,44 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 44px 28px;
-  height: 400px;
-  border-radius: 10px;
+  border-radius: 8px;
  
   background-color: #3C4144;
 }
 
 
 
-.selected-projects__grid-span{
-  grid-column: span 3;
+
+
+.selected-projects__grid-span-image{
+  grid-column: span 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.selected-projects__item-img-big{
-  grid-column: span 6;
+.selected-projects__main-img{
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    z-index: 50;
 }
 
-.selected-projects__item-img-small{
-  grid-column: span 3;
+.selected-projects__right-img{
+    position: absolute;
+    inset: 0% 0% auto auto;
 }
 
-.selected-projects__img-border{
-  border-radius: 10px;
+.selected-projects__left-img{
+    position: absolute;
+    inset: auto auto 0% -200px;;
 }
+
+
+
+
+
 
 
 
@@ -75,12 +103,11 @@
 
 
 
-
 .more-projects__card-info{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 12px;
   padding: 18px 36px 18px 36px;
   border-radius: 8px;
   background: #F1F2F4;
@@ -154,12 +181,12 @@
 
   .selected-projects__item-card.hover__rtlcare:hover {
     background: #002068;
-    box-shadow: 0 0 45px 0 #3c414490;
+    box-shadow: 0 0 35px 0 #00000052;
   }
 
   .selected-projects__item-card.hover__undo:hover {
     background: #0F0F0F;
-    box-shadow: 0 0 45px 0 #3c414490;
+    box-shadow: 0 0 35px 0 #00000052;
   }
 
 
@@ -177,18 +204,28 @@
 @media screen and (max-width: 1280px) {
 
 
-.selected-projects__grid-span{
+.selected-projects__grid-span-info{
   grid-column: span 4;
 }
 
+.selected-projects__grid-span-image{
+  grid-column: span 8;
+}
 
-  .selected-projects__item-img-big{
-    grid-column: span 5;
-  }
+.selected-projects__main-img{
+  z-index: 0;
+  overflow: visible;
+}
 
-  .selected-projects__item-img-small{
-    grid-column: span 3;
-  }
+.selected-projects__right-img,
+.selected-projects__left-img{
+display: none;
+}
+
+.selected-projects__item{
+  height: 500px;
+}
+
 
 }
 
@@ -196,24 +233,18 @@
 
 @media screen and (max-width: 991px) {
 
+  .selected-projects__grid-span-info{
+  grid-column: span 5;
+}
+
+.selected-projects__grid-span-image{
+  grid-column: span 7;
+}
+
+
   .selected-projects__item-card{
-    height: 500px;
     padding: 32px 24px;
   }
-
-  .selected-projects__grid-span{
-      grid-column: span 5;
-  }
-
-
-  .selected-projects__item-img-big{
-    grid-column: span 7;
-  }
-
-  .selected-projects__item-img-small{
-    display: none;
-  }
-
 
   .more-projects__card-info{
     padding: 12px 24px 12px 24px;
@@ -221,13 +252,6 @@
 
 }
 
-@media screen and (max-width: 840px) {
-
-.more-projects__card-info p {
-  display: none;
-}
-
-}
 
 
 
@@ -252,42 +276,35 @@
 @media screen and (max-width: 600px) {
 
   .selected-projects__item{
-    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 0px;
+    height: auto;
   }
 
-  .selected-projects__item-card{
-    
+
+  .selected-projects__grid-span-info{
     grid-row: 1;
+    grid-column: span 12;
+    padding: 0PX;
+}
+  .selected-projects__item-card{
     height: auto;
     gap: 32px;
     padding: 32px 20px;
     border-radius: 10px 10px 0px 0px;
   }
 
-    .selected-projects__grid-span{
-      grid-column: span 12;
-}
-
-
-  .selected-projects__img-border{
-    border-radius: 0px 0px 10px 10px;
-  }
-
-
-  .selected-projects__item-img-big{
-    grid-column: span 12;
+  .selected-projects__grid-span-image{
     grid-row: 2;
+    grid-column: span 12;
     height: 300px;
   }
+.more-projects__card-indv{
+
+  height: 400px;
 
 }
 
-@media screen and (max-width: 372px) {
-
-.more-projects__card-info p {
-  display: none;
-}
 
 }
+
+
